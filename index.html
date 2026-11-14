@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>واجبات اليهال</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#EEF5FC">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="واجبات اليهال">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600;700;800&family=Readex+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --sky:#EEF5FC; --paper:#FFFFFF; --ink:#1D2B4F; --ink-soft:#56627E; --line:#D9E3EF;
+    --sun:#FFC93C; --sun-deep:#F2A900; --red:#C8321E;
+    --tamim:#2F6FED; --tamim-wash:#E8F0FF;
+    --rashid:#0E9F6E; --rashid-wash:#E2F6EE;
+    --fatima:#E9579A; --fatima-wash:#FDE9F2;
+    --quran:#7A4FD0; --quran-wash:#F0EAFC;
+    --display:"Baloo Bhaijaan 2","Readex Pro",system-ui,sans-serif;
+    --body:"Readex Pro","Segoe UI",Tahoma,system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--sky);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.65}
+  button{font:inherit}
+  :focus-visible{outline:3px solid var(--ink);outline-offset:3px;border-radius:8px}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 18px 64px}
+
+  /* top bar: kids + print */
+  .bar{position:sticky;top:0;z-index:5;background:var(--sky);padding:14px 0 12px;border-bottom:1px solid var(--line)}
+  .bar-in{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+  .brand{font-family:var(--display);font-weight:800;font-size:28px;line-height:1;margin:0}
+  .kids{display:flex;gap:6px;flex-wrap:wrap}
+  .kid-btn{border:0;cursor:pointer;border-radius:999px;padding:8px 18px;font-family:var(--display);font-weight:700;font-size:20px;
+           background:var(--paper);color:var(--c);box-shadow:inset 0 0 0 2px var(--c)}
+  .kid-btn[aria-selected=true]{background:var(--c);color:#fff}
+  .print-top{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;cursor:pointer;text-decoration:none;
+       border-radius:14px;padding:10px 16px;font-weight:600;font-size:16px;line-height:1.2;background:var(--c,var(--ink));color:#fff;min-height:46px}
+  .btn:hover{filter:brightness(.94)}
+  .btn.ghost{background:var(--paper);color:var(--c,var(--ink));box-shadow:inset 0 0 0 2px var(--c,var(--ink))}
+  .btn.big{font-family:var(--display);font-size:22px;padding:12px 22px;min-height:56px}
+  .btn svg{width:20px;height:20px;flex:0 0 auto}
+
+  /* hero per child */
+  .hero{padding:26px 0 8px;display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:wrap}
+  .hero h2{font-family:var(--display);font-weight:800;font-size:clamp(54px,9vw,84px);line-height:.95;margin:0;color:var(--c)}
+  .hero p{margin:6px 0 0;color:var(--ink-soft)}
+  .next{background:var(--paper);border-radius:18px;padding:12px 16px;border-inline-start:6px solid var(--c);max-width:420px}
+  .next b{display:block;font-family:var(--display);font-size:22px;line-height:1.2}
+
+  /* alerts */
+  .alerts{display:grid;gap:10px;margin:18px 0 6px}
+  .alert{background:var(--sun);border-radius:16px;padding:12px 16px}
+  .alert.red{background:#FFE3DE;box-shadow:inset 0 0 0 2px var(--red)}
+  .alert b{font-weight:600}
+
+  section{margin-top:34px}
+  section > h3{font-family:var(--display);font-size:30px;line-height:1.2;margin:0 0 12px}
+  .card{background:var(--paper);border-radius:20px;padding:18px 18px}
+
+  /* homework */
+  .hw-list{list-style:none;margin:0;padding:0}
+  .hw-list li{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 0;border-bottom:1px solid var(--line)}
+  .hw-list li:last-child{border-bottom:0}
+  .hw-list a{font-size:15px;font-weight:600;color:var(--c);text-decoration:none;padding:6px 12px;border-radius:10px;background:var(--w);white-space:nowrap}
+  .muted{color:var(--ink-soft);font-size:15px}
+
+  /* exams timeline */
+  .exams{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+  .exam{background:var(--paper);border-radius:18px;display:grid;grid-template-columns:110px 1fr;overflow:hidden}
+  .exam .when{background:var(--w);color:var(--c);padding:14px 10px;text-align:center;display:flex;flex-direction:column;justify-content:center}
+  .exam .day{font-weight:600;font-size:15px}
+  .exam .num{font-family:var(--display);font-weight:800;font-size:38px;line-height:1}
+  .exam .mon{font-size:15px}
+  .exam .range{font-weight:600;font-size:15px;line-height:1.4}
+  .exam .body{padding:12px 16px}
+  .exam h4{margin:0;font-family:var(--display);font-size:22px;line-height:1.25}
+  .exam .time{margin:0 0 6px;font-size:14px;color:var(--ink-soft)}
+  .exam ul{margin:0;padding-inline-start:20px}
+  .exam li{margin:2px 0}
+  .exam ul.en{text-align:left;padding-inline-start:20px}
+  .exam .file{display:inline-block;margin-top:8px;font-size:15px;font-weight:600;color:var(--c)}
+  .exam.past{opacity:.5}
+  .exam.soon .when{background:var(--c);color:#fff}
+
+  /* quran */
+  .quran{--c:var(--quran);background:var(--quran-wash);border-radius:20px;padding:18px}
+  .quran h3{color:var(--quran)}
+  .quran ul{margin:6px 0 0;padding-inline-start:20px}
+
+  /* study plan */
+  .plan-note{margin:0 0 12px;color:var(--ink-soft)}
+  table.plan{width:100%;border-collapse:separate;border-spacing:0;background:var(--paper);border-radius:18px;overflow:hidden;font-size:16px}
+  .plan th,.plan td{padding:10px 12px;text-align:right;vertical-align:top;border-bottom:1px solid var(--line)}
+  .plan th{background:var(--c);color:#fff;font-weight:600}
+  .plan tr.today td{background:var(--w)}
+  .plan tr.today td:first-child{box-shadow:inset -5px 0 0 var(--c)}
+  .plan tr.past td{color:#9AA5BC}
+  .plan tr.examday td{background:#FFF6DA}
+  .plan .d{white-space:nowrap;font-weight:600}
+  .plan .s{font-weight:600;color:var(--c);white-space:nowrap}
+  .plan .hw{white-space:nowrap;font-size:15px}
+  .plan tr.past .s{color:inherit}
+
+  .empty{font-size:19px}
+  footer{margin-top:44px;font-size:14px;color:var(--ink-soft)}
+  .toast{position:fixed;inset-inline:0;bottom:18px;margin:auto;width:max-content;max-width:92vw;background:var(--ink);color:#fff;
+         padding:12px 18px;border-radius:12px;opacity:0;transform:translateY(10px);transition:opacity .2s,transform .2s;pointer-events:none}
+  .toast.show{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){.toast{transition:none}}
+  @media (max-width:560px){
+    .bar{position:static}
+    .exam{grid-template-columns:84px 1fr}.exam .num{font-size:30px}
+    .plan .hw{white-space:normal}
+    .plan th:nth-child(4),.plan td:nth-child(4){display:none}
+  }
+  @media print{
+    body{background:#fff;font-size:13px}.bar,.btn,.print-top,footer,.alerts{display:none}
+    section{break-inside:avoid-page;margin-top:16px}.exam{break-inside:avoid}
+    .plan th{background:#eee;color:#000}
+  }
+</style>
+</head>
+<body>
+<div class="bar">
+  <div class="wrap">
+    <div class="bar-in">
+      <p class="brand">واجبات اليهال</p>
+      <div class="kids" role="tablist" id="kids"></div>
+    </div>
+    <div class="print-top" id="printTop"></div>
+  </div>
+</div>
+<main class="wrap" id="page"></main>
+<div class="wrap"><footer id="foot"></footer></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="data.js"></script>
+<script>
+(function(){
+  const D = window.HOMEWORK;
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const months = ['يناير','فبراير','مارس','أبريل','مايو','يونيو','يوليو','أغسطس','سبتمبر','أكتوبر','نوفمبر','ديسمبر'];
+  const days = ['الأحد','الاثنين','الثلاثاء','الأربعاء','الخميس','الجمعة','السبت'];
+  const dt = iso => { const [y,m,d] = iso.split('-').map(Number); return new Date(y, m-1, d); };
+  const fmt = (iso, withDay) => { const x = dt(iso); return (withDay ? days[x.getDay()] + ' ' : '') + x.getDate() + ' ' + months[x.getMonth()]; };
+  const today = new Date(); today.setHours(0,0,0,0);
+  const todayIso = today.getFullYear() + '-' + String(today.getMonth()+1).padStart(2,'0') + '-' + String(today.getDate()).padStart(2,'0');
+  const until = iso => Math.round((dt(iso) - today) / 86400000);
+  const inDays = n => n === 0 ? 'اليوم' : n === 1 ? 'بكرة' : n === 2 ? 'بعد يومين' : 'بعد ' + n + ' أيام';
+  const isLtr = s => /^[A-Za-z0-9]/.test(s);
+  const printIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6"/><rect x="3" y="9" width="18" height="8" rx="2"/><path d="M6 14h12v7H6z"/></svg>';
+
+  // kid tabs
+  $('#kids').innerHTML = D.kids.map(k => '<button class="kid-btn" role="tab" data-kid="' + k.id + '" style="--c:var(--' + k.id + ')">' + esc(k.name) + '</button>').join('');
+
+  function render(id){
+    const k = D.kids.find(x => x.id === id) || D.kids[0];
+    document.querySelectorAll('.kid-btn').forEach(b => b.setAttribute('aria-selected', b.dataset.kid === k.id));
+    document.documentElement.style.setProperty('--c', 'var(--' + k.id + ')');
+    document.documentElement.style.setProperty('--w', 'var(--' + k.id + '-wash)');
+    const him = k.girl ? 'ها' : 'ه';
+
+    // print buttons on top
+    const pt = [];
+    if (k.printFile) pt.push('<button class="btn big" data-print="' + esc(k.printFile) + '">' + printIcon + 'اطبع واجبات ' + esc(k.name) + '</button>');
+    if (k.topicsPrint) pt.push('<button class="btn ghost" data-print="' + esc(k.topicsPrint) + '">' + printIcon + 'اطبع مواضيع الامتحانات</button>');
+    if (k.arabicBooklet) pt.push('<button class="btn ghost" data-print="' + esc(k.arabicBooklet) + '">' + printIcon + 'اطبع مراجعة العربي</button>');
+    if ((k.plan || []).length) pt.push('<button class="btn ghost" data-printpage="1">' + printIcon + 'اطبع جدول المذاكرة</button>');
+    $('#printTop').innerHTML = pt.join('');
+
+    // next exam
+    const upcoming = (k.exams || []).filter(e => until(e.dateEnd || e.date) >= 0);
+    const nx = upcoming[0];
+    let nextHtml = '';
+    if (nx) {
+      const n = until(nx.date);
+      nextHtml = '<div class="next"><span class="muted">أقرب امتحان</span><b>' + esc(nx.subject) + '</b>' +
+        (n > 0 ? inDays(n) + '، ' + fmt(nx.date, true) : 'بدأ، ويستمر لين ' + fmt(nx.dateEnd || nx.date, true)) + '</div>';
+    }
+
+    let h = '<div class="hero"><div><h2>' + esc(k.name) + '</h2><p>' + esc(k.gradeAr) + ' · ' + esc(k.grade) + '</p></div>' + nextHtml + '</div>';
+
+    // upcoming school events for this kid
+    const ev = (D.events || []).filter(e => e.kids.includes(k.id) && until(e.date) >= 0).sort((a,b) => a.date < b.date ? -1 : 1);
+    if (ev.length) h += '<div class="alerts">' + ev.map(e => {
+      const n = until(e.date);
+      return '<div class="alert' + (n <= 1 ? ' red' : '') + '"><b>' + inDays(n) + '، ' + fmt(e.date, true) + ':</b> ' + esc(e.title) + '<br><span>' + esc(typeof e.detail === 'object' ? (e.detail[k.id] || '') : e.detail) + '</span></div>';
+    }).join('') + '</div>';
+
+    // homework
+    const hw = k.homework || [];
+    h += '<section><h3>واجبات الطباعة</h3><div class="card">';
+    if (hw.length) {
+      const dues = [...new Set(hw.map(x => x.due).filter(Boolean))].sort();
+      h += '<p class="muted" style="margin:0 0 6px">أسبوع ' + fmt(D.week.from) + ' إلى ' + fmt(D.week.to) + '، ' + hw.length + ' واجبات، التسليم ' + dues.map(d => fmt(d, true)).join(' و') + '</p>';
+      h += '<ul class="hw-list">' + hw.map(x => '<li><span>' + esc(x.subject) + '</span><a href="' + esc(x.file) + '" target="_blank" rel="noopener">افتح الواجب</a></li>').join('') + '</ul>';
+      if (k.onlineCount) h += '<p class="muted" style="margin:10px 0 0">وعلي' + him + ' ' + k.onlineCount + ' واجب أونلاين، هذي تنحل على الموقع.</p>';
+    } else {
+      h += '<p class="empty" style="margin:0">ما علي' + him + ' واجبات للطباعة هالأسبوع.</p>';
+    }
+    h += '</div></section>';
+
+    // quran
+    if (k.quran) {
+      h += '<section class="quran"><h3>القرآن والحديث</h3><p style="margin:0" class="muted">' + esc(k.quran.oral) + '</p><ul>' +
+        k.quran.items.map(t => '<li>' + esc(t) + '</li>').join('') + '</ul></section>';
+    }
+
+    // exams
+    if ((k.exams || []).length) {
+      h += '<section><h3>الامتحانات ومواضيعها</h3><ul class="exams">' + k.exams.map(e => {
+        const n = until(e.date), end = until(e.dateEnd || e.date);
+        const cls = end < 0 ? 'past' : (n >= 0 && n <= 3 ? 'soon' : '');
+        const x = dt(e.date);
+        const when = e.dateEnd
+          ? '<span class="range">من ' + fmt(e.date) + '<br>إلى ' + fmt(e.dateEnd) + '</span>'
+          : '<span class="day">' + days[x.getDay()] + '</span><span class="num">' + x.getDate() + '</span><span class="mon">' + months[x.getMonth()] + '</span>';
+        return '<li class="exam ' + cls + '"><div class="when">' + when + '</div><div class="body"><h4>' + esc(e.subject) + '</h4>' +
+          '<p class="time">' + esc(e.time || '') + '</p>' + (e.topics.every(isLtr) ? '<ul dir="ltr" class="en">' : '<ul>') + e.topics.map(t => '<li>' + esc(t) + '</li>').join('') + '</ul>' +
+          (e.topicFile ? '<a class="file" href="' + esc(e.topicFile) + '" target="_blank" rel="noopener">ورقة المواضيع من المدرسة</a>' : '') + '</div></li>';
+      }).join('') + '</ul>';
+      if ((k.portalRevision || []).length) h += '<p class="muted">أوراق مراجعة ثانية موجودة على بوابة المدرسة: ' + k.portalRevision.map(esc).join('، ') + '.</p>';
+      h += '</section>';
+    }
+
+    // study plan
+    if ((k.plan || []).length) {
+      const examDays = new Set((k.exams || []).filter(e => !e.dateEnd).map(e => e.date));
+      h += '<section><h3>جدول المذاكرة</h3><p class="plan-note">كل يوم ساعة: ربع ساعة قرآن وحديث (' + esc(k.quranDaily) + ')، وبعدها 45 دقيقة للمادة. ومن الأحد للخميس نص ساعة للواجبات.</p>' +
+        '<table class="plan"><thead><tr><th>اليوم</th><th>المادة</th><th>وش نذاكر</th><th>الواجبات</th></tr></thead><tbody>' +
+        k.plan.map(p => {
+          const n = until(p.date), wd = dt(p.date).getDay();
+          const school = wd <= 4;
+          const cls = [n < 0 ? 'past' : '', p.date === todayIso ? 'today' : '', examDays.has(p.date) ? 'examday' : ''].join(' ');
+          const hwTxt = p.date >= '2026-12-01' ? 'أيام امتحانات' : (school ? 'نص ساعة' : 'إذا باقي شي');
+          return '<tr class="' + cls + '"><td class="d">' + fmt(p.date, true) + (examDays.has(p.date) ? '<br><span class="muted">فيه امتحان</span>' : '') + '</td><td class="s">' + esc(p.subject) + '</td><td' + (isLtr(p.what) ? ' dir="ltr" style="text-align:right"' : '') + '>' + esc(p.what) + '</td><td class="hw">' + hwTxt + '</td></tr>';
+        }).join('') + '</tbody></table></section>';
+    }
+
+    $('#page').innerHTML = h;
+    history.replaceState(null, '', '#' + k.id);
+  }
+
+  $('#foot').textContent = 'آخر تحديث: ' + fmt(D.updated, true) + '. الملفات من بوابة المدرسة ورسائل قروبات الصف.';
+
+  document.addEventListener('click', e => {
+    const t = e.target.closest('.kid-btn'); if (t) { render(t.dataset.kid); window.scrollTo({top:0}); return; }
+    const p = e.target.closest('[data-print]'); if (p) { e.preventDefault(); printPdf(p.getAttribute('data-print')); return; }
+    if (e.target.closest('[data-printpage]')) window.print();
+  });
+
+  const toast = $('#toast');
+  const say = m => { toast.textContent = m; toast.classList.add('show'); clearTimeout(say.t); say.t = setTimeout(() => toast.classList.remove('show'), 3200); };
+  const mobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+  function printPdf(url){
+    if (mobile || location.protocol === 'file:') { window.open(url, '_blank', 'noopener'); say('انفتح الملف، اطبعيه من زر الطباعة فيه'); return; }
+    say('يتجهز للطباعة...');
+    const f = document.createElement('iframe');
+    f.style.cssText = 'position:fixed;width:1px;height:1px;border:0;left:-10px;bottom:-10px';
+    f.src = url;
+    f.onload = () => { setTimeout(() => { try { f.contentWindow.focus(); f.contentWindow.print(); } catch(err) { window.open(url, '_blank', 'noopener'); } }, 400); setTimeout(() => f.remove(), 120000); };
+    document.body.appendChild(f);
+  }
+
+  render((location.hash || '#tamim').slice(1));
+  if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js');
+})();
+</script>
+</body>
+</html>
