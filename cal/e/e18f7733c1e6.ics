@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yehal-board//homework//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:تميم وراشد: رجّعوا استمارة متابعة 
+ القرآن موقّعة
+X-WR-TIMEZONE:Asia/Qatar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:e18f7733c1e6@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+TRANSP:TRANSPARENT
+SUMMARY:تميم وراشد: رجّعوا استمارة متابعة ال
+ قرآن موقّعة
+DESCRIPTION:تميم: معلمة القرآن نبهت إن تميم ما 
+ رجّعها من كم أسبوع.\nراشد: معلمة القرآن طا
+ لبتها الأحد.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة: رجّعوا استمارة متابعة القرآن
+  موقّعة
+TRIGGER:-PT4H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:اليوم: رجّعوا استمارة متابعة القرآ
+ ن موقّعة
+TRIGGER:PT6H30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

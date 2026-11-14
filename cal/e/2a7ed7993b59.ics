@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yehal-board//homework//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:امتحان اللغة العربية، راشد
+X-WR-TIMEZONE:Asia/Qatar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2a7ed7993b59@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+TRANSP:TRANSPARENT
+SUMMARY:امتحان اللغة العربية، راشد
+DESCRIPTION:8:30 إلى 9:30 الصبح\n- الاستماع: نص (في م
+ يناء الدوحة البحري)\n- القراءة: نص (الحمام
+ ة المطوقة) الجزء الأول والثاني\n- القراءة 
+ الخارجية\n- باقي كتيب المراجعة (18 صفحة)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان اللغة العربية، راشد
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yehal-board//homework//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:امتحان التربية الإسلامية، راشد
+X-WR-TIMEZONE:Asia/Qatar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:38bbf87b8488@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+TRANSP:TRANSPARENT
+SUMMARY:امتحان التربية الإسلامية، راشد
+DESCRIPTION:8:30 إلى 9:15 الصبح\n- القرآن: سورة الكا
+ فرون\n- الحديث: فضل التيامن\n- العقيدة: أرك
+ ان الإسلام\n- الفقه: أحكام الوضوء
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان التربية الإسلامية، را
+ شد
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

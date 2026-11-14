@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yehal-board//homework//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:امتحان التربية الإسلامية، تميم
+X-WR-TIMEZONE:Asia/Qatar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:875e9fdb2443@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+TRANSP:TRANSPARENT
+SUMMARY:امتحان التربية الإسلامية، تميم
+DESCRIPTION:8:00 إلى 9:30 الصبح\n- القرآن: سورة الإخ
+ لاص\n- الحديث: فضائل الأعمال\n- العقيدة: أر
+ كان الإيمان وأركان الإسلام\n- الفقه: الطه
+ ارة من النجاسات\n- السيرة: صبر الرسول ﷺ في
+  الدعوة\n- الآداب: محبة الله تعالى
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان التربية الإسلامية، تم
+ يم
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

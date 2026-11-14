@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yehal-board//homework//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:امتحان الدراسات الاجتماعية SST، را
+ شد
+X-WR-TIMEZONE:Asia/Qatar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:1a25b9f52d8f@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+TRANSP:TRANSPARENT
+SUMMARY:امتحان الدراسات الاجتماعية SST، راشد
+DESCRIPTION:8:30 إلى 9:15 الصبح\n- Family and culture (p4–10)\n- 
+ Groups and personal qualities (p12–18)\n- Culture in different places: c
+ lothes\, homes\, food (p20–24)\n- History and heritage: family tree (p28
+ )
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان الدراسات الاجتماعية SST
+ ، راشد
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

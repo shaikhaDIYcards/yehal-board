@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yehal-board//homework//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:امتحان الحاسوب ICT، راشد
+X-WR-TIMEZONE:Asia/Qatar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:4d4ab6708495@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+TRANSP:TRANSPARENT
+SUMMARY:امتحان الحاسوب ICT، راشد
+DESCRIPTION:8:30 إلى 9:15 الصبح\n- Know your computer: input\, proc
+ essing\, output and storage devices\n- Working with Windows: starting\, de
+ sktop\, Start menu\, icons\, shutting down\n- Applications of a computer: 
+ humans vs computers\, types and uses\n- The keyboard and the mouse\n- Fun 
+ with Paint: starting Paint\, parts of the window
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان الحاسوب ICT، راشد
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

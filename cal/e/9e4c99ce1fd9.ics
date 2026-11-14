@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yehal-board//homework//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:امتحان الإنجليزي English، راشد
+X-WR-TIMEZONE:Asia/Qatar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:9e4c99ce1fd9@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+TRANSP:TRANSPARENT
+SUMMARY:امتحان الإنجليزي English، راشد
+DESCRIPTION:8:30 إلى 9:15 الصبح\n- Unit 1 Friends and Families (LB 
+ p10–45): prefixes and suffixes\, commas in lists\, -ed and -ing\, connec
+ tives\, story writing\n- Unit 2 Badges (LB p46–78): signs\, syllables\, 
+ command verbs\, flowcharts\, fiction and non-fiction\, plurals\n- Unit 3 A
+ ll About Sounds (LB p79–94): sound words\, poems\, noun phrases\, vowel 
+ sounds\, predictions
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان الإنجليزي English، راشد
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

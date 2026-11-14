@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yehal-board//homework//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:امتحان اللغة العربية، تميم
+X-WR-TIMEZONE:Asia/Qatar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:afcaaee76a62@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+TRANSP:TRANSPARENT
+SUMMARY:امتحان اللغة العربية، تميم
+DESCRIPTION:8:00 إلى 10:00 الصبح (الورقتين نفس اليو
+ م)\n- الحفظ: أول 4 أبيات من قصيدة (إني رأيت ن
+ ملة)\n- القراءة: نص (متحف الأطفال في قطر) وا
+ لقصيدة\n- الكلمة والجملة\n- الورقة الأولى: 
+ استماع وإملاء\n- كتيب المراجعة كامل (14 صفح
+ ة)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان اللغة العربية، تميم
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

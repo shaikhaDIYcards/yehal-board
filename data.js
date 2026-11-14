@@ -95,7 +95,8 @@ window.HOMEWORK = {
       "تسميع آية الكرسي",
       "تسميع حديث فضائل الأعمال"
      ],
-     "topicFile": "files/tamim/topics/islamic-studies-for-arabs-1.pdf"
+     "topicFile": "files/tamim/topics/islamic-studies-for-arabs-1.pdf",
+     "cal": "cal/e/61d6828c5739.ics"
     },
     {
      "date": "2026-11-26",
@@ -108,7 +109,8 @@ window.HOMEWORK = {
       "Practical: MS Word (p29–34): cut, copy, paste, find and replace, open and save, change case",
       "Practical: Paint (p40–63): shapes, colours, brushes, select, eraser, text tool, bold and italic"
      ],
-     "topicFile": "files/tamim/topics/information-and-communication-technology-1.pdf"
+     "topicFile": "files/tamim/topics/information-and-communication-technology-1.pdf",
+     "cal": "cal/e/0bbaea0e395a.ics"
     },
     {
      "date": "2026-12-02",
@@ -118,7 +120,8 @@ window.HOMEWORK = {
       "الدرس الثالث: الآثار في وطني، ص31 إلى 43",
       "الدرس الرابع: المتاحف في وطني، ص45 إلى 51"
      ],
-     "topicFile": "files/tamim/topics/qatar-history-for-arabs-1.pdf"
+     "topicFile": "files/tamim/topics/qatar-history-for-arabs-1.pdf",
+     "cal": "cal/e/ba88e145ca53.ics"
     },
     {
      "date": "2026-12-03",
@@ -129,7 +132,8 @@ window.HOMEWORK = {
       "Unit 2 Mixing materials (LB p35–59): solids, liquids and gases, separating mixtures, dissolving, filtering, materials from rocks",
       "Progression test questions"
      ],
-     "topicFile": "files/tamim/topics/science-1.pdf"
+     "topicFile": "files/tamim/topics/science-1.pdf",
+     "cal": "cal/e/af162bb433a8.ics"
     },
     {
      "date": "2026-12-06",
@@ -143,7 +147,8 @@ window.HOMEWORK = {
       "Comprehension: unseen non-fiction text",
       "Writing: an instruction text"
      ],
-     "topicFile": "files/tamim/topics/english-1.pdf"
+     "topicFile": "files/tamim/topics/english-1.pdf",
+     "cal": "cal/e/2b3a646bcf76.ics"
     },
     {
      "date": "2026-12-07",
@@ -158,7 +163,8 @@ window.HOMEWORK = {
       "Length, fractions of shapes, time (LB p98–132)",
       "Revision papers"
      ],
-     "topicFile": "files/tamim/topics/mathematics-1.pdf"
+     "topicFile": "files/tamim/topics/mathematics-1.pdf",
+     "cal": "cal/e/d97d57df7c1c.ics"
     },
     {
      "date": "2026-12-08",
@@ -170,7 +176,8 @@ window.HOMEWORK = {
       "1.6–1.8 Cultural heritage, local culture, cultures living together (p14–19)",
       "2.1–2.4 Historical evidence, local history, early history, early tribes and trade (p22–29)"
      ],
-     "topicFile": "files/tamim/topics/social-studies-1.pdf"
+     "topicFile": "files/tamim/topics/social-studies-1.pdf",
+     "cal": "cal/e/53bff2f8e571.ics"
     },
     {
      "date": "2026-12-09",
@@ -183,7 +190,8 @@ window.HOMEWORK = {
       "الورقة الأولى: استماع وإملاء",
       "كتيب المراجعة كامل (14 صفحة)"
      ],
-     "topicFile": "files/tamim/topics/arabic-for-arabs-1.pdf"
+     "topicFile": "files/tamim/topics/arabic-for-arabs-1.pdf",
+     "cal": "cal/e/afcaaee76a62.ics"
     },
     {
      "date": "2026-12-10",
@@ -197,7 +205,8 @@ window.HOMEWORK = {
       "السيرة: صبر الرسول ﷺ في الدعوة",
       "الآداب: محبة الله تعالى"
      ],
-     "topicFile": "files/tamim/topics/islamic-studies-for-arabs-1.pdf"
+     "topicFile": "files/tamim/topics/islamic-studies-for-arabs-1.pdf",
+     "cal": "cal/e/875e9fdb2443.ics"
     }
    ],
    "plan": [
@@ -440,7 +449,8 @@ window.HOMEWORK = {
       "تسميع سورة الكافرون",
       "تسميع حديث فضل التيامن"
      ],
-     "topicFile": "files/rashid/topics/islamic-studies-for-arabs-1.pdf"
+     "topicFile": "files/rashid/topics/islamic-studies-for-arabs-1.pdf",
+     "cal": "cal/e/e10ba20833e6.ics"
     },
     {
      "date": "2026-12-01",
@@ -453,7 +463,8 @@ window.HOMEWORK = {
       "The keyboard and the mouse",
       "Fun with Paint: starting Paint, parts of the window"
      ],
-     "topicFile": "files/rashid/topics/information-and-communication-technology-1.pdf"
+     "topicFile": "files/rashid/topics/information-and-communication-technology-1.pdf",
+     "cal": "cal/e/4d4ab6708495.ics"
     },
     {
      "date": "2026-12-02",
@@ -463,7 +474,8 @@ window.HOMEWORK = {
       "الدرس الثالث: الصدق، ص27 إلى 32",
       "الدرس الرابع: الأمانة، ص33 إلى 38"
      ],
-     "topicFile": "files/rashid/topics/qatar-history-for-arabs-1.pdf"
+     "topicFile": "files/rashid/topics/qatar-history-for-arabs-1.pdf",
+     "cal": "cal/e/f44bfe2aa835.ics"
     },
     {
      "date": "2026-12-03",
@@ -477,7 +489,8 @@ window.HOMEWORK = {
       "Unit 6 Money and Unit 7 Time: coins and notes, dates, calendar (LB p102–114)",
       "Unit 14 Pattern and probability (LB p211–221)"
      ],
-     "topicFile": "files/rashid/topics/mathematics-1.pdf"
+     "topicFile": "files/rashid/topics/mathematics-1.pdf",
+     "cal": "cal/e/e80ee6f68969.ics"
     },
     {
      "date": "2026-12-06",
@@ -488,7 +501,8 @@ window.HOMEWORK = {
       "Unit 2 Badges (LB p46–78): signs, syllables, command verbs, flowcharts, fiction and non-fiction, plurals",
       "Unit 3 All About Sounds (LB p79–94): sound words, poems, noun phrases, vowel sounds, predictions"
      ],
-     "topicFile": "files/rashid/topics/english-1.pdf"
+     "topicFile": "files/rashid/topics/english-1.pdf",
+     "cal": "cal/e/9e4c99ce1fd9.ics"
     },
     {
      "date": "2026-12-07",
@@ -500,7 +514,8 @@ window.HOMEWORK = {
       "القراءة الخارجية",
       "باقي كتيب المراجعة (18 صفحة)"
      ],
-     "topicFile": "files/rashid/topics/arabic-for-arabs-1.pdf"
+     "topicFile": "files/rashid/topics/arabic-for-arabs-1.pdf",
+     "cal": "cal/e/2a7ed7993b59.ics"
     },
     {
      "date": "2026-12-08",
@@ -512,7 +527,8 @@ window.HOMEWORK = {
       "Unit 3 Getting materials right: properties, testing, heating and cooling (LB p59–87)",
       "Unit 4 Humans and animals grow (LB p88–93)"
      ],
-     "topicFile": "files/rashid/topics/science-1.pdf"
+     "topicFile": "files/rashid/topics/science-1.pdf",
+     "cal": "cal/e/57f1e217a923.ics"
     },
     {
      "date": "2026-12-09",
@@ -524,7 +540,8 @@ window.HOMEWORK = {
       "العقيدة: أركان الإسلام",
       "الفقه: أحكام الوضوء"
      ],
-     "topicFile": "files/rashid/topics/islamic-studies-for-arabs-1.pdf"
+     "topicFile": "files/rashid/topics/islamic-studies-for-arabs-1.pdf",
+     "cal": "cal/e/38bbf87b8488.ics"
     },
     {
      "date": "2026-12-10",
@@ -536,7 +553,8 @@ window.HOMEWORK = {
       "Culture in different places: clothes, homes, food (p20–24)",
       "History and heritage: family tree (p28)"
      ],
-     "topicFile": "files/rashid/topics/social-studies-1.pdf"
+     "topicFile": "files/rashid/topics/social-studies-1.pdf",
+     "cal": "cal/e/1a25b9f52d8f.ics"
     }
    ],
    "plan": [
@@ -706,7 +724,8 @@ window.HOMEWORK = {
    "detail": {
     "tamim": "معلمة القرآن نبهت إن تميم ما رجّعها من كم أسبوع.",
     "rashid": "معلمة القرآن طالبتها الأحد."
-   }
+   },
+   "cal": "cal/e/e18f7733c1e6.ics"
   },
   {
    "date": "2026-11-15",
@@ -714,7 +733,8 @@ window.HOMEWORK = {
     "fatima"
    ],
    "title": "وقّعي موافقة رحلة فاطمة وأرسليها مع 60 ريال",
-   "detail": "النموذج جا مع فاطمة من الروضة."
+   "detail": "النموذج جا مع فاطمة من الروضة.",
+   "cal": "cal/e/ab4b7156a2e8.ics"
   },
   {
    "date": "2026-11-16",
@@ -726,7 +746,8 @@ window.HOMEWORK = {
    "detail": {
     "tamim": "تسميع آية الكرسي وحديث فضائل الأعمال، لين 3 ديسمبر.",
     "rashid": "تسميع سورة الكافرون وحديث فضل التيامن، لين 3 ديسمبر."
-   }
+   },
+   "cal": "cal/e/aaedc2118895.ics"
   },
   {
    "date": "2026-11-19",
@@ -734,8 +755,10 @@ window.HOMEWORK = {
     "fatima"
    ],
    "title": "رحلة فاطمة إلى Jungle Zone",
-   "detail": "من 8:00 الصبح لين 12:30. الزي المدرسي، وغيارين ملابس في الشنطة."
+   "detail": "من 8:00 الصبح لين 12:30. الزي المدرسي، وغيارين ملابس في الشنطة.",
+   "cal": "cal/e/b7641b83a3fc.ics"
   }
  ],
- "footer": "الملفات من بوابة المدرسة. الواجبات الأونلاين ما تنطبع، تنحل في البيت."
+ "footer": "الملفات من بوابة المدرسة. الواجبات الأونلاين ما تنطبع، تنحل في البيت.",
+ "studyTime": "4:30"
 };

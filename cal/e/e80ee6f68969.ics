@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yehal-board//homework//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:امتحان الرياضيات Maths، راشد
+X-WR-TIMEZONE:Asia/Qatar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:e80ee6f68969@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+TRANSP:TRANSPARENT
+SUMMARY:امتحان الرياضيات Maths، راشد
+DESCRIPTION:8:30 إلى 9:15 الصبح\n- Unit 1 Numbers to 100: tens and 
+ ones\, comparing and ordering\, odd and even (LB p12–28)\n- Unit 2 Geome
+ try: 3D and 2D shapes\, symmetry\, fractions of shapes (LB p29–51)\n- Un
+ it 3 Measures: comparing lengths\, measuring in cm (LB p52–67)\n- Unit 4
+  Statistics: Carroll diagrams\, tally charts (LB p68–78)\n- Unit 6 Money
+  and Unit 7 Time: coins and notes\, dates\, calendar (LB p102–114)\n- Un
+ it 14 Pattern and probability (LB p211–221)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان الرياضيات Maths، راشد
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

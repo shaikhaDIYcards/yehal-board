@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yehal-board//homework//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:امتحان العلوم Science، راشد
+X-WR-TIMEZONE:Asia/Qatar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:57f1e217a923@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+TRANSP:TRANSPARENT
+SUMMARY:امتحان العلوم Science، راشد
+DESCRIPTION:8:30 إلى 9:15 الصبح\n- Unit 1 Environments and habitats
+  (LB p2–35)\n- Unit 2 Forces and movement: pushes and pulls\, speed\, di
+ rection\, shape (LB p36–58)\n- Unit 3 Getting materials right: propertie
+ s\, testing\, heating and cooling (LB p59–87)\n- Unit 4 Humans and anima
+ ls grow (LB p88–93)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان العلوم Science، راشد
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

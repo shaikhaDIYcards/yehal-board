@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yehal-board//homework//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:امتحان الرياضيات Maths، تميم
+X-WR-TIMEZONE:Asia/Qatar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:d97d57df7c1c@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+TRANSP:TRANSPARENT
+SUMMARY:امتحان الرياضيات Maths، تميم
+DESCRIPTION:8:00 إلى 10:00 الصبح\n- Place value\, comparing and ord
+ ering\, rounding (LB p10–23)\n- Tally charts (LB p24–35)\n- Addition\,
+  subtraction\, money (LB p38–47)\n- 3D shapes (LB p56–70)\n- Multiples
+  of 2\, 3\, 4\, 5 and 10 (LB p71–79)\n- Length\, fractions of shapes\, t
+ ime (LB p98–132)\n- Revision papers
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان الرياضيات Maths، تميم
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

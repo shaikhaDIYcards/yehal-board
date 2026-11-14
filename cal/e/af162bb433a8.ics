@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yehal-board//homework//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:امتحان العلوم Science، تميم
+X-WR-TIMEZONE:Asia/Qatar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:af162bb433a8@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+TRANSP:TRANSPARENT
+SUMMARY:امتحان العلوم Science، تميم
+DESCRIPTION:8:00 إلى 9:30 الصبح\n- Unit 1 Plants (LB p2–34): livi
+ ng or not\, plant parts\, plants and light\, growth and temperature\n- Uni
+ t 2 Mixing materials (LB p35–59): solids\, liquids and gases\, separatin
+ g mixtures\, dissolving\, filtering\, materials from rocks\n- Progression 
+ test questions
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان العلوم Science، تميم
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

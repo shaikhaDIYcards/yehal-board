@@ -1,0 +1,1164 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yehal-board//homework//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:واجبات اليهال
+X-WR-TIMEZONE:Asia/Qatar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:61d6828c5739@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261204
+TRANSP:TRANSPARENT
+SUMMARY:شفهي التربية الإسلامية، تميم
+DESCRIPTION:خلال الحصص\n- تسميع آية الكرسي\n- تسم
+ يع حديث فضائل الأعمال
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:يبدأ بكرة شفهي التربية الإسلامية، 
+ تميم
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0bbaea0e395a@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261203
+TRANSP:TRANSPARENT
+SUMMARY:امتحان الحاسوب ICT، تميم
+DESCRIPTION:يوم واحد في هالفترة، اليوم بالضبط 
+ في جدول ICT\n- Theory: Know your computer (p1–9): input\, process\
+ , output\, hardware vs software\n- Theory: Using Windows (p10–24): deskt
+ op\, taskbar\, Start\, icons\, parts of a window\, shutting down\n- Practi
+ cal: MS Word (p29–34): cut\, copy\, paste\, find and replace\, open and 
+ save\, change case\n- Practical: Paint (p40–63): shapes\, colours\, brus
+ hes\, select\, eraser\, text tool\, bold and italic
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:يبدأ بكرة امتحان الحاسوب ICT، تميم
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba88e145ca53@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+TRANSP:TRANSPARENT
+SUMMARY:امتحان تاريخ قطر، تميم
+DESCRIPTION:خلال اليوم الدراسي\n- الدرس الثالث: 
+ الآثار في وطني، ص31 إلى 43\n- الدرس الرابع: ا
+ لمتاحف في وطني، ص45 إلى 51
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان تاريخ قطر، تميم
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:af162bb433a8@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+TRANSP:TRANSPARENT
+SUMMARY:امتحان العلوم Science، تميم
+DESCRIPTION:8:00 إلى 9:30 الصبح\n- Unit 1 Plants (LB p2–34): livi
+ ng or not\, plant parts\, plants and light\, growth and temperature\n- Uni
+ t 2 Mixing materials (LB p35–59): solids\, liquids and gases\, separatin
+ g mixtures\, dissolving\, filtering\, materials from rocks\n- Progression 
+ test questions
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان العلوم Science، تميم
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2b3a646bcf76@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+TRANSP:TRANSPARENT
+SUMMARY:امتحان الإنجليزي English، تميم
+DESCRIPTION:8:00 إلى 10:00 الصبح\n- Nouns\, adjectives\, noun phras
+ es\, pronouns\n- Verbs: regular and irregular past\, present and past tens
+ e\, command verbs\n- Speech marks and compound words\n- Joining sentences:
+  first/next/then\, up/over/behind\, so/if/because\, and/but\n- Comprehensi
+ on: unseen non-fiction text\n- Writing: an instruction text
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان الإنجليزي English، تميم
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d97d57df7c1c@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+TRANSP:TRANSPARENT
+SUMMARY:امتحان الرياضيات Maths، تميم
+DESCRIPTION:8:00 إلى 10:00 الصبح\n- Place value\, comparing and ord
+ ering\, rounding (LB p10–23)\n- Tally charts (LB p24–35)\n- Addition\,
+  subtraction\, money (LB p38–47)\n- 3D shapes (LB p56–70)\n- Multiples
+  of 2\, 3\, 4\, 5 and 10 (LB p71–79)\n- Length\, fractions of shapes\, t
+ ime (LB p98–132)\n- Revision papers
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان الرياضيات Maths، تميم
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:53bff2f8e571@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+TRANSP:TRANSPARENT
+SUMMARY:امتحان الدراسات الاجتماعية SST، تميم
+DESCRIPTION:8:00 إلى 9:30 الصبح\n- 1.1–1.3 Who am I\, what can I 
+ offer\, personal goals (p4–9)\n- 1.4–1.5 Functions and roles of the fa
+ mily (p10–13)\n- 1.6–1.8 Cultural heritage\, local culture\, cultures 
+ living together (p14–19)\n- 2.1–2.4 Historical evidence\, local histor
+ y\, early history\, early tribes and trade (p22–29)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان الدراسات الاجتماعية SST
+ ، تميم
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:afcaaee76a62@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+TRANSP:TRANSPARENT
+SUMMARY:امتحان اللغة العربية، تميم
+DESCRIPTION:8:00 إلى 10:00 الصبح (الورقتين نفس اليو
+ م)\n- الحفظ: أول 4 أبيات من قصيدة (إني رأيت ن
+ ملة)\n- القراءة: نص (متحف الأطفال في قطر) وا
+ لقصيدة\n- الكلمة والجملة\n- الورقة الأولى: 
+ استماع وإملاء\n- كتيب المراجعة كامل (14 صفح
+ ة)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان اللغة العربية، تميم
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:875e9fdb2443@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+TRANSP:TRANSPARENT
+SUMMARY:امتحان التربية الإسلامية، تميم
+DESCRIPTION:8:00 إلى 9:30 الصبح\n- القرآن: سورة الإخ
+ لاص\n- الحديث: فضائل الأعمال\n- العقيدة: أر
+ كان الإيمان وأركان الإسلام\n- الفقه: الطه
+ ارة من النجاسات\n- السيرة: صبر الرسول ﷺ في
+  الدعوة\n- الآداب: محبة الله تعالى
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان التربية الإسلامية، تم
+ يم
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e10ba20833e6@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261204
+TRANSP:TRANSPARENT
+SUMMARY:شفهي التربية الإسلامية، راشد
+DESCRIPTION:خلال الحصص\n- تسميع سورة الكافرون\n- 
+ تسميع حديث فضل التيامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:يبدأ بكرة شفهي التربية الإسلامية، 
+ راشد
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4d4ab6708495@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+TRANSP:TRANSPARENT
+SUMMARY:امتحان الحاسوب ICT، راشد
+DESCRIPTION:8:30 إلى 9:15 الصبح\n- Know your computer: input\, proc
+ essing\, output and storage devices\n- Working with Windows: starting\, de
+ sktop\, Start menu\, icons\, shutting down\n- Applications of a computer: 
+ humans vs computers\, types and uses\n- The keyboard and the mouse\n- Fun 
+ with Paint: starting Paint\, parts of the window
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان الحاسوب ICT، راشد
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f44bfe2aa835@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+TRANSP:TRANSPARENT
+SUMMARY:امتحان تاريخ قطر، راشد
+DESCRIPTION:8:30 إلى 9:15 الصبح\n- الدرس الثالث: الص
+ دق، ص27 إلى 32\n- الدرس الرابع: الأمانة، ص33 إ
+ لى 38
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان تاريخ قطر، راشد
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e80ee6f68969@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+TRANSP:TRANSPARENT
+SUMMARY:امتحان الرياضيات Maths، راشد
+DESCRIPTION:8:30 إلى 9:15 الصبح\n- Unit 1 Numbers to 100: tens and 
+ ones\, comparing and ordering\, odd and even (LB p12–28)\n- Unit 2 Geome
+ try: 3D and 2D shapes\, symmetry\, fractions of shapes (LB p29–51)\n- Un
+ it 3 Measures: comparing lengths\, measuring in cm (LB p52–67)\n- Unit 4
+  Statistics: Carroll diagrams\, tally charts (LB p68–78)\n- Unit 6 Money
+  and Unit 7 Time: coins and notes\, dates\, calendar (LB p102–114)\n- Un
+ it 14 Pattern and probability (LB p211–221)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان الرياضيات Maths، راشد
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9e4c99ce1fd9@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+TRANSP:TRANSPARENT
+SUMMARY:امتحان الإنجليزي English، راشد
+DESCRIPTION:8:30 إلى 9:15 الصبح\n- Unit 1 Friends and Families (LB 
+ p10–45): prefixes and suffixes\, commas in lists\, -ed and -ing\, connec
+ tives\, story writing\n- Unit 2 Badges (LB p46–78): signs\, syllables\, 
+ command verbs\, flowcharts\, fiction and non-fiction\, plurals\n- Unit 3 A
+ ll About Sounds (LB p79–94): sound words\, poems\, noun phrases\, vowel 
+ sounds\, predictions
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان الإنجليزي English، راشد
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2a7ed7993b59@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+TRANSP:TRANSPARENT
+SUMMARY:امتحان اللغة العربية، راشد
+DESCRIPTION:8:30 إلى 9:30 الصبح\n- الاستماع: نص (في م
+ يناء الدوحة البحري)\n- القراءة: نص (الحمام
+ ة المطوقة) الجزء الأول والثاني\n- القراءة 
+ الخارجية\n- باقي كتيب المراجعة (18 صفحة)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان اللغة العربية، راشد
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:57f1e217a923@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+TRANSP:TRANSPARENT
+SUMMARY:امتحان العلوم Science، راشد
+DESCRIPTION:8:30 إلى 9:15 الصبح\n- Unit 1 Environments and habitats
+  (LB p2–35)\n- Unit 2 Forces and movement: pushes and pulls\, speed\, di
+ rection\, shape (LB p36–58)\n- Unit 3 Getting materials right: propertie
+ s\, testing\, heating and cooling (LB p59–87)\n- Unit 4 Humans and anima
+ ls grow (LB p88–93)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان العلوم Science، راشد
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:38bbf87b8488@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+TRANSP:TRANSPARENT
+SUMMARY:امتحان التربية الإسلامية، راشد
+DESCRIPTION:8:30 إلى 9:15 الصبح\n- القرآن: سورة الكا
+ فرون\n- الحديث: فضل التيامن\n- العقيدة: أرك
+ ان الإسلام\n- الفقه: أحكام الوضوء
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان التربية الإسلامية، را
+ شد
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1a25b9f52d8f@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+TRANSP:TRANSPARENT
+SUMMARY:امتحان الدراسات الاجتماعية SST، راشد
+DESCRIPTION:8:30 إلى 9:15 الصبح\n- Family and culture (p4–10)\n- 
+ Groups and personal qualities (p12–18)\n- Culture in different places: c
+ lothes\, homes\, food (p20–24)\n- History and heritage: family tree (p28
+ )
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان الدراسات الاجتماعية SST
+ ، راشد
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e18f7733c1e6@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+TRANSP:TRANSPARENT
+SUMMARY:تميم وراشد: رجّعوا استمارة متابعة ال
+ قرآن موقّعة
+DESCRIPTION:تميم: معلمة القرآن نبهت إن تميم ما 
+ رجّعها من كم أسبوع.\nراشد: معلمة القرآن طا
+ لبتها الأحد.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة: رجّعوا استمارة متابعة القرآن
+  موقّعة
+TRIGGER:-PT4H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:اليوم: رجّعوا استمارة متابعة القرآ
+ ن موقّعة
+TRIGGER:PT6H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ab4b7156a2e8@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+TRANSP:TRANSPARENT
+SUMMARY:فاطمة: وقّعي موافقة رحلة فاطمة وأرسل
+ يها مع 60 ريال
+DESCRIPTION:النموذج جا مع فاطمة من الروضة.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة: وقّعي موافقة رحلة فاطمة وأرس
+ ليها مع 60 ريال
+TRIGGER:-PT4H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:اليوم: وقّعي موافقة رحلة فاطمة وأر
+ سليها مع 60 ريال
+TRIGGER:PT6H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:aaedc2118895@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+TRANSP:TRANSPARENT
+SUMMARY:تميم وراشد: يبدأ شفهي التربية الإسلا
+ مية
+DESCRIPTION:تميم: تسميع آية الكرسي وحديث فضائل 
+ الأعمال، لين 3 ديسمبر.\nراشد: تسميع سورة ا
+ لكافرون وحديث فضل التيامن، لين 3 ديسمبر.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة: يبدأ شفهي التربية الإسلامية
+TRIGGER:-PT4H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:اليوم: يبدأ شفهي التربية الإسلامية
+TRIGGER:PT6H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b7641b83a3fc@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+TRANSP:TRANSPARENT
+SUMMARY:فاطمة: رحلة فاطمة إلى Jungle Zone
+DESCRIPTION:من 8:00 الصبح لين 12:30. الزي المدرسي، و
+ غيارين ملابس في الشنطة.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة: رحلة فاطمة إلى Jungle Zone
+TRIGGER:-PT4H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:اليوم: رحلة فاطمة إلى Jungle Zone
+TRIGGER:PT6H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6c8246d904fe@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261115T133000Z
+DTEND:20261115T143000Z
+SUMMARY:مذاكرة تميم: العربي
+DESCRIPTION:حفظ أول 4 أبيات من (إني رأيت نملة) وق
+ راءة نص متحف الأطفال\nأول ربع ساعة قرآن: آ
+ ية الكرسي وحديث فضائل الأعمال، وبعد الشف
+ هي سورة الإخلاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:52828261d0f7@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261116T133000Z
+DTEND:20261116T143000Z
+SUMMARY:مذاكرة تميم: Maths
+DESCRIPTION:Place value\, comparing and ordering\, rounding\nأول ربع 
+ ساعة قرآن: آية الكرسي وحديث فضائل الأعما
+ ل، وبعد الشفهي سورة الإخلاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:69457a813a3d@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261117T133000Z
+DTEND:20261117T143000Z
+SUMMARY:مذاكرة تميم: English
+DESCRIPTION:Nouns\, adjectives\, verbs\, present and past tense\nأول ر
+ بع ساعة قرآن: آية الكرسي وحديث فضائل الأع
+ مال، وبعد الشفهي سورة الإخلاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:69772757c7ed@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261118T133000Z
+DTEND:20261118T143000Z
+SUMMARY:مذاكرة تميم: Science
+DESCRIPTION:Unit 1 Plants\nأول ربع ساعة قرآن: آية الكر
+ سي وحديث فضائل الأعمال، وبعد الشفهي سورة
+  الإخلاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d426a8b8efe1@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261119T133000Z
+DTEND:20261119T143000Z
+SUMMARY:مذاكرة تميم: SST
+DESCRIPTION:1.1–1.5 Who am I\, family functions and roles\nأول ربع 
+ ساعة قرآن: آية الكرسي وحديث فضائل الأعما
+ ل، وبعد الشفهي سورة الإخلاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f8a835231a47@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261120T133000Z
+DTEND:20261120T143000Z
+SUMMARY:مذاكرة تميم: ICT
+DESCRIPTION:Theory: Know your computer\, Using Windows\nأول ربع سا
+ عة قرآن: آية الكرسي وحديث فضائل الأعمال، 
+ وبعد الشفهي سورة الإخلاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:589247f59cad@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261121T133000Z
+DTEND:20261121T143000Z
+SUMMARY:مذاكرة تميم: Maths
+DESCRIPTION:Tally charts\, addition\, subtraction\, money\nأول ربع س
+ اعة قرآن: آية الكرسي وحديث فضائل الأعمال
+ ، وبعد الشفهي سورة الإخلاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9db4d8760c2c@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261122T133000Z
+DTEND:20261122T143000Z
+SUMMARY:مذاكرة تميم: English
+DESCRIPTION:Command verbs\, speech marks\, compound words\, noun phrases\n
+ أول ربع ساعة قرآن: آية الكرسي وحديث فضائل
+  الأعمال، وبعد الشفهي سورة الإخلاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:511b0a6f0e6d@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261123T133000Z
+DTEND:20261123T143000Z
+SUMMARY:مذاكرة تميم: Science
+DESCRIPTION:Unit 2 Mixing materials\nأول ربع ساعة قرآن: آي
+ ة الكرسي وحديث فضائل الأعمال، وبعد الشفه
+ ي سورة الإخلاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5500fde95f40@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261124T133000Z
+DTEND:20261124T143000Z
+SUMMARY:مذاكرة تميم: العربي
+DESCRIPTION:الكلمة والجملة، والإملاء من كتيب ا
+ لمراجعة\nأول ربع ساعة قرآن: آية الكرسي وح
+ ديث فضائل الأعمال، وبعد الشفهي سورة الإخ
+ لاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9d52f88eefbd@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261125T133000Z
+DTEND:20261125T143000Z
+SUMMARY:مذاكرة تميم: ICT
+DESCRIPTION:العملي: Word و Paint، لأن امتحان ICT ممكن 
+ يبدأ بكرة\nأول ربع ساعة قرآن: آية الكرسي و
+ حديث فضائل الأعمال، وبعد الشفهي سورة الإ
+ خلاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e406bfd90dda@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261126T133000Z
+DTEND:20261126T143000Z
+SUMMARY:مذاكرة تميم: تاريخ قطر
+DESCRIPTION:الآثار في وطني والمتاحف في وطني\nأو
+ ل ربع ساعة قرآن: آية الكرسي وحديث فضائل ا
+ لأعمال، وبعد الشفهي سورة الإخلاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b9d1db37e850@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261127T133000Z
+DTEND:20261127T143000Z
+SUMMARY:مذاكرة تميم: Maths
+DESCRIPTION:3D shapes\, multiples\, length\, fractions\, time\nأول رب
+ ع ساعة قرآن: آية الكرسي وحديث فضائل الأعم
+ ال، وبعد الشفهي سورة الإخلاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e470c3df2efe@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261128T133000Z
+DTEND:20261128T143000Z
+SUMMARY:مذاكرة تميم: English
+DESCRIPTION:Pronouns\, connectives\, comprehension\, writing instructions\n
+ أول ربع ساعة قرآن: آية الكرسي وحديث فضائل
+  الأعمال، وبعد الشفهي سورة الإخلاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e2663f1e15ec@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261129T133000Z
+DTEND:20261129T143000Z
+SUMMARY:مذاكرة تميم: SST
+DESCRIPTION:1.6–2.4 Culture\, historical evidence\, early tribes\nأول 
+ ربع ساعة قرآن: آية الكرسي وحديث فضائل الأ
+ عمال، وبعد الشفهي سورة الإخلاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccd5175f381f@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261130T133000Z
+DTEND:20261130T143000Z
+SUMMARY:مذاكرة تميم: الإسلامية
+DESCRIPTION:العقيدة والفقه والسيرة والآداب\nأو
+ ل ربع ساعة قرآن: آية الكرسي وحديث فضائل ا
+ لأعمال، وبعد الشفهي سورة الإخلاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dc97c291b191@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261201T133000Z
+DTEND:20261201T143000Z
+SUMMARY:مذاكرة تميم: تاريخ قطر
+DESCRIPTION:مراجعة كاملة، الامتحان بكرة\nأول ر
+ بع ساعة قرآن: آية الكرسي وحديث فضائل الأع
+ مال، وبعد الشفهي سورة الإخلاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b946cf20a29b@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261202T133000Z
+DTEND:20261202T143000Z
+SUMMARY:مذاكرة تميم: Science
+DESCRIPTION:مراجعة كاملة وأسئلة Progression، الامتح
+ ان بكرة\nأول ربع ساعة قرآن: آية الكرسي وحد
+ يث فضائل الأعمال، وبعد الشفهي سورة الإخل
+ اص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:67f4c9115231@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261203T133000Z
+DTEND:20261203T143000Z
+SUMMARY:مذاكرة تميم: Maths
+DESCRIPTION:حل أوراق المراجعة Revision papers\nأول ربع
+  ساعة قرآن: آية الكرسي وحديث فضائل الأعما
+ ل، وبعد الشفهي سورة الإخلاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:af0889bb0e28@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261204T133000Z
+DTEND:20261204T143000Z
+SUMMARY:مذاكرة تميم: العربي
+DESCRIPTION:حل كتيب المراجعة\nأول ربع ساعة قرآن
+ : آية الكرسي وحديث فضائل الأعمال، وبعد ال
+ شفهي سورة الإخلاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f24c88b332f7@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261205T133000Z
+DTEND:20261205T143000Z
+SUMMARY:مذاكرة تميم: English
+DESCRIPTION:مراجعة كاملة، الامتحان بكرة\nأول ر
+ بع ساعة قرآن: آية الكرسي وحديث فضائل الأع
+ مال، وبعد الشفهي سورة الإخلاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ad3ee001005b@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261206T133000Z
+DTEND:20261206T143000Z
+SUMMARY:مذاكرة تميم: Maths
+DESCRIPTION:مراجعة أخيرة، الامتحان بكرة\nأول ر
+ بع ساعة قرآن: آية الكرسي وحديث فضائل الأع
+ مال، وبعد الشفهي سورة الإخلاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecb258299e23@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261207T133000Z
+DTEND:20261207T143000Z
+SUMMARY:مذاكرة تميم: SST
+DESCRIPTION:مراجعة كاملة، الامتحان بكرة\nأول ر
+ بع ساعة قرآن: آية الكرسي وحديث فضائل الأع
+ مال، وبعد الشفهي سورة الإخلاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:07491a768ae6@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261208T133000Z
+DTEND:20261208T143000Z
+SUMMARY:مذاكرة تميم: العربي
+DESCRIPTION:القصيدة والإملاء والاستماع، الامت
+ حان بكرة\nأول ربع ساعة قرآن: آية الكرسي وح
+ ديث فضائل الأعمال، وبعد الشفهي سورة الإخ
+ لاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3ae82bdac368@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261209T133000Z
+DTEND:20261209T143000Z
+SUMMARY:مذاكرة تميم: الإسلامية
+DESCRIPTION:مراجعة كاملة وسورة الإخلاص، الامت
+ حان بكرة\nأول ربع ساعة قرآن: آية الكرسي وح
+ ديث فضائل الأعمال، وبعد الشفهي سورة الإخ
+ لاص
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة تميم
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4603d6aa29b8@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261115T133000Z
+DTEND:20261115T143000Z
+SUMMARY:مذاكرة راشد: Maths
+DESCRIPTION:Unit 1 Numbers to 100\nأول ربع ساعة قرآن: سور
+ ة الكافرون وحديث فضل التيامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:75ef94d6afce@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261116T133000Z
+DTEND:20261116T143000Z
+SUMMARY:مذاكرة راشد: English
+DESCRIPTION:Unit 1 Friends and Families\nأول ربع ساعة قرآن: 
+ سورة الكافرون وحديث فضل التيامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:11b86a9d9066@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261117T133000Z
+DTEND:20261117T143000Z
+SUMMARY:مذاكرة راشد: Science
+DESCRIPTION:Unit 1 Environments and habitats\nأول ربع ساعة قرآ
+ ن: سورة الكافرون وحديث فضل التيامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8b458a5c4fc9@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261118T133000Z
+DTEND:20261118T143000Z
+SUMMARY:مذاكرة راشد: العربي
+DESCRIPTION:الاستماع (في ميناء الدوحة البحري) و
+ القراءة (الحمامة المطوقة)\nأول ربع ساعة ق
+ رآن: سورة الكافرون وحديث فضل التيامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c718e9aa42a9@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261119T133000Z
+DTEND:20261119T143000Z
+SUMMARY:مذاكرة راشد: SST
+DESCRIPTION:Family and culture\, groups and personal qualities\nأول رب
+ ع ساعة قرآن: سورة الكافرون وحديث فضل التي
+ امن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d41ea99fece6@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261120T133000Z
+DTEND:20261120T143000Z
+SUMMARY:مذاكرة راشد: ICT
+DESCRIPTION:Know your computer\, working with Windows\nأول ربع ساع
+ ة قرآن: سورة الكافرون وحديث فضل التيامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:50ec2f78f2ec@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261121T133000Z
+DTEND:20261121T143000Z
+SUMMARY:مذاكرة راشد: Maths
+DESCRIPTION:Unit 2 Geometry\nأول ربع ساعة قرآن: سورة ال
+ كافرون وحديث فضل التيامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bfe7ec8541c2@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261122T133000Z
+DTEND:20261122T143000Z
+SUMMARY:مذاكرة راشد: English
+DESCRIPTION:Unit 2 Badges\nأول ربع ساعة قرآن: سورة الك
+ افرون وحديث فضل التيامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:90f33521ddd9@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261123T133000Z
+DTEND:20261123T143000Z
+SUMMARY:مذاكرة راشد: Science
+DESCRIPTION:Unit 2 Forces and movement\nأول ربع ساعة قرآن: س
+ ورة الكافرون وحديث فضل التيامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2b72d9fba8ee@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261124T133000Z
+DTEND:20261124T143000Z
+SUMMARY:مذاكرة راشد: العربي
+DESCRIPTION:القراءة الخارجية وباقي كتيب المرا
+ جعة\nأول ربع ساعة قرآن: سورة الكافرون وحد
+ يث فضل التيامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4b146f6e6c39@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261125T133000Z
+DTEND:20261125T143000Z
+SUMMARY:مذاكرة راشد: تاريخ قطر
+DESCRIPTION:الصدق والأمانة\nأول ربع ساعة قرآن: 
+ سورة الكافرون وحديث فضل التيامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:531f045a73be@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261126T133000Z
+DTEND:20261126T143000Z
+SUMMARY:مذاكرة راشد: Maths
+DESCRIPTION:Units 3 and 4 Measures\, statistics\nأول ربع ساعة ق
+ رآن: سورة الكافرون وحديث فضل التيامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6ef0f9f414b0@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261127T133000Z
+DTEND:20261127T143000Z
+SUMMARY:مذاكرة راشد: English
+DESCRIPTION:Unit 3 All About Sounds\nأول ربع ساعة قرآن: سو
+ رة الكافرون وحديث فضل التيامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3e39e08cdbe6@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261128T133000Z
+DTEND:20261128T143000Z
+SUMMARY:مذاكرة راشد: Science
+DESCRIPTION:Units 3 and 4 Materials\, humans and animals\nأول ربع س
+ اعة قرآن: سورة الكافرون وحديث فضل التيام
+ ن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:18212d9e9fe1@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261129T133000Z
+DTEND:20261129T143000Z
+SUMMARY:مذاكرة راشد: الإسلامية
+DESCRIPTION:أركان الإسلام وأحكام الوضوء\nأول ر
+ بع ساعة قرآن: سورة الكافرون وحديث فضل الت
+ يامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c5a659e7860f@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261130T133000Z
+DTEND:20261130T143000Z
+SUMMARY:مذاكرة راشد: ICT
+DESCRIPTION:Keyboard\, mouse\, Paint، الامتحان بكرة\nأول ر
+ بع ساعة قرآن: سورة الكافرون وحديث فضل الت
+ يامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f68b51d8ab7c@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261201T133000Z
+DTEND:20261201T143000Z
+SUMMARY:مذاكرة راشد: تاريخ قطر
+DESCRIPTION:مراجعة كاملة، الامتحان بكرة\nأول ر
+ بع ساعة قرآن: سورة الكافرون وحديث فضل الت
+ يامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f06c55535fd9@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261202T133000Z
+DTEND:20261202T143000Z
+SUMMARY:مذاكرة راشد: Maths
+DESCRIPTION:Money\, time\, patterns ومراجعة كاملة، الامت
+ حان بكرة\nأول ربع ساعة قرآن: سورة الكافرو
+ ن وحديث فضل التيامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:43d9df859906@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261203T133000Z
+DTEND:20261203T143000Z
+SUMMARY:مذاكرة راشد: SST
+DESCRIPTION:Culture in different places\, family tree\nأول ربع ساع
+ ة قرآن: سورة الكافرون وحديث فضل التيامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d5cdaf978d0b@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261204T133000Z
+DTEND:20261204T143000Z
+SUMMARY:مذاكرة راشد: العربي
+DESCRIPTION:حل كتيب المراجعة\nأول ربع ساعة قرآن
+ : سورة الكافرون وحديث فضل التيامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:07414c488e33@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261205T133000Z
+DTEND:20261205T143000Z
+SUMMARY:مذاكرة راشد: English
+DESCRIPTION:مراجعة كاملة، الامتحان بكرة\nأول ر
+ بع ساعة قرآن: سورة الكافرون وحديث فضل الت
+ يامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0c58072a82bc@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261206T133000Z
+DTEND:20261206T143000Z
+SUMMARY:مذاكرة راشد: العربي
+DESCRIPTION:مراجعة أخيرة، الامتحان بكرة\nأول ر
+ بع ساعة قرآن: سورة الكافرون وحديث فضل الت
+ يامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5e5db01b9710@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261207T133000Z
+DTEND:20261207T143000Z
+SUMMARY:مذاكرة راشد: Science
+DESCRIPTION:مراجعة كاملة، الامتحان بكرة\nأول ر
+ بع ساعة قرآن: سورة الكافرون وحديث فضل الت
+ يامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:36829608fec0@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261208T133000Z
+DTEND:20261208T143000Z
+SUMMARY:مذاكرة راشد: الإسلامية
+DESCRIPTION:سورة الكافرون والحديث ومراجعة كام
+ لة، الامتحان بكرة\nأول ربع ساعة قرآن: سور
+ ة الكافرون وحديث فضل التيامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:91ce4fcfeff1@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART:20261209T133000Z
+DTEND:20261209T143000Z
+SUMMARY:مذاكرة راشد: SST
+DESCRIPTION:مراجعة كاملة، الامتحان بكرة\nأول ر
+ بع ساعة قرآن: سورة الكافرون وحديث فضل الت
+ يامن
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:وقت مذاكرة راشد
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

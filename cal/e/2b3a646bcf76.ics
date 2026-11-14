@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yehal-board//homework//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:امتحان الإنجليزي English، تميم
+X-WR-TIMEZONE:Asia/Qatar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:2b3a646bcf76@yehal-board
+DTSTAMP:20261114T173542Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+TRANSP:TRANSPARENT
+SUMMARY:امتحان الإنجليزي English، تميم
+DESCRIPTION:8:00 إلى 10:00 الصبح\n- Nouns\, adjectives\, noun phras
+ es\, pronouns\n- Verbs: regular and irregular past\, present and past tens
+ e\, command verbs\n- Speech marks and compound words\n- Joining sentences:
+  first/next/then\, up/over/behind\, so/if/because\, and/but\n- Comprehensi
+ on: unseen non-fiction text\n- Writing: an instruction text
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان الإنجليزي English، تميم
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
