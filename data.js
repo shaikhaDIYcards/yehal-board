@@ -1,8 +1,8 @@
 window.HOMEWORK = {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "week": {
-  "from": "2026-11-08",
-  "to": "2026-11-14"
+  "from": "2026-11-15",
+  "to": "2026-11-21"
  },
  "kids": [
   {
@@ -16,43 +16,43 @@ window.HOMEWORK = {
      "subject": "اللغة الإنجليزية",
      "file": "files/tamim/hw/01-english.pdf",
      "thumb": "files/tamim/thumbs/01-english.jpg",
-     "due": "2026-11-14"
+     "due": "2026-11-21"
     },
     {
      "subject": "الحاسوب ICT",
      "file": "files/tamim/hw/02-information-and-communication-technology.pdf",
      "thumb": "files/tamim/thumbs/02-information-and-communication-technology.jpg",
-     "due": "2026-11-14"
+     "due": "2026-11-21"
     },
     {
      "subject": "الرياضيات",
      "file": "files/tamim/hw/03-mathematics.pdf",
      "thumb": "files/tamim/thumbs/03-mathematics.jpg",
-     "due": "2026-11-14"
+     "due": "2026-11-21"
     },
     {
      "subject": "الدراسات الاجتماعية",
      "file": "files/tamim/hw/04-social-studies.pdf",
      "thumb": "files/tamim/thumbs/04-social-studies.jpg",
-     "due": "2026-11-14"
+     "due": "2026-11-21"
     },
     {
      "subject": "اللغة العربية",
      "file": "files/tamim/hw/05-arabic-for-arabs.pdf",
      "thumb": "files/tamim/thumbs/05-arabic-for-arabs.jpg",
-     "due": "2026-11-14"
+     "due": "2026-11-21"
     },
     {
      "subject": "تاريخ قطر",
      "file": "files/tamim/hw/06-qatar-history-for-arabs.pdf",
      "thumb": "files/tamim/thumbs/06-qatar-history-for-arabs.jpg",
-     "due": "2026-11-14"
+     "due": "2026-11-21"
     },
     {
      "subject": "التربية الإسلامية",
      "file": "files/tamim/hw/07-islamic-studies-for-arabs.pdf",
      "thumb": "files/tamim/thumbs/07-islamic-studies-for-arabs.jpg",
-     "due": "2026-11-14"
+     "due": "2026-11-21"
     }
    ],
    "topics": [
@@ -372,49 +372,49 @@ window.HOMEWORK = {
      "subject": "اللغة الإنجليزية",
      "file": "files/rashid/hw/01-english.pdf",
      "thumb": "files/rashid/thumbs/01-english.jpg",
-     "due": "2026-11-14"
+     "due": "2026-11-21"
     },
     {
      "subject": "الحاسوب ICT",
      "file": "files/rashid/hw/02-information-and-communication-technology.pdf",
      "thumb": "files/rashid/thumbs/02-information-and-communication-technology.jpg",
-     "due": "2026-11-14"
+     "due": "2026-11-21"
     },
     {
      "subject": "الرياضيات",
      "file": "files/rashid/hw/03-mathematics.pdf",
      "thumb": "files/rashid/thumbs/03-mathematics.jpg",
-     "due": "2026-11-14"
+     "due": "2026-11-21"
     },
     {
      "subject": "العلوم",
      "file": "files/rashid/hw/04-science.pdf",
      "thumb": "files/rashid/thumbs/04-science.jpg",
-     "due": "2026-11-14"
+     "due": "2026-11-21"
     },
     {
      "subject": "الدراسات الاجتماعية",
      "file": "files/rashid/hw/05-social-studies.pdf",
      "thumb": "files/rashid/thumbs/05-social-studies.jpg",
-     "due": "2026-11-14"
+     "due": "2026-11-21"
     },
     {
      "subject": "اللغة العربية",
      "file": "files/rashid/hw/06-arabic-for-arabs.pdf",
      "thumb": "files/rashid/thumbs/06-arabic-for-arabs.jpg",
-     "due": "2026-11-14"
+     "due": "2026-11-21"
     },
     {
      "subject": "تاريخ قطر",
      "file": "files/rashid/hw/07-qatar-history-for-arabs.pdf",
      "thumb": "files/rashid/thumbs/07-qatar-history-for-arabs.jpg",
-     "due": "2026-11-14"
+     "due": "2026-11-21"
     },
     {
      "subject": "التربية الإسلامية",
      "file": "files/rashid/hw/08-islamic-studies-for-arabs.pdf",
      "thumb": "files/rashid/thumbs/08-islamic-studies-for-arabs.jpg",
-     "due": "2026-11-14"
+     "due": "2026-11-21"
     }
    ],
    "topics": [
@@ -451,7 +451,7 @@ window.HOMEWORK = {
      "file": "files/rashid/topics/qatar-history-for-arabs-1.pdf"
     }
    ],
-   "onlineCount": 17,
+   "onlineCount": 16,
    "printFile": "files/print/rashid-homework.pdf",
    "topicsPrint": "files/print/rashid-exam-topics.pdf",
    "exams": [
