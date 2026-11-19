@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yehal-board//homework//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:تميم وراشد: يبدأ تحدي جدول الضرب ف
+ ي الصف
+X-WR-TIMEZONE:Asia/Qatar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:87def1ac13f9@yehal-board
+DTSTAMP:20261119T054102Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+TRANSP:TRANSPARENT
+SUMMARY:تميم وراشد: يبدأ تحدي جدول الضرب في ا
+ لصف
+DESCRIPTION:تميم: كل الجداول من 1 لين 10، شفهي وب
+ وقت، لين الخميس 26 نوفمبر. فيه شهادات.\nراش
+ د: جداول 1 و2 و5 و10، شفهي وبوقت، لين الخميس 
+ 26 نوفمبر. فيه شهادات.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة: يبدأ تحدي جدول الضرب في الصف
+TRIGGER:-PT4H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:اليوم: يبدأ تحدي جدول الضرب في الصف
+TRIGGER:PT6H30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yehal-board//homework//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:فاطمة: اجتماع أولياء الأمور مع معل
+ مة فاطمة
+X-WR-TIMEZONE:Asia/Qatar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:3c730ec9594a@yehal-board
+DTSTAMP:20261119T054102Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+TRANSP:TRANSPARENT
+SUMMARY:فاطمة: اجتماع أولياء الأمور مع معلمة 
+ فاطمة
+DESCRIPTION:الأحد من 2:00 لين 4:00 العصر في الروضة. 
+ تشوفين شغلها وتتكلمين مع المعلمة.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة: اجتماع أولياء الأمور مع معلم
+ ة فاطمة
+TRIGGER:-PT4H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:اليوم: اجتماع أولياء الأمور مع معل
+ مة فاطمة
+TRIGGER:PT6H30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

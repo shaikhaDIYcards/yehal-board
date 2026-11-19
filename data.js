@@ -1,5 +1,5 @@
 window.HOMEWORK = {
- "updated": "2026-11-15",
+ "updated": "2026-11-19",
  "week": {
   "from": "2026-11-15",
   "to": "2026-11-21"
@@ -87,6 +87,10 @@ window.HOMEWORK = {
     {
      "subject": "تاريخ قطر",
      "file": "files/tamim/topics/qatar-history-for-arabs-1.pdf"
+    },
+    {
+     "subject": "Quran",
+     "file": "files/tamim/topics/quran-exams.pdf"
     }
    ],
    "onlineCount": 17,
@@ -118,6 +122,38 @@ window.HOMEWORK = {
      ],
      "topicFile": "files/tamim/topics/information-and-communication-technology-1.pdf",
      "cal": "cal/e/0bbaea0e395a.ics"
+    },
+    {
+     "date": "2026-11-29",
+     "subject": "القرآن الكريم: حفظ 1",
+     "time": "الجدول ما فيه وقت",
+     "topics": [
+      "سورة القيامة",
+      "سورة المدثر"
+     ],
+     "topicFile": "files/tamim/topics/quran-exams.pdf",
+     "cal": "cal/e/965db50c7e7b.ics"
+    },
+    {
+     "date": "2026-11-30",
+     "subject": "القرآن الكريم: حفظ 2",
+     "time": "الجدول ما فيه وقت",
+     "topics": [
+      "سورة المزمل",
+      "سورة الجن من آية 1 لين 13"
+     ],
+     "topicFile": "files/tamim/topics/quran-exams.pdf",
+     "cal": "cal/e/8aba70c00d26.ics"
+    },
+    {
+     "date": "2026-12-01",
+     "subject": "القرآن الكريم: تلاوة",
+     "time": "الجدول ما فيه وقت",
+     "topics": [
+      "سورة نوح"
+     ],
+     "topicFile": "files/tamim/topics/quran-exams.pdf",
+     "cal": "cal/e/81cc9437f6b8.ics"
     },
     {
      "date": "2026-12-02",
@@ -351,7 +387,7 @@ window.HOMEWORK = {
      "سورة الإخلاص حفظ وتفسير (الامتحان الكتابي)"
     ]
    },
-   "quranDaily": "آية الكرسي وحديث فضائل الأعمال، وبعد الشفهي سورة الإخلاص",
+   "quranDaily": "امتحان القرآن من 29 نوفمبر: القيامة والمدثر والمزمل والجن (1 لين 13) ونوح، وللشفهي آية الكرسي وحديث فضائل الأعمال",
    "portalRevision": [
     "English revision booklet",
     "Science revision material",
@@ -449,6 +485,10 @@ window.HOMEWORK = {
     {
      "subject": "تاريخ قطر",
      "file": "files/rashid/topics/qatar-history-for-arabs-1.pdf"
+    },
+    {
+     "subject": "Quran",
+     "file": "files/rashid/topics/quran-exams.pdf"
     }
    ],
    "onlineCount": 16,
@@ -468,6 +508,28 @@ window.HOMEWORK = {
      "cal": "cal/e/e10ba20833e6.ics"
     },
     {
+     "date": "2026-11-29",
+     "subject": "القرآن الكريم: حفظ 1",
+     "time": "الجدول ما فيه وقت",
+     "topics": [
+      "سورة الطارق",
+      "سورة البروج"
+     ],
+     "topicFile": "files/rashid/topics/quran-exams.pdf",
+     "cal": "cal/e/81db5b659789.ics"
+    },
+    {
+     "date": "2026-11-30",
+     "subject": "القرآن الكريم: حفظ 2",
+     "time": "الجدول ما فيه وقت",
+     "topics": [
+      "سورة الانشقاق",
+      "سورة المطففين"
+     ],
+     "topicFile": "files/rashid/topics/quran-exams.pdf",
+     "cal": "cal/e/be515da08a62.ics"
+    },
+    {
      "date": "2026-12-01",
      "subject": "الحاسوب ICT",
      "time": "8:30 إلى 9:15 الصبح",
@@ -480,6 +542,21 @@ window.HOMEWORK = {
      ],
      "topicFile": "files/rashid/topics/information-and-communication-technology-1.pdf",
      "cal": "cal/e/4d4ab6708495.ics"
+    },
+    {
+     "date": "2026-12-01",
+     "subject": "القرآن الكريم: أسس التلاوة",
+     "time": "الجدول ما فيه وقت",
+     "topics": [
+      "حروف المد الصغيرة",
+      "مد اللين",
+      "مد العوض عن التنوين",
+      "مد البدل",
+      "المد الواجب المتصل",
+      "المد الجائز المنفصل"
+     ],
+     "topicFile": "files/rashid/topics/quran-exams.pdf",
+     "cal": "cal/e/640fb18b45b2.ics"
     },
     {
      "date": "2026-12-02",
@@ -706,7 +783,7 @@ window.HOMEWORK = {
      "تسميع حديث فضل التيامن (شفهي وكتابي)"
     ]
    },
-   "quranDaily": "سورة الكافرون وحديث فضل التيامن",
+   "quranDaily": "امتحان القرآن من 29 نوفمبر: الطارق والبروج والانشقاق والمطففين وأحكام المد، وللشفهي الكافرون وحديث التيامن",
    "portalRevision": [
     "Maths revision booklets",
     "الإجابات النموذجية لمراجعة التربية الإسلامية"
@@ -772,6 +849,28 @@ window.HOMEWORK = {
    "title": "رحلة فاطمة إلى Jungle Zone",
    "detail": "من 8:00 الصبح لين 12:30. الزي المدرسي، وغيارين ملابس في الشنطة.",
    "cal": "cal/e/b7641b83a3fc.ics"
+  },
+  {
+   "date": "2026-11-22",
+   "kids": [
+    "tamim",
+    "rashid"
+   ],
+   "title": "يبدأ تحدي جدول الضرب في الصف",
+   "detail": {
+    "tamim": "كل الجداول من 1 لين 10، شفهي وبوقت، لين الخميس 26 نوفمبر. فيه شهادات.",
+    "rashid": "جداول 1 و2 و5 و10، شفهي وبوقت، لين الخميس 26 نوفمبر. فيه شهادات."
+   },
+   "cal": "cal/e/87def1ac13f9.ics"
+  },
+  {
+   "date": "2026-11-22",
+   "kids": [
+    "fatima"
+   ],
+   "title": "اجتماع أولياء الأمور مع معلمة فاطمة",
+   "detail": "الأحد من 2:00 لين 4:00 العصر في الروضة. تشوفين شغلها وتتكلمين مع المعلمة.",
+   "cal": "cal/e/3c730ec9594a.ics"
   }
  ],
  "footer": "الملفات من بوابة المدرسة. الواجبات الأونلاين ما تنطبع، تنحل في البيت.",

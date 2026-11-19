@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:61d6828c5739@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261204
 TRANSP:TRANSPARENT
@@ -25,7 +25,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0bbaea0e395a@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261203
 TRANSP:TRANSPARENT
@@ -44,8 +44,55 @@ TRIGGER:-PT5H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:965db50c7e7b@yehal-board
+DTSTAMP:20261119T054102Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+TRANSP:TRANSPARENT
+SUMMARY:امتحان القرآن الكريم: حفظ 1، تميم
+DESCRIPTION:الجدول ما فيه وقت\n- سورة القيامة\n- 
+ سورة المدثر
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان القرآن الكريم: حفظ 1، ت
+ ميم
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8aba70c00d26@yehal-board
+DTSTAMP:20261119T054102Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+TRANSP:TRANSPARENT
+SUMMARY:امتحان القرآن الكريم: حفظ 2، تميم
+DESCRIPTION:الجدول ما فيه وقت\n- سورة المزمل\n- س
+ ورة الجن من آية 1 لين 13
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان القرآن الكريم: حفظ 2، ت
+ ميم
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:81cc9437f6b8@yehal-board
+DTSTAMP:20261119T054102Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+TRANSP:TRANSPARENT
+SUMMARY:امتحان القرآن الكريم: تلاوة، تميم
+DESCRIPTION:الجدول ما فيه وقت\n- سورة نوح
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان القرآن الكريم: تلاوة، 
+ تميم
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ba88e145ca53@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 TRANSP:TRANSPARENT
@@ -61,7 +108,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:af162bb433a8@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 TRANSP:TRANSPARENT
@@ -79,7 +126,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2b3a646bcf76@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 TRANSP:TRANSPARENT
@@ -97,7 +144,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d97d57df7c1c@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
@@ -115,7 +162,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:53bff2f8e571@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 TRANSP:TRANSPARENT
@@ -134,7 +181,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:afcaaee76a62@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 TRANSP:TRANSPARENT
@@ -153,7 +200,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:875e9fdb2443@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 TRANSP:TRANSPARENT
@@ -172,7 +219,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e18f7733c1e6@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 TRANSP:TRANSPARENT
@@ -195,7 +242,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:aaedc2118895@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 TRANSP:TRANSPARENT
@@ -214,15 +261,36 @@ TRIGGER:PT6H30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:87def1ac13f9@yehal-board
+DTSTAMP:20261119T054102Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+TRANSP:TRANSPARENT
+SUMMARY:تميم: يبدأ تحدي جدول الضرب في الصف
+DESCRIPTION:كل الجداول من 1 لين 10، شفهي وبوقت، ل
+ ين الخميس 26 نوفمبر. فيه شهادات.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة: يبدأ تحدي جدول الضرب في الصف
+TRIGGER:-PT4H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:اليوم: يبدأ تحدي جدول الضرب في الصف
+TRIGGER:PT6H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:6c8246d904fe@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261115T133000Z
 DTEND:20261115T143000Z
 SUMMARY:مذاكرة تميم: العربي
 DESCRIPTION:حفظ أول 4 أبيات من (إني رأيت نملة) وق
- راءة نص متحف الأطفال\nأول ربع ساعة قرآن: آ
- ية الكرسي وحديث فضائل الأعمال، وبعد الشف
- هي سورة الإخلاص
+ راءة نص متحف الأطفال\nأول ربع ساعة قرآن: ا
+ متحان القرآن من 29 نوفمبر: القيامة والمدث
+ ر والمزمل والجن (1 لين 13) ونوح، وللشفهي آي
+ ة الكرسي وحديث فضائل الأعمال
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -231,13 +299,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:52828261d0f7@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261116T133000Z
 DTEND:20261116T143000Z
 SUMMARY:مذاكرة تميم: Maths
 DESCRIPTION:Place value\, comparing and ordering\, rounding\nأول ربع 
- ساعة قرآن: آية الكرسي وحديث فضائل الأعما
- ل، وبعد الشفهي سورة الإخلاص
+ ساعة قرآن: امتحان القرآن من 29 نوفمبر: الق
+ يامة والمدثر والمزمل والجن (1 لين 13) ونوح،
+  وللشفهي آية الكرسي وحديث فضائل الأعمال
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -246,13 +315,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:69457a813a3d@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261117T133000Z
 DTEND:20261117T143000Z
 SUMMARY:مذاكرة تميم: English
 DESCRIPTION:Nouns\, adjectives\, verbs\, present and past tense\nأول ر
- بع ساعة قرآن: آية الكرسي وحديث فضائل الأع
- مال، وبعد الشفهي سورة الإخلاص
+ بع ساعة قرآن: امتحان القرآن من 29 نوفمبر: ا
+ لقيامة والمدثر والمزمل والجن (1 لين 13) ونو
+ ح، وللشفهي آية الكرسي وحديث فضائل الأعما
+ ل
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -261,13 +332,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:69772757c7ed@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261118T133000Z
 DTEND:20261118T143000Z
 SUMMARY:مذاكرة تميم: Science
-DESCRIPTION:Unit 1 Plants\nأول ربع ساعة قرآن: آية الكر
- سي وحديث فضائل الأعمال، وبعد الشفهي سورة
-  الإخلاص
+DESCRIPTION:Unit 1 Plants\nأول ربع ساعة قرآن: امتحان ا
+ لقرآن من 29 نوفمبر: القيامة والمدثر والمز
+ مل والجن (1 لين 13) ونوح، وللشفهي آية الكرس
+ ي وحديث فضائل الأعمال
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -276,13 +348,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d426a8b8efe1@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261119T133000Z
 DTEND:20261119T143000Z
 SUMMARY:مذاكرة تميم: SST
 DESCRIPTION:1.1–1.5 Who am I\, family functions and roles\nأول ربع 
- ساعة قرآن: آية الكرسي وحديث فضائل الأعما
- ل، وبعد الشفهي سورة الإخلاص
+ ساعة قرآن: امتحان القرآن من 29 نوفمبر: الق
+ يامة والمدثر والمزمل والجن (1 لين 13) ونوح،
+  وللشفهي آية الكرسي وحديث فضائل الأعمال
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -291,13 +364,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f8a835231a47@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261120T133000Z
 DTEND:20261120T143000Z
 SUMMARY:مذاكرة تميم: ICT
 DESCRIPTION:Theory: Know your computer\, Using Windows\nأول ربع سا
- عة قرآن: آية الكرسي وحديث فضائل الأعمال، 
- وبعد الشفهي سورة الإخلاص
+ عة قرآن: امتحان القرآن من 29 نوفمبر: القيا
+ مة والمدثر والمزمل والجن (1 لين 13) ونوح، و
+ للشفهي آية الكرسي وحديث فضائل الأعمال
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -306,13 +380,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:589247f59cad@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261121T133000Z
 DTEND:20261121T143000Z
 SUMMARY:مذاكرة تميم: Maths
 DESCRIPTION:Tally charts\, addition\, subtraction\, money\nأول ربع س
- اعة قرآن: آية الكرسي وحديث فضائل الأعمال
- ، وبعد الشفهي سورة الإخلاص
+ اعة قرآن: امتحان القرآن من 29 نوفمبر: القي
+ امة والمدثر والمزمل والجن (1 لين 13) ونوح، 
+ وللشفهي آية الكرسي وحديث فضائل الأعمال
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -321,13 +396,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9db4d8760c2c@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261122T133000Z
 DTEND:20261122T143000Z
 SUMMARY:مذاكرة تميم: English
 DESCRIPTION:Command verbs\, speech marks\, compound words\, noun phrases\n
- أول ربع ساعة قرآن: آية الكرسي وحديث فضائل
-  الأعمال، وبعد الشفهي سورة الإخلاص
+ أول ربع ساعة قرآن: امتحان القرآن من 29 نوف
+ مبر: القيامة والمدثر والمزمل والجن (1 لين 
+ 13) ونوح، وللشفهي آية الكرسي وحديث فضائل ا
+ لأعمال
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -336,13 +413,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:511b0a6f0e6d@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261123T133000Z
 DTEND:20261123T143000Z
 SUMMARY:مذاكرة تميم: Science
-DESCRIPTION:Unit 2 Mixing materials\nأول ربع ساعة قرآن: آي
- ة الكرسي وحديث فضائل الأعمال، وبعد الشفه
- ي سورة الإخلاص
+DESCRIPTION:Unit 2 Mixing materials\nأول ربع ساعة قرآن: ام
+ تحان القرآن من 29 نوفمبر: القيامة والمدثر 
+ والمزمل والجن (1 لين 13) ونوح، وللشفهي آية 
+ الكرسي وحديث فضائل الأعمال
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -351,14 +429,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5500fde95f40@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261124T133000Z
 DTEND:20261124T143000Z
 SUMMARY:مذاكرة تميم: العربي
 DESCRIPTION:الكلمة والجملة، والإملاء من كتيب ا
- لمراجعة\nأول ربع ساعة قرآن: آية الكرسي وح
- ديث فضائل الأعمال، وبعد الشفهي سورة الإخ
- لاص
+ لمراجعة\nأول ربع ساعة قرآن: امتحان القرآن
+  من 29 نوفمبر: القيامة والمدثر والمزمل وال
+ جن (1 لين 13) ونوح، وللشفهي آية الكرسي وحدي
+ ث فضائل الأعمال
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -367,14 +446,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9d52f88eefbd@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261125T133000Z
 DTEND:20261125T143000Z
 SUMMARY:مذاكرة تميم: ICT
 DESCRIPTION:العملي: Word و Paint، لأن امتحان ICT ممكن 
- يبدأ بكرة\nأول ربع ساعة قرآن: آية الكرسي و
- حديث فضائل الأعمال، وبعد الشفهي سورة الإ
- خلاص
+ يبدأ بكرة\nأول ربع ساعة قرآن: امتحان القر
+ آن من 29 نوفمبر: القيامة والمدثر والمزمل و
+ الجن (1 لين 13) ونوح، وللشفهي آية الكرسي وح
+ ديث فضائل الأعمال
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -383,13 +463,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e406bfd90dda@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261126T133000Z
 DTEND:20261126T143000Z
 SUMMARY:مذاكرة تميم: تاريخ قطر
 DESCRIPTION:الآثار في وطني والمتاحف في وطني\nأو
- ل ربع ساعة قرآن: آية الكرسي وحديث فضائل ا
- لأعمال، وبعد الشفهي سورة الإخلاص
+ ل ربع ساعة قرآن: امتحان القرآن من 29 نوفمب
+ ر: القيامة والمدثر والمزمل والجن (1 لين 13) 
+ ونوح، وللشفهي آية الكرسي وحديث فضائل الأ
+ عمال
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -398,13 +480,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b9d1db37e850@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261127T133000Z
 DTEND:20261127T143000Z
 SUMMARY:مذاكرة تميم: Maths
 DESCRIPTION:3D shapes\, multiples\, length\, fractions\, time\nأول رب
- ع ساعة قرآن: آية الكرسي وحديث فضائل الأعم
- ال، وبعد الشفهي سورة الإخلاص
+ ع ساعة قرآن: امتحان القرآن من 29 نوفمبر: ال
+ قيامة والمدثر والمزمل والجن (1 لين 13) ونوح
+ ، وللشفهي آية الكرسي وحديث فضائل الأعمال
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -413,13 +496,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e470c3df2efe@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261128T133000Z
 DTEND:20261128T143000Z
 SUMMARY:مذاكرة تميم: English
 DESCRIPTION:Pronouns\, connectives\, comprehension\, writing instructions\n
- أول ربع ساعة قرآن: آية الكرسي وحديث فضائل
-  الأعمال، وبعد الشفهي سورة الإخلاص
+ أول ربع ساعة قرآن: امتحان القرآن من 29 نوف
+ مبر: القيامة والمدثر والمزمل والجن (1 لين 
+ 13) ونوح، وللشفهي آية الكرسي وحديث فضائل ا
+ لأعمال
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -428,13 +513,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e2663f1e15ec@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261129T133000Z
 DTEND:20261129T143000Z
 SUMMARY:مذاكرة تميم: SST
 DESCRIPTION:1.6–2.4 Culture\, historical evidence\, early tribes\nأول 
- ربع ساعة قرآن: آية الكرسي وحديث فضائل الأ
- عمال، وبعد الشفهي سورة الإخلاص
+ ربع ساعة قرآن: امتحان القرآن من 29 نوفمبر: 
+ القيامة والمدثر والمزمل والجن (1 لين 13) ون
+ وح، وللشفهي آية الكرسي وحديث فضائل الأعم
+ ال
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -443,13 +530,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ccd5175f381f@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261130T133000Z
 DTEND:20261130T143000Z
 SUMMARY:مذاكرة تميم: الإسلامية
 DESCRIPTION:العقيدة والفقه والسيرة والآداب\nأو
- ل ربع ساعة قرآن: آية الكرسي وحديث فضائل ا
- لأعمال، وبعد الشفهي سورة الإخلاص
+ ل ربع ساعة قرآن: امتحان القرآن من 29 نوفمب
+ ر: القيامة والمدثر والمزمل والجن (1 لين 13) 
+ ونوح، وللشفهي آية الكرسي وحديث فضائل الأ
+ عمال
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -458,13 +547,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dc97c291b191@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261201T133000Z
 DTEND:20261201T143000Z
 SUMMARY:مذاكرة تميم: تاريخ قطر
 DESCRIPTION:مراجعة كاملة، الامتحان بكرة\nأول ر
- بع ساعة قرآن: آية الكرسي وحديث فضائل الأع
- مال، وبعد الشفهي سورة الإخلاص
+ بع ساعة قرآن: امتحان القرآن من 29 نوفمبر: ا
+ لقيامة والمدثر والمزمل والجن (1 لين 13) ونو
+ ح، وللشفهي آية الكرسي وحديث فضائل الأعما
+ ل
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -473,14 +564,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b946cf20a29b@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261202T133000Z
 DTEND:20261202T143000Z
 SUMMARY:مذاكرة تميم: Science
 DESCRIPTION:مراجعة كاملة وأسئلة Progression، الامتح
- ان بكرة\nأول ربع ساعة قرآن: آية الكرسي وحد
- يث فضائل الأعمال، وبعد الشفهي سورة الإخل
- اص
+ ان بكرة\nأول ربع ساعة قرآن: امتحان القرآن 
+ من 29 نوفمبر: القيامة والمدثر والمزمل وال
+ جن (1 لين 13) ونوح، وللشفهي آية الكرسي وحدي
+ ث فضائل الأعمال
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -489,13 +581,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:67f4c9115231@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261203T133000Z
 DTEND:20261203T143000Z
 SUMMARY:مذاكرة تميم: Maths
 DESCRIPTION:حل أوراق المراجعة Revision papers\nأول ربع
-  ساعة قرآن: آية الكرسي وحديث فضائل الأعما
- ل، وبعد الشفهي سورة الإخلاص
+  ساعة قرآن: امتحان القرآن من 29 نوفمبر: الق
+ يامة والمدثر والمزمل والجن (1 لين 13) ونوح،
+  وللشفهي آية الكرسي وحديث فضائل الأعمال
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -504,13 +597,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:af0889bb0e28@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261204T133000Z
 DTEND:20261204T143000Z
 SUMMARY:مذاكرة تميم: العربي
 DESCRIPTION:حل كتيب المراجعة\nأول ربع ساعة قرآن
- : آية الكرسي وحديث فضائل الأعمال، وبعد ال
- شفهي سورة الإخلاص
+ : امتحان القرآن من 29 نوفمبر: القيامة والم
+ دثر والمزمل والجن (1 لين 13) ونوح، وللشفهي 
+ آية الكرسي وحديث فضائل الأعمال
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -519,13 +613,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f24c88b332f7@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261205T133000Z
 DTEND:20261205T143000Z
 SUMMARY:مذاكرة تميم: English
 DESCRIPTION:مراجعة كاملة، الامتحان بكرة\nأول ر
- بع ساعة قرآن: آية الكرسي وحديث فضائل الأع
- مال، وبعد الشفهي سورة الإخلاص
+ بع ساعة قرآن: امتحان القرآن من 29 نوفمبر: ا
+ لقيامة والمدثر والمزمل والجن (1 لين 13) ونو
+ ح، وللشفهي آية الكرسي وحديث فضائل الأعما
+ ل
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -534,13 +630,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ad3ee001005b@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261206T133000Z
 DTEND:20261206T143000Z
 SUMMARY:مذاكرة تميم: Maths
 DESCRIPTION:مراجعة أخيرة، الامتحان بكرة\nأول ر
- بع ساعة قرآن: آية الكرسي وحديث فضائل الأع
- مال، وبعد الشفهي سورة الإخلاص
+ بع ساعة قرآن: امتحان القرآن من 29 نوفمبر: ا
+ لقيامة والمدثر والمزمل والجن (1 لين 13) ونو
+ ح، وللشفهي آية الكرسي وحديث فضائل الأعما
+ ل
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -549,13 +647,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecb258299e23@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261207T133000Z
 DTEND:20261207T143000Z
 SUMMARY:مذاكرة تميم: SST
 DESCRIPTION:مراجعة كاملة، الامتحان بكرة\nأول ر
- بع ساعة قرآن: آية الكرسي وحديث فضائل الأع
- مال، وبعد الشفهي سورة الإخلاص
+ بع ساعة قرآن: امتحان القرآن من 29 نوفمبر: ا
+ لقيامة والمدثر والمزمل والجن (1 لين 13) ونو
+ ح، وللشفهي آية الكرسي وحديث فضائل الأعما
+ ل
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -564,14 +664,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:07491a768ae6@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261208T133000Z
 DTEND:20261208T143000Z
 SUMMARY:مذاكرة تميم: العربي
 DESCRIPTION:القصيدة والإملاء والاستماع، الامت
- حان بكرة\nأول ربع ساعة قرآن: آية الكرسي وح
- ديث فضائل الأعمال، وبعد الشفهي سورة الإخ
- لاص
+ حان بكرة\nأول ربع ساعة قرآن: امتحان القرآ
+ ن من 29 نوفمبر: القيامة والمدثر والمزمل وا
+ لجن (1 لين 13) ونوح، وللشفهي آية الكرسي وحد
+ يث فضائل الأعمال
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم
@@ -580,14 +681,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3ae82bdac368@yehal-board
-DTSTAMP:20261115T062828Z
+DTSTAMP:20261119T054102Z
 DTSTART:20261209T133000Z
 DTEND:20261209T143000Z
 SUMMARY:مذاكرة تميم: الإسلامية
 DESCRIPTION:مراجعة كاملة وسورة الإخلاص، الامت
- حان بكرة\nأول ربع ساعة قرآن: آية الكرسي وح
- ديث فضائل الأعمال، وبعد الشفهي سورة الإخ
- لاص
+ حان بكرة\nأول ربع ساعة قرآن: امتحان القرآ
+ ن من 29 نوفمبر: القيامة والمدثر والمزمل وا
+ لجن (1 لين 13) ونوح، وللشفهي آية الكرسي وحد
+ يث فضائل الأعمال
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة تميم

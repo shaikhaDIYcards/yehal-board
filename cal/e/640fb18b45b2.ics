@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yehal-board//homework//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:امتحان القرآن الكريم: أسس التلاوة
+ ، راشد
+X-WR-TIMEZONE:Asia/Qatar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:640fb18b45b2@yehal-board
+DTSTAMP:20261119T054102Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+TRANSP:TRANSPARENT
+SUMMARY:امتحان القرآن الكريم: أسس التلاوة، ر
+ اشد
+DESCRIPTION:الجدول ما فيه وقت\n- حروف المد الصغي
+ رة\n- مد اللين\n- مد العوض عن التنوين\n- مد ا
+ لبدل\n- المد الواجب المتصل\n- المد الجائز ا
+ لمنفصل
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة امتحان القرآن الكريم: أسس الت
+ لاوة، راشد
+TRIGGER:-PT5H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
