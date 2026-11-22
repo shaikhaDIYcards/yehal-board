@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:61d6828c5739@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261127
 TRANSP:TRANSPARENT
@@ -25,7 +25,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0bbaea0e395a@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 TRANSP:TRANSPARENT
@@ -45,7 +45,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:965db50c7e7b@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 TRANSP:TRANSPARENT
@@ -61,7 +61,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8aba70c00d26@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 TRANSP:TRANSPARENT
@@ -77,7 +77,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:81cc9437f6b8@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 TRANSP:TRANSPARENT
@@ -92,7 +92,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ba88e145ca53@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 TRANSP:TRANSPARENT
@@ -108,7 +108,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:af162bb433a8@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 TRANSP:TRANSPARENT
@@ -126,7 +126,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2b3a646bcf76@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 TRANSP:TRANSPARENT
@@ -144,7 +144,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d97d57df7c1c@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
@@ -162,7 +162,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:53bff2f8e571@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 TRANSP:TRANSPARENT
@@ -181,7 +181,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:afcaaee76a62@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 TRANSP:TRANSPARENT
@@ -210,7 +210,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:875e9fdb2443@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 TRANSP:TRANSPARENT
@@ -229,7 +229,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e10ba20833e6@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261127
 TRANSP:TRANSPARENT
@@ -245,7 +245,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:81db5b659789@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 TRANSP:TRANSPARENT
@@ -261,7 +261,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:be515da08a62@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 TRANSP:TRANSPARENT
@@ -277,7 +277,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4d4ab6708495@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 TRANSP:TRANSPARENT
@@ -295,7 +295,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:640fb18b45b2@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 TRANSP:TRANSPARENT
@@ -314,7 +314,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f44bfe2aa835@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 TRANSP:TRANSPARENT
@@ -330,7 +330,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e80ee6f68969@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 TRANSP:TRANSPARENT
@@ -350,7 +350,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9e4c99ce1fd9@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 TRANSP:TRANSPARENT
@@ -369,7 +369,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2a7ed7993b59@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
@@ -397,7 +397,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:57f1e217a923@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 TRANSP:TRANSPARENT
@@ -415,7 +415,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:38bbf87b8488@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 TRANSP:TRANSPARENT
@@ -432,7 +432,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1a25b9f52d8f@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 TRANSP:TRANSPARENT
@@ -450,7 +450,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e18f7733c1e6@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 TRANSP:TRANSPARENT
@@ -474,7 +474,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ab4b7156a2e8@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 TRANSP:TRANSPARENT
@@ -496,7 +496,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b7641b83a3fc@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 TRANSP:TRANSPARENT
@@ -516,7 +516,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:aaedc2118895@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 TRANSP:TRANSPARENT
@@ -541,7 +541,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:87def1ac13f9@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 TRANSP:TRANSPARENT
@@ -564,7 +564,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3c730ec9594a@yehal-board
-DTSTAMP:20261121T121936Z
+DTSTAMP:20261122T054514Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 TRANSP:TRANSPARENT
@@ -583,860 +583,6 @@ ACTION:DISPLAY
 DESCRIPTION:اليوم: اجتماع أولياء الأمور مع معل
  مة فاطمة
 TRIGGER:PT6H30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:6c8246d904fe@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261115T133000Z
-DTEND:20261115T143000Z
-SUMMARY:مذاكرة تميم: العربي
-DESCRIPTION:حفظ أول 4 أبيات من (إني رأيت نملة) وق
- راءة نص متحف الأطفال\nأول ربع ساعة قرآن: ه
- الأسبوع (22 لين 26 نوفمبر) شفهي آية الكرسي و
- حديث فضائل الأعمال، وامتحان القرآن من 29 
- نوفمبر: القيامة والمدثر والمزمل والجن (1 
- لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:52828261d0f7@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261116T133000Z
-DTEND:20261116T143000Z
-SUMMARY:مذاكرة تميم: Maths
-DESCRIPTION:Place value\, comparing and ordering\, rounding\nأول ربع 
- ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شفهي 
- آية الكرسي وحديث فضائل الأعمال، وامتحان 
- القرآن من 29 نوفمبر: القيامة والمدثر والم
- زمل والجن (1 لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:69457a813a3d@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261117T133000Z
-DTEND:20261117T143000Z
-SUMMARY:مذاكرة تميم: English
-DESCRIPTION:Nouns\, adjectives\, verbs\, present and past tense\nأول ر
- بع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شف
- هي آية الكرسي وحديث فضائل الأعمال، وامتح
- ان القرآن من 29 نوفمبر: القيامة والمدثر وا
- لمزمل والجن (1 لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:69772757c7ed@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261118T133000Z
-DTEND:20261118T143000Z
-SUMMARY:مذاكرة تميم: Science
-DESCRIPTION:Unit 1 Plants\nأول ربع ساعة قرآن: هالأسبو
- ع (22 لين 26 نوفمبر) شفهي آية الكرسي وحديث ف
- ضائل الأعمال، وامتحان القرآن من 29 نوفمبر
- : القيامة والمدثر والمزمل والجن (1 لين 13) و
- نوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:d426a8b8efe1@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261119T133000Z
-DTEND:20261119T143000Z
-SUMMARY:مذاكرة تميم: SST
-DESCRIPTION:1.1–1.5 Who am I\, family functions and roles\nأول ربع 
- ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شفهي 
- آية الكرسي وحديث فضائل الأعمال، وامتحان 
- القرآن من 29 نوفمبر: القيامة والمدثر والم
- زمل والجن (1 لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f8a835231a47@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261120T133000Z
-DTEND:20261120T143000Z
-SUMMARY:مذاكرة تميم: ICT
-DESCRIPTION:Theory: Know your computer\, Using Windows\nأول ربع سا
- عة قرآن: هالأسبوع (22 لين 26 نوفمبر) شفهي آي
- ة الكرسي وحديث فضائل الأعمال، وامتحان ال
- قرآن من 29 نوفمبر: القيامة والمدثر والمزم
- ل والجن (1 لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:589247f59cad@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261121T133000Z
-DTEND:20261121T143000Z
-SUMMARY:مذاكرة تميم: Maths
-DESCRIPTION:Tally charts\, addition\, subtraction\, money\nأول ربع س
- اعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شفهي آ
- ية الكرسي وحديث فضائل الأعمال، وامتحان ا
- لقرآن من 29 نوفمبر: القيامة والمدثر والمز
- مل والجن (1 لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:9db4d8760c2c@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261122T133000Z
-DTEND:20261122T143000Z
-SUMMARY:مذاكرة تميم: English
-DESCRIPTION:Command verbs\, speech marks\, compound words\, noun phrases\n
- أول ربع ساعة قرآن: هالأسبوع (22 لين 26 نوفمب
- ر) شفهي آية الكرسي وحديث فضائل الأعمال، و
- امتحان القرآن من 29 نوفمبر: القيامة والمد
- ثر والمزمل والجن (1 لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:511b0a6f0e6d@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261123T133000Z
-DTEND:20261123T143000Z
-SUMMARY:مذاكرة تميم: Science
-DESCRIPTION:Unit 2 Mixing materials\nأول ربع ساعة قرآن: ها
- لأسبوع (22 لين 26 نوفمبر) شفهي آية الكرسي وح
- ديث فضائل الأعمال، وامتحان القرآن من 29 ن
- وفمبر: القيامة والمدثر والمزمل والجن (1 ل
- ين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:5500fde95f40@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261124T133000Z
-DTEND:20261124T143000Z
-SUMMARY:مذاكرة تميم: العربي
-DESCRIPTION:الكلمة والجملة، والإملاء من كتيب ا
- لمراجعة\nأول ربع ساعة قرآن: هالأسبوع (22 لي
- ن 26 نوفمبر) شفهي آية الكرسي وحديث فضائل ا
- لأعمال، وامتحان القرآن من 29 نوفمبر: القي
- امة والمدثر والمزمل والجن (1 لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:9d52f88eefbd@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261125T133000Z
-DTEND:20261125T143000Z
-SUMMARY:مذاكرة تميم: ICT
-DESCRIPTION:العملي: Word و Paint\nأول ربع ساعة قرآن: 
- هالأسبوع (22 لين 26 نوفمبر) شفهي آية الكرسي 
- وحديث فضائل الأعمال، وامتحان القرآن من 29
-  نوفمبر: القيامة والمدثر والمزمل والجن (1 
- لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:e406bfd90dda@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261126T133000Z
-DTEND:20261126T143000Z
-SUMMARY:مذاكرة تميم: تاريخ قطر
-DESCRIPTION:الآثار في وطني والمتاحف في وطني\nأو
- ل ربع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) 
- شفهي آية الكرسي وحديث فضائل الأعمال، وام
- تحان القرآن من 29 نوفمبر: القيامة والمدثر 
- والمزمل والجن (1 لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:b9d1db37e850@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261127T133000Z
-DTEND:20261127T143000Z
-SUMMARY:مذاكرة تميم: Maths
-DESCRIPTION:3D shapes\, multiples\, length\, fractions\, time\nأول رب
- ع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شفه
- ي آية الكرسي وحديث فضائل الأعمال، وامتحا
- ن القرآن من 29 نوفمبر: القيامة والمدثر وال
- مزمل والجن (1 لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:e470c3df2efe@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261128T133000Z
-DTEND:20261128T143000Z
-SUMMARY:مذاكرة تميم: English
-DESCRIPTION:Pronouns\, connectives\, comprehension\, writing instructions\n
- أول ربع ساعة قرآن: هالأسبوع (22 لين 26 نوفمب
- ر) شفهي آية الكرسي وحديث فضائل الأعمال، و
- امتحان القرآن من 29 نوفمبر: القيامة والمد
- ثر والمزمل والجن (1 لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:e2663f1e15ec@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261129T133000Z
-DTEND:20261129T143000Z
-SUMMARY:مذاكرة تميم: SST
-DESCRIPTION:1.6–2.4 Culture\, historical evidence\, early tribes\nأول 
- ربع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) ش
- فهي آية الكرسي وحديث فضائل الأعمال، وامت
- حان القرآن من 29 نوفمبر: القيامة والمدثر و
- المزمل والجن (1 لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ccd5175f381f@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261130T133000Z
-DTEND:20261130T143000Z
-SUMMARY:مذاكرة تميم: الإسلامية
-DESCRIPTION:العقيدة والفقه والسيرة والآداب\nأو
- ل ربع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) 
- شفهي آية الكرسي وحديث فضائل الأعمال، وام
- تحان القرآن من 29 نوفمبر: القيامة والمدثر 
- والمزمل والجن (1 لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:dc97c291b191@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261201T133000Z
-DTEND:20261201T143000Z
-SUMMARY:مذاكرة تميم: تاريخ قطر و ICT
-DESCRIPTION:مراجعة تاريخ قطر، وWord و Paint، الامتح
- انين بكرة\nأول ربع ساعة قرآن: هالأسبوع (22 
- لين 26 نوفمبر) شفهي آية الكرسي وحديث فضائل
-  الأعمال، وامتحان القرآن من 29 نوفمبر: الق
- يامة والمدثر والمزمل والجن (1 لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:b946cf20a29b@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261202T133000Z
-DTEND:20261202T143000Z
-SUMMARY:مذاكرة تميم: Science
-DESCRIPTION:مراجعة كاملة وأسئلة Progression، الامتح
- ان بكرة\nأول ربع ساعة قرآن: هالأسبوع (22 لي
- ن 26 نوفمبر) شفهي آية الكرسي وحديث فضائل ا
- لأعمال، وامتحان القرآن من 29 نوفمبر: القي
- امة والمدثر والمزمل والجن (1 لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:67f4c9115231@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261203T133000Z
-DTEND:20261203T143000Z
-SUMMARY:مذاكرة تميم: Maths
-DESCRIPTION:حل أوراق المراجعة Revision papers\nأول ربع
-  ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شفهي 
- آية الكرسي وحديث فضائل الأعمال، وامتحان 
- القرآن من 29 نوفمبر: القيامة والمدثر والم
- زمل والجن (1 لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:af0889bb0e28@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261204T133000Z
-DTEND:20261204T143000Z
-SUMMARY:مذاكرة تميم: العربي
-DESCRIPTION:حل كتيب المراجعة\nأول ربع ساعة قرآن
- : هالأسبوع (22 لين 26 نوفمبر) شفهي آية الكرس
- ي وحديث فضائل الأعمال، وامتحان القرآن من
-  29 نوفمبر: القيامة والمدثر والمزمل والجن 
- (1 لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f24c88b332f7@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261205T133000Z
-DTEND:20261205T143000Z
-SUMMARY:مذاكرة تميم: English
-DESCRIPTION:مراجعة كاملة، الامتحان بكرة\nأول ر
- بع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شف
- هي آية الكرسي وحديث فضائل الأعمال، وامتح
- ان القرآن من 29 نوفمبر: القيامة والمدثر وا
- لمزمل والجن (1 لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ad3ee001005b@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261206T133000Z
-DTEND:20261206T143000Z
-SUMMARY:مذاكرة تميم: Maths
-DESCRIPTION:مراجعة أخيرة، الامتحان بكرة\nأول ر
- بع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شف
- هي آية الكرسي وحديث فضائل الأعمال، وامتح
- ان القرآن من 29 نوفمبر: القيامة والمدثر وا
- لمزمل والجن (1 لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ecb258299e23@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261207T133000Z
-DTEND:20261207T143000Z
-SUMMARY:مذاكرة تميم: SST
-DESCRIPTION:مراجعة كاملة، الامتحان بكرة\nأول ر
- بع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شف
- هي آية الكرسي وحديث فضائل الأعمال، وامتح
- ان القرآن من 29 نوفمبر: القيامة والمدثر وا
- لمزمل والجن (1 لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:07491a768ae6@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261208T133000Z
-DTEND:20261208T143000Z
-SUMMARY:مذاكرة تميم: العربي
-DESCRIPTION:القصيدة والإملاء والاستماع، الامت
- حان بكرة\nأول ربع ساعة قرآن: هالأسبوع (22 ل
- ين 26 نوفمبر) شفهي آية الكرسي وحديث فضائل 
- الأعمال، وامتحان القرآن من 29 نوفمبر: الق
- يامة والمدثر والمزمل والجن (1 لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:3ae82bdac368@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261209T133000Z
-DTEND:20261209T143000Z
-SUMMARY:مذاكرة تميم: الإسلامية
-DESCRIPTION:مراجعة كاملة وسورة الإخلاص، الامت
- حان بكرة\nأول ربع ساعة قرآن: هالأسبوع (22 ل
- ين 26 نوفمبر) شفهي آية الكرسي وحديث فضائل 
- الأعمال، وامتحان القرآن من 29 نوفمبر: الق
- يامة والمدثر والمزمل والجن (1 لين 13) ونوح
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة تميم
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:4603d6aa29b8@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261115T133000Z
-DTEND:20261115T143000Z
-SUMMARY:مذاكرة راشد: Maths
-DESCRIPTION:Unit 1 Numbers to 100\nأول ربع ساعة قرآن: هال
- أسبوع (22 لين 26 نوفمبر) شفهي سورة الكافرون 
- وحديث فضل التيامن، وامتحان القرآن من 29 ن
- وفمبر: الطارق والبروج والانشقاق والمطفف
- ين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:75ef94d6afce@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261116T133000Z
-DTEND:20261116T143000Z
-SUMMARY:مذاكرة راشد: English
-DESCRIPTION:Unit 1 Friends and Families\nأول ربع ساعة قرآن: 
- هالأسبوع (22 لين 26 نوفمبر) شفهي سورة الكاف
- رون وحديث فضل التيامن، وامتحان القرآن من
-  29 نوفمبر: الطارق والبروج والانشقاق والم
- طففين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:11b86a9d9066@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261117T133000Z
-DTEND:20261117T143000Z
-SUMMARY:مذاكرة راشد: Science
-DESCRIPTION:Unit 1 Environments and habitats\nأول ربع ساعة قرآ
- ن: هالأسبوع (22 لين 26 نوفمبر) شفهي سورة الك
- افرون وحديث فضل التيامن، وامتحان القرآن 
- من 29 نوفمبر: الطارق والبروج والانشقاق وا
- لمطففين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:8b458a5c4fc9@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261118T133000Z
-DTEND:20261118T143000Z
-SUMMARY:مذاكرة راشد: العربي
-DESCRIPTION:الاستماع (في ميناء الدوحة البحري) و
- القراءة (الحمامة المطوقة)\nأول ربع ساعة ق
- رآن: هالأسبوع (22 لين 26 نوفمبر) شفهي سورة ا
- لكافرون وحديث فضل التيامن، وامتحان القر
- آن من 29 نوفمبر: الطارق والبروج والانشقاق 
- والمطففين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:c718e9aa42a9@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261119T133000Z
-DTEND:20261119T143000Z
-SUMMARY:مذاكرة راشد: SST
-DESCRIPTION:Family and culture\, groups and personal qualities\nأول رب
- ع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شفه
- ي سورة الكافرون وحديث فضل التيامن، وامتح
- ان القرآن من 29 نوفمبر: الطارق والبروج وال
- انشقاق والمطففين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:d41ea99fece6@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261120T133000Z
-DTEND:20261120T143000Z
-SUMMARY:مذاكرة راشد: ICT
-DESCRIPTION:Know your computer\, working with Windows\nأول ربع ساع
- ة قرآن: هالأسبوع (22 لين 26 نوفمبر) شفهي سور
- ة الكافرون وحديث فضل التيامن، وامتحان ال
- قرآن من 29 نوفمبر: الطارق والبروج والانشق
- اق والمطففين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:50ec2f78f2ec@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261121T133000Z
-DTEND:20261121T143000Z
-SUMMARY:مذاكرة راشد: Maths
-DESCRIPTION:Unit 2 Geometry\nأول ربع ساعة قرآن: هالأسب
- وع (22 لين 26 نوفمبر) شفهي سورة الكافرون وحد
- يث فضل التيامن، وامتحان القرآن من 29 نوفم
- بر: الطارق والبروج والانشقاق والمطففين و
- أحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:bfe7ec8541c2@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261122T133000Z
-DTEND:20261122T143000Z
-SUMMARY:مذاكرة راشد: English
-DESCRIPTION:Unit 2 Badges\nأول ربع ساعة قرآن: هالأسبو
- ع (22 لين 26 نوفمبر) شفهي سورة الكافرون وحدي
- ث فضل التيامن، وامتحان القرآن من 29 نوفمب
- ر: الطارق والبروج والانشقاق والمطففين وأ
- حكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:90f33521ddd9@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261123T133000Z
-DTEND:20261123T143000Z
-SUMMARY:مذاكرة راشد: Science
-DESCRIPTION:Unit 2 Forces and movement\nأول ربع ساعة قرآن: ه
- الأسبوع (22 لين 26 نوفمبر) شفهي سورة الكافر
- ون وحديث فضل التيامن، وامتحان القرآن من 2
- 9 نوفمبر: الطارق والبروج والانشقاق والمط
- ففين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:2b72d9fba8ee@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261124T133000Z
-DTEND:20261124T143000Z
-SUMMARY:مذاكرة راشد: العربي
-DESCRIPTION:القراءة الخارجية وباقي كتيب المرا
- جعة\nأول ربع ساعة قرآن: هالأسبوع (22 لين 26 ن
- وفمبر) شفهي سورة الكافرون وحديث فضل التي
- امن، وامتحان القرآن من 29 نوفمبر: الطارق و
- البروج والانشقاق والمطففين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:4b146f6e6c39@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261125T133000Z
-DTEND:20261125T143000Z
-SUMMARY:مذاكرة راشد: تاريخ قطر
-DESCRIPTION:الصدق والأمانة\nأول ربع ساعة قرآن: 
- هالأسبوع (22 لين 26 نوفمبر) شفهي سورة الكاف
- رون وحديث فضل التيامن، وامتحان القرآن من
-  29 نوفمبر: الطارق والبروج والانشقاق والم
- طففين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:531f045a73be@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261126T133000Z
-DTEND:20261126T143000Z
-SUMMARY:مذاكرة راشد: Maths
-DESCRIPTION:Units 3 and 4 Measures\, statistics\nأول ربع ساعة ق
- رآن: هالأسبوع (22 لين 26 نوفمبر) شفهي سورة ا
- لكافرون وحديث فضل التيامن، وامتحان القر
- آن من 29 نوفمبر: الطارق والبروج والانشقاق 
- والمطففين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:6ef0f9f414b0@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261127T133000Z
-DTEND:20261127T143000Z
-SUMMARY:مذاكرة راشد: English
-DESCRIPTION:Unit 3 All About Sounds\nأول ربع ساعة قرآن: ها
- لأسبوع (22 لين 26 نوفمبر) شفهي سورة الكافرو
- ن وحديث فضل التيامن، وامتحان القرآن من 29 
- نوفمبر: الطارق والبروج والانشقاق والمطف
- فين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:3e39e08cdbe6@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261128T133000Z
-DTEND:20261128T143000Z
-SUMMARY:مذاكرة راشد: Science
-DESCRIPTION:Units 3 and 4 Materials\, humans and animals\nأول ربع س
- اعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شفهي س
- ورة الكافرون وحديث فضل التيامن، وامتحان 
- القرآن من 29 نوفمبر: الطارق والبروج والان
- شقاق والمطففين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:18212d9e9fe1@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261129T133000Z
-DTEND:20261129T143000Z
-SUMMARY:مذاكرة راشد: الإسلامية
-DESCRIPTION:أركان الإسلام وأحكام الوضوء\nأول ر
- بع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شف
- هي سورة الكافرون وحديث فضل التيامن، وامت
- حان القرآن من 29 نوفمبر: الطارق والبروج وا
- لانشقاق والمطففين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:c5a659e7860f@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261130T133000Z
-DTEND:20261130T143000Z
-SUMMARY:مذاكرة راشد: ICT
-DESCRIPTION:Keyboard\, mouse\, Paint، الامتحان بكرة\nأول ر
- بع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شف
- هي سورة الكافرون وحديث فضل التيامن، وامت
- حان القرآن من 29 نوفمبر: الطارق والبروج وا
- لانشقاق والمطففين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f68b51d8ab7c@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261201T133000Z
-DTEND:20261201T143000Z
-SUMMARY:مذاكرة راشد: تاريخ قطر
-DESCRIPTION:مراجعة كاملة، الامتحان بكرة\nأول ر
- بع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شف
- هي سورة الكافرون وحديث فضل التيامن، وامت
- حان القرآن من 29 نوفمبر: الطارق والبروج وا
- لانشقاق والمطففين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f06c55535fd9@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261202T133000Z
-DTEND:20261202T143000Z
-SUMMARY:مذاكرة راشد: Maths
-DESCRIPTION:Money\, time\, patterns ومراجعة كاملة، الامت
- حان بكرة\nأول ربع ساعة قرآن: هالأسبوع (22 ل
- ين 26 نوفمبر) شفهي سورة الكافرون وحديث فضل
-  التيامن، وامتحان القرآن من 29 نوفمبر: الط
- ارق والبروج والانشقاق والمطففين وأحكام 
- المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:43d9df859906@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261203T133000Z
-DTEND:20261203T143000Z
-SUMMARY:مذاكرة راشد: SST
-DESCRIPTION:Culture in different places\, family tree\nأول ربع ساع
- ة قرآن: هالأسبوع (22 لين 26 نوفمبر) شفهي سور
- ة الكافرون وحديث فضل التيامن، وامتحان ال
- قرآن من 29 نوفمبر: الطارق والبروج والانشق
- اق والمطففين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:d5cdaf978d0b@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261204T133000Z
-DTEND:20261204T143000Z
-SUMMARY:مذاكرة راشد: العربي
-DESCRIPTION:حل كتيب المراجعة\nأول ربع ساعة قرآن
- : هالأسبوع (22 لين 26 نوفمبر) شفهي سورة الكا
- فرون وحديث فضل التيامن، وامتحان القرآن م
- ن 29 نوفمبر: الطارق والبروج والانشقاق وال
- مطففين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:07414c488e33@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261205T133000Z
-DTEND:20261205T143000Z
-SUMMARY:مذاكرة راشد: English
-DESCRIPTION:مراجعة كاملة، الامتحان بكرة\nأول ر
- بع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شف
- هي سورة الكافرون وحديث فضل التيامن، وامت
- حان القرآن من 29 نوفمبر: الطارق والبروج وا
- لانشقاق والمطففين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:0c58072a82bc@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261206T133000Z
-DTEND:20261206T143000Z
-SUMMARY:مذاكرة راشد: العربي
-DESCRIPTION:مراجعة أخيرة، الامتحان بكرة\nأول ر
- بع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شف
- هي سورة الكافرون وحديث فضل التيامن، وامت
- حان القرآن من 29 نوفمبر: الطارق والبروج وا
- لانشقاق والمطففين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:5e5db01b9710@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261207T133000Z
-DTEND:20261207T143000Z
-SUMMARY:مذاكرة راشد: Science
-DESCRIPTION:مراجعة كاملة، الامتحان بكرة\nأول ر
- بع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شف
- هي سورة الكافرون وحديث فضل التيامن، وامت
- حان القرآن من 29 نوفمبر: الطارق والبروج وا
- لانشقاق والمطففين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:36829608fec0@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261208T133000Z
-DTEND:20261208T143000Z
-SUMMARY:مذاكرة راشد: الإسلامية
-DESCRIPTION:سورة الكافرون والحديث ومراجعة كام
- لة، الامتحان بكرة\nأول ربع ساعة قرآن: هال
- أسبوع (22 لين 26 نوفمبر) شفهي سورة الكافرون 
- وحديث فضل التيامن، وامتحان القرآن من 29 ن
- وفمبر: الطارق والبروج والانشقاق والمطفف
- ين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:91ce4fcfeff1@yehal-board
-DTSTAMP:20261121T121936Z
-DTSTART:20261209T133000Z
-DTEND:20261209T143000Z
-SUMMARY:مذاكرة راشد: SST
-DESCRIPTION:مراجعة كاملة، الامتحان بكرة\nأول ر
- بع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شف
- هي سورة الكافرون وحديث فضل التيامن، وامت
- حان القرآن من 29 نوفمبر: الطارق والبروج وا
- لانشقاق والمطففين وأحكام المد
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:وقت مذاكرة راشد
-TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 END:VCALENDAR
