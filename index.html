@@ -226,6 +226,13 @@
   .exam .left{display:inline-block;font-size:14px;font-weight:600;color:var(--coral-d)}
   .exam.hot .left{color:#fff;background:var(--coral);padding:0 8px;border-radius:6px}
   .exam p{margin:8px 0 0;font-size:15px;color:#3B4663}
+  .ex-top{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:2px 10px}
+  .exam p.ex-when{margin:4px 0 0;font-size:14.5px}
+  .ex-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+  .chip.rv{background:var(--kw)}
+  .ex-more{display:inline-flex;align-items:center;gap:6px;width:auto;margin-top:10px;font-weight:600;font-size:14.5px;color:var(--kd)}
+  .exam + .exam{border-top:1.5px dashed rgba(29,43,79,.2);padding-top:14px}
+  .tier-exams .tier-h h3{background:linear-gradient(176deg,transparent 46%,var(--kw) 46% 86%,transparent 86%);padding:0 6px}
   .rest-btn{border:0;background:none;cursor:pointer;width:100%;padding:12px 42px 4px 0;text-align:inherit;font-family:var(--hand);font-weight:600;font-size:18px;color:var(--kd)}
 
   .done-box{margin-top:26px}
@@ -541,23 +548,10 @@
       const n = until(e.date); if (n < 0) return;
       out.push({kind:'event', id:'ev:' + e.date + ':' + e.title, check:true, title:e.title, when:rel(e.date), detail:detailFor(e, k.id), cal:e.cal, tier:tierOf(n), score:100 - n});
     });
-    const plan = k.plan || [];
-    const tp = plan.find(p => p.date === TODAY);
-    if (tp) out.push({kind:'study', id:'st:' + tp.date, check:true, title:'مذاكرة اليوم', subject:tp.subject, detail:tp.what, when:'ربع ساعة قرآن، وبعدها 45 دقيقة', tier:'now', score:90});
-    else {
-      const nx = plan.find(p => until(p.date) > 0);
-      if (nx) { const n = until(nx.date);
-        out.push({kind:'study', id:'st:' + nx.date, check:false, title:'مذاكرة ' + (n === 1 ? 'بكرة' : fmt(nx.date, true)), subject:nx.subject, detail:nx.what, when:'أول جلسة في الجدول', tier:tierOf(n), score:89 - n}); }
-    }
     if ((k.homework || []).length) out.push({kind:'hw', id:'hw', tier:'week', score:60});
-    if (k.quran) {
-      const oral = (k.exams || []).find(e => /^شفهي/.test(e.subject));
-      const s = oral ? until(oral.date) : 99, end = oral ? until(oral.dateEnd || oral.date) : -1;
-      out.push({kind:'quran', id:'quran', tier: end >= 0 && s <= 7 ? 'week' : 'later', score:55});
-    }
-    (k.exams || []).forEach((e, i) => {
+    (k.exams || []).map((e, i) => [e, i]).sort((x, y) => x[0].date.localeCompare(y[0].date)).forEach(([e, i]) => {
       const n = until(e.date), end = until(e.dateEnd || e.date);
-      if (end < 0 || /^شفهي/.test(e.subject)) return;
+      if (end < 0) return;
       const going = !!e.dateEnd && n <= 0;
       out.push({kind:'exam', id:'ex:' + i, exam:e, days:Math.max(n, 0), going, tier: going ? 'week' : tierOf(n), score: going ? 70 : 80 - n * 3});
     });
@@ -604,13 +598,15 @@
   function examRow(it, k, j){
     const e = it.exam, n = it.days, x = dt(e.date), open = expanded.has(xId(k.id, it.id)), en = e.topics.every(isLtr);
     const when = e.dateEnd ? 'من ' + fmt(e.date, true) + ' لين ' + fmt(e.dateEnd, true) : fmt(e.date, true);
+    const rv = (e.reviews || []).map(r => '<a class="chip rv" href="' + esc(r.file) + '" target="_blank" rel="noopener">' + ic(/حل/.test(r.label) ? 'star' : 'book') + esc(r.label) + '</a>');
+    if (e.topicFile) rv.push('<a class="chip" href="' + esc(e.topicFile) + '" target="_blank" rel="noopener">' + ic('open') + 'ورقة المدرسة</a>');
     return '<div class="exam' + (n <= 2 || it.going ? ' hot' : '') + '"><div class="calpage" style="--r:' + (tilt(j) * 2) + 'deg"><i>' + MONTHS[x.getMonth()] + '</i><b>' + x.getDate() + '</b><small>' + DAYS[x.getDay()] + '</small></div><div>' +
-      '<button class="xbtn' + (open ? ' open-x' : '') + '" data-x="' + esc(it.id) + '" aria-expanded="' + open + '"><span class="h4"><bdi>' + esc(e.subject) + '</bdi><span class="caret"></span></span>' +
-      '<span class="left">' + (it.going ? 'الحين في هالفترة' : left(n)) + '</span></button>' +
-      '<div class="x' + (open ? ' open' : '') + '"><div><p>' + esc(when) + '، ' + esc(e.time || '') + '</p><ul' + (en ? ' dir="ltr" class="en"' : '') + '>' + e.topics.map(t => '<li>' + esc(t) + '</li>').join('') + '</ul>' +
-      '<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px">' + (e.topicFile ? '<a class="chip" href="' + esc(e.topicFile) + '" target="_blank" rel="noopener">' + ic('open') + 'ورقة المدرسة</a>' : '') +
-      (e.reviews || []).map(r => '<a class="chip" href="' + esc(r.file) + '" target="_blank" rel="noopener">' + ic('open') + esc(r.label) + '</a>').join('') +
-      (e.cal ? '<a class="chip" href="' + esc(e.cal) + '">' + ic('cal') + 'للتقويم</a>' : '') + '</div></div></div></div></div>';
+      '<div class="ex-top"><span class="h4"><bdi>' + esc(e.subject) + '</bdi></span><span class="left">' + (it.going ? 'الحين في هالفترة' : left(n)) + '</span></div>' +
+      '<p class="ex-when">' + esc(when) + (e.time ? '، ' + esc(e.time) : '') + '</p>' +
+      (rv.length ? '<div class="ex-chips">' + rv.join('') + '</div>' : '') +
+      '<button class="xbtn ex-more' + (open ? ' open-x' : '') + '" data-x="' + esc(it.id) + '" aria-expanded="' + open + '">وش يدخل في الامتحان<span class="caret"></span></button>' +
+      '<div class="x' + (open ? ' open' : '') + '"><div><ul' + (en ? ' dir="ltr" class="en"' : '') + '>' + e.topics.map(t => '<li>' + esc(t) + '</li>').join('') + '</ul>' +
+      (e.cal ? '<div class="ex-chips"><a class="chip" href="' + esc(e.cal) + '">' + ic('cal') + 'للتقويم</a></div>' : '') + '</div></div></div></div>';
   }
 
   const TIERS = [
@@ -632,7 +628,6 @@
     if (k.topicsPrint) more.push('<button class="btn paper small" data-print="' + esc(k.topicsPrint) + '">' + ic('print') + 'مواضيع الامتحانات</button>');
     if (k.reviewPrint) more.push('<button class="btn paper small" data-print="' + esc(k.reviewPrint) + '">' + ic('print') + 'المراجعات</button>');
     if (k.arabicBooklet) more.push('<button class="btn paper small" data-print="' + esc(k.arabicBooklet) + '">' + ic('print') + 'مراجعة العربي</button>');
-    if ((k.plan || []).length) more.push('<button class="btn paper small" data-plan="' + k.id + '">' + ic('table') + 'جدول المذاكرة</button>');
     more.push('<button class="btn paper small" data-cal="' + k.id + '">' + ic('cal') + 'تقويم ' + esc(k.name) + '</button>');
     const mo = expanded.has(xId(k.id, 'more'));
     h += '<div class="lane-actions">' + (k.printFile
@@ -641,14 +636,17 @@
         : '<button class="btn kid big" data-cal="' + k.id + '">' + ic('cal') + 'فعاليات ' + esc(k.name) + ' في التقويم</button>') + '</div>' +
       (k.printFile ? '<div class="more' + (mo ? ' open' : '') + '"><div><div class="more-in">' + more.join('') + '</div></div></div>' : '');
 
-    const nx = (k.exams || []).filter(e => !/^شفهي/.test(e.subject) && until(e.date) >= 0)[0];
+    const nx = (k.exams || []).filter(e => !/^شفهي/.test(e.subject) && until(e.date) >= 0).sort((a, b) => a.date.localeCompare(b.date))[0];
     if (nx) { const n = until(nx.date);
       h += '<div class="count"><div class="circled"><b data-count="' + n + '">' + n + '</b>' + CIRCLED + '</div><div class="t">' + (n === 0 ? 'اليوم' : n === 1 ? 'بكرة' : n === 2 ? 'يومين' : n + (n <= 10 ? ' أيام' : ' يوم')) + ' على أول امتحان<strong><bdi>' + esc(nx.subject) + '</bdi></strong>' + esc(fmt(nx.date, true)) + '</div></div>';
     }
 
+    const exs = live.filter(it => it.kind === 'exam');
+    const examsHtml = exs.length ? '<section class="tier tier-exams"><div class="tier-h"><h3>الامتحانات والمراجعات</h3><span>' + exs.length + (exs.length <= 10 ? ' امتحانات' : ' امتحان') + '</span></div><div class="notebook">' + exs.map((it, j) => examRow(it, k, j)).join('') + '</div></section>' : '';
     TIERS.forEach(t => {
-      const list = live.filter(it => it.tier === t.id).sort((a, b) => b.score - a.score);
-      if (!list.length && t.id !== 'now') return;
+      if (t.id === 'week') { h += examsHtml; }
+      const list = live.filter(it => it.tier === t.id && it.kind !== 'exam').sort((a, b) => b.score - a.score);
+      if (!list.length && (t.id !== 'now' || exs.length)) return;
       h += '<section class="tier tier-' + t.id + '"><div class="tier-h"><h3>' + t.name + '</h3><span>' + t.hint + '</span></div>';
       if (!list.length) { h += '<p class="calm"><svg class="wob" viewBox="0 0 64 48" fill="none" stroke="' + INK + '" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-cloud"/></svg>ما في شي ضروري الحين. ارتاحوا.</p></section>'; return; }
       const exams = list.filter(it => it.kind === 'exam'), rest = list.filter(it => it.kind !== 'exam');
@@ -815,7 +813,7 @@
     const webcal = (base + 'cal/' + calWho + '.ics').replace(/^https?:/, 'webcal:');
     $('#calIos').href = webcal;
     $('#calGoogle').href = 'https://calendar.google.com/calendar/r?cid=' + encodeURIComponent(webcal);
-    $('#calNote').textContent = 'المذاكرة محطوطة كل يوم الساعة ' + (D.studyTime || '4:30') + ' العصر. في الآيفون، إذا طلع لج خيار (Remove Alerts) خليه طافي عشان توصلج التنبيهات.';
+    $('#calNote').textContent = 'فيه الامتحانات والفعاليات. في الآيفون، إذا طلع لج خيار (Remove Alerts) خليه طافي عشان توصلج التنبيهات.';
   }
   function openCal(who){ calWho = who || 'all'; calRender(); $('#calDlg').showModal(); }
 
