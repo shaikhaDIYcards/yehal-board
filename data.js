@@ -1,5 +1,5 @@
 window.HOMEWORK = {
- "updated": "2026-11-19",
+ "updated": "2026-11-21",
  "week": {
   "from": "2026-11-15",
   "to": "2026-11-21"
@@ -98,8 +98,8 @@ window.HOMEWORK = {
    "topicsPrint": "files/print/tamim-exam-topics.pdf",
    "exams": [
     {
-     "date": "2026-11-16",
-     "dateEnd": "2026-12-03",
+     "date": "2026-11-22",
+     "dateEnd": "2026-11-26",
      "subject": "شفهي التربية الإسلامية",
      "time": "خلال الحصص",
      "topics": [
@@ -110,10 +110,9 @@ window.HOMEWORK = {
      "cal": "cal/e/61d6828c5739.ics"
     },
     {
-     "date": "2026-11-26",
-     "dateEnd": "2026-12-02",
+     "date": "2026-12-02",
      "subject": "الحاسوب ICT",
-     "time": "يوم واحد في هالفترة، اليوم بالضبط في جدول ICT",
+     "time": "خلال الدوام (من 7:30 لين 1:10)، نفس يوم تاريخ قطر",
      "topics": [
       "Theory: Know your computer (p1–9): input, process, output, hardware vs software",
       "Theory: Using Windows (p10–24): desktop, taskbar, Start, icons, parts of a window, shutting down",
@@ -121,7 +120,21 @@ window.HOMEWORK = {
       "Practical: Paint (p40–63): shapes, colours, brushes, select, eraser, text tool, bold and italic"
      ],
      "topicFile": "files/tamim/topics/information-and-communication-technology-1.pdf",
-     "cal": "cal/e/0bbaea0e395a.ics"
+     "cal": "cal/e/0bbaea0e395a.ics",
+     "reviews": [
+      {
+       "label": "المراجعة",
+       "file": "files/tamim/rev/ict.pdf"
+      },
+      {
+       "label": "حل المراجعة",
+       "file": "files/tamim/rev/ict-answers.pdf"
+      },
+      {
+       "label": "ملخص المراجعة",
+       "file": "files/tamim/rev/ict-overview.pdf"
+      }
+     ]
     },
     {
      "date": "2026-11-29",
@@ -164,19 +177,39 @@ window.HOMEWORK = {
       "الدرس الرابع: المتاحف في وطني، ص45 إلى 51"
      ],
      "topicFile": "files/tamim/topics/qatar-history-for-arabs-1.pdf",
-     "cal": "cal/e/ba88e145ca53.ics"
+     "cal": "cal/e/ba88e145ca53.ics",
+     "reviews": [
+      {
+       "label": "المراجعة",
+       "file": "files/tamim/rev/qatar-history.pdf"
+      },
+      {
+       "label": "حل المراجعة",
+       "file": "files/tamim/rev/qatar-history-answers.pdf"
+      }
+     ]
     },
     {
      "date": "2026-12-03",
      "subject": "العلوم Science",
-     "time": "8:00 إلى 9:30 الصبح",
+     "time": "8:00 إلى 10:00 الصبح",
      "topics": [
       "Unit 1 Plants (LB p2–34): living or not, plant parts, plants and light, growth and temperature",
       "Unit 2 Mixing materials (LB p35–59): solids, liquids and gases, separating mixtures, dissolving, filtering, materials from rocks",
       "Progression test questions"
      ],
      "topicFile": "files/tamim/topics/science-1.pdf",
-     "cal": "cal/e/af162bb433a8.ics"
+     "cal": "cal/e/af162bb433a8.ics",
+     "reviews": [
+      {
+       "label": "المراجعة",
+       "file": "files/tamim/rev/science.pdf"
+      },
+      {
+       "label": "حل المراجعة",
+       "file": "files/tamim/rev/science-answers.pdf"
+      }
+     ]
     },
     {
      "date": "2026-12-06",
@@ -191,7 +224,17 @@ window.HOMEWORK = {
       "Writing: an instruction text"
      ],
      "topicFile": "files/tamim/topics/english-1.pdf",
-     "cal": "cal/e/2b3a646bcf76.ics"
+     "cal": "cal/e/2b3a646bcf76.ics",
+     "reviews": [
+      {
+       "label": "المراجعة",
+       "file": "files/tamim/rev/english.pdf"
+      },
+      {
+       "label": "حل المراجعة",
+       "file": "files/tamim/rev/english-answers.pdf"
+      }
+     ]
     },
     {
      "date": "2026-12-07",
@@ -207,12 +250,22 @@ window.HOMEWORK = {
       "Revision papers"
      ],
      "topicFile": "files/tamim/topics/mathematics-1.pdf",
-     "cal": "cal/e/d97d57df7c1c.ics"
+     "cal": "cal/e/d97d57df7c1c.ics",
+     "reviews": [
+      {
+       "label": "المراجعة",
+       "file": "files/tamim/rev/maths.pdf"
+      },
+      {
+       "label": "حل المراجعة",
+       "file": "files/tamim/rev/maths-answers.pdf"
+      }
+     ]
     },
     {
      "date": "2026-12-08",
      "subject": "الدراسات الاجتماعية SST",
-     "time": "8:00 إلى 9:30 الصبح",
+     "time": "8:00 إلى 10:00 الصبح",
      "topics": [
       "1.1–1.3 Who am I, what can I offer, personal goals (p4–9)",
       "1.4–1.5 Functions and roles of the family (p10–13)",
@@ -220,7 +273,17 @@ window.HOMEWORK = {
       "2.1–2.4 Historical evidence, local history, early history, early tribes and trade (p22–29)"
      ],
      "topicFile": "files/tamim/topics/social-studies-1.pdf",
-     "cal": "cal/e/53bff2f8e571.ics"
+     "cal": "cal/e/53bff2f8e571.ics",
+     "reviews": [
+      {
+       "label": "المراجعة",
+       "file": "files/tamim/rev/sst.pdf"
+      },
+      {
+       "label": "حل المراجعة",
+       "file": "files/tamim/rev/sst-answers.pdf"
+      }
+     ]
     },
     {
      "date": "2026-12-09",
@@ -228,18 +291,26 @@ window.HOMEWORK = {
      "time": "8:00 إلى 10:00 الصبح (الورقتين نفس اليوم)",
      "topics": [
       "الحفظ: أول 4 أبيات من قصيدة (إني رأيت نملة)",
-      "القراءة: نص (متحف الأطفال في قطر) والقصيدة",
-      "الكلمة والجملة",
-      "الورقة الأولى: استماع وإملاء",
-      "كتيب المراجعة كامل (14 صفحة)"
+      "القراءة: نص (متحف الأطفال في قطر)، ونص شعري خارجي يشبه القصيدة",
+      "الاستماع: نص خارجي يشبه نص استماع الوحدة الرابعة (الدلافين)",
+      "الإملاء: قطعة حوالي 20 كلمة (الحركات الطويلة والقصيرة، التاء المربوطة والمفتوحة، الشدة، اللام الشمسية)، والخط: جملة بخط النسخ",
+      "التدريبات: حروف العطف (الواو، ثم) وأسماء الإشارة، والكتابة: نص إجرائي",
+      "كتيب المراجعة كامل (14 صفحة)",
+      "الشفهي والتحدث يكون في الأسبوع اللي قبل الامتحانات الكتابية (اليوم ما انحدد): تسميع أول 4 أبيات من القصيدة، قراءة أول فقرة من نص (كيف تصنع حصالة نقود؟)، والتحدث عن (كيف تصنع سلطة فاكهة؟) أو (كيف تزرع نبتة؟)"
      ],
      "topicFile": "files/tamim/topics/arabic-for-arabs-1.pdf",
-     "cal": "cal/e/afcaaee76a62.ics"
+     "cal": "cal/e/afcaaee76a62.ics",
+     "reviews": [
+      {
+       "label": "حل المراجعة",
+       "file": "files/tamim/rev/arabic-answers.pdf"
+      }
+     ]
     },
     {
      "date": "2026-12-10",
      "subject": "التربية الإسلامية",
-     "time": "8:00 إلى 9:30 الصبح",
+     "time": "8:00 إلى 10:00 الصبح",
      "topics": [
       "القرآن: سورة الإخلاص",
       "الحديث: فضائل الأعمال",
@@ -249,7 +320,17 @@ window.HOMEWORK = {
       "الآداب: محبة الله تعالى"
      ],
      "topicFile": "files/tamim/topics/islamic-studies-for-arabs-1.pdf",
-     "cal": "cal/e/875e9fdb2443.ics"
+     "cal": "cal/e/875e9fdb2443.ics",
+     "reviews": [
+      {
+       "label": "المراجعة",
+       "file": "files/tamim/rev/islamic.pdf"
+      },
+      {
+       "label": "حل المراجعة",
+       "file": "files/tamim/rev/islamic-answers.pdf"
+      }
+     ]
     }
    ],
    "plan": [
@@ -306,7 +387,7 @@ window.HOMEWORK = {
     {
      "date": "2026-11-25",
      "subject": "ICT",
-     "what": "العملي: Word و Paint، لأن امتحان ICT ممكن يبدأ بكرة"
+     "what": "العملي: Word و Paint"
     },
     {
      "date": "2026-11-26",
@@ -335,8 +416,8 @@ window.HOMEWORK = {
     },
     {
      "date": "2026-12-01",
-     "subject": "تاريخ قطر",
-     "what": "مراجعة كاملة، الامتحان بكرة"
+     "subject": "تاريخ قطر و ICT",
+     "what": "مراجعة تاريخ قطر، وWord و Paint، الامتحانين بكرة"
     },
     {
      "date": "2026-12-02",
@@ -380,14 +461,14 @@ window.HOMEWORK = {
     }
    ],
    "quran": {
-    "oral": "الشفهي من الاثنين 16 نوفمبر لين الخميس 3 ديسمبر",
+    "oral": "الشفهي من الأحد 22 نوفمبر لين الخميس 26 نوفمبر",
     "items": [
      "تسميع آية الكرسي (شفهي)",
      "تسميع حديث فضائل الأعمال (شفهي)",
      "سورة الإخلاص حفظ وتفسير (الامتحان الكتابي)"
     ]
    },
-   "quranDaily": "امتحان القرآن من 29 نوفمبر: القيامة والمدثر والمزمل والجن (1 لين 13) ونوح، وللشفهي آية الكرسي وحديث فضائل الأعمال",
+   "quranDaily": "هالأسبوع (22 لين 26 نوفمبر) شفهي آية الكرسي وحديث فضائل الأعمال، وامتحان القرآن من 29 نوفمبر: القيامة والمدثر والمزمل والجن (1 لين 13) ونوح",
    "portalRevision": [
     "English revision booklet",
     "Science revision material",
@@ -395,7 +476,8 @@ window.HOMEWORK = {
     "ICT revision material",
     "مراجعة التربية الإسلامية والإجابات النموذجية"
    ],
-   "arabicBooklet": "files/tamim/topics/arabic-for-arabs-1.pdf"
+   "arabicBooklet": "files/tamim/topics/arabic-for-arabs-1.pdf",
+   "reviewPrint": "files/print/tamim-revision.pdf"
   },
   {
    "id": "rashid",
@@ -496,8 +578,8 @@ window.HOMEWORK = {
    "topicsPrint": "files/print/rashid-exam-topics.pdf",
    "exams": [
     {
-     "date": "2026-11-16",
-     "dateEnd": "2026-12-03",
+     "date": "2026-11-22",
+     "dateEnd": "2026-11-26",
      "subject": "شفهي التربية الإسلامية",
      "time": "خلال الحصص",
      "topics": [
@@ -567,7 +649,17 @@ window.HOMEWORK = {
       "الدرس الرابع: الأمانة، ص33 إلى 38"
      ],
      "topicFile": "files/rashid/topics/qatar-history-for-arabs-1.pdf",
-     "cal": "cal/e/f44bfe2aa835.ics"
+     "cal": "cal/e/f44bfe2aa835.ics",
+     "reviews": [
+      {
+       "label": "المراجعة",
+       "file": "files/rashid/rev/qatar-history.pdf"
+      },
+      {
+       "label": "حل المراجعة",
+       "file": "files/rashid/rev/qatar-history-answers.pdf"
+      }
+     ]
     },
     {
      "date": "2026-12-03",
@@ -587,7 +679,7 @@ window.HOMEWORK = {
     {
      "date": "2026-12-06",
      "subject": "الإنجليزي English",
-     "time": "8:30 إلى 9:15 الصبح",
+     "time": "8:30 إلى 9:30 الصبح",
      "topics": [
       "Unit 1 Friends and Families (LB p10–45): prefixes and suffixes, commas in lists, -ed and -ing, connectives, story writing",
       "Unit 2 Badges (LB p46–78): signs, syllables, command verbs, flowcharts, fiction and non-fiction, plurals",
@@ -601,13 +693,22 @@ window.HOMEWORK = {
      "subject": "اللغة العربية",
      "time": "8:30 إلى 9:30 الصبح",
      "topics": [
-      "الاستماع: نص (في ميناء الدوحة البحري)",
-      "القراءة: نص (الحمامة المطوقة) الجزء الأول والثاني",
-      "القراءة الخارجية",
-      "باقي كتيب المراجعة (18 صفحة)"
+      "الاستماع: نص خارجي يشبه نص استماع الوحدة الثالثة (مطار حمد الدولي)",
+      "القراءة: نص (الحمامة المطوقة) أسئلة ومعاني كلمات، ونص خارجي يشبهه",
+      "القواعد: النهي بـ لا، المفرد والمثنى والجمع، الفعل المضارع، أسماء الإشارة",
+      "الإملاء: قطعة حوالي 10 كلمات (التنوين، التاء المربوطة والمفتوحة، الشدة، اللام الشمسية)، والخط: جملة بخط النسخ",
+      "الكتابة: من صفحة 64 لين 116، والتعبير عن صورة بجملة مفيدة",
+      "باقي كتيب المراجعة (18 صفحة)",
+      "الشفهي والتحدث يكون في الأسبوع اللي قبل الامتحانات الكتابية (اليوم ما انحدد): قراءة أول فقرة من نص (سمو الأمير الوالد)، والتحدث عن (من معالم وطني)"
      ],
      "topicFile": "files/rashid/topics/arabic-for-arabs-1.pdf",
-     "cal": "cal/e/2a7ed7993b59.ics"
+     "cal": "cal/e/2a7ed7993b59.ics",
+     "reviews": [
+      {
+       "label": "حل المراجعة",
+       "file": "files/rashid/rev/arabic-answers.pdf"
+      }
+     ]
     },
     {
      "date": "2026-12-08",
@@ -633,7 +734,13 @@ window.HOMEWORK = {
       "الفقه: أحكام الوضوء"
      ],
      "topicFile": "files/rashid/topics/islamic-studies-for-arabs-1.pdf",
-     "cal": "cal/e/38bbf87b8488.ics"
+     "cal": "cal/e/38bbf87b8488.ics",
+     "reviews": [
+      {
+       "label": "حل المراجعة",
+       "file": "files/rashid/rev/islamic-answers.pdf"
+      }
+     ]
     },
     {
      "date": "2026-12-10",
@@ -777,18 +884,19 @@ window.HOMEWORK = {
     }
    ],
    "quran": {
-    "oral": "الشفهي من الاثنين 16 نوفمبر لين الخميس 3 ديسمبر",
+    "oral": "الشفهي من الأحد 22 نوفمبر لين الخميس 26 نوفمبر",
     "items": [
      "تسميع سورة الكافرون (شفهي وكتابي)",
      "تسميع حديث فضل التيامن (شفهي وكتابي)"
     ]
    },
-   "quranDaily": "امتحان القرآن من 29 نوفمبر: الطارق والبروج والانشقاق والمطففين وأحكام المد، وللشفهي الكافرون وحديث التيامن",
+   "quranDaily": "هالأسبوع (22 لين 26 نوفمبر) شفهي سورة الكافرون وحديث فضل التيامن، وامتحان القرآن من 29 نوفمبر: الطارق والبروج والانشقاق والمطففين وأحكام المد",
    "portalRevision": [
     "Maths revision booklets",
     "الإجابات النموذجية لمراجعة التربية الإسلامية"
    ],
-   "arabicBooklet": "files/rashid/topics/arabic-for-arabs-1.pdf"
+   "arabicBooklet": "files/rashid/topics/arabic-for-arabs-1.pdf",
+   "reviewPrint": "files/print/rashid-revision.pdf"
   },
   {
    "id": "fatima",
@@ -829,19 +937,6 @@ window.HOMEWORK = {
    "cal": "cal/e/ab4b7156a2e8.ics"
   },
   {
-   "date": "2026-11-16",
-   "kids": [
-    "tamim",
-    "rashid"
-   ],
-   "title": "يبدأ شفهي التربية الإسلامية",
-   "detail": {
-    "tamim": "تسميع آية الكرسي وحديث فضائل الأعمال، لين 3 ديسمبر.",
-    "rashid": "تسميع سورة الكافرون وحديث فضل التيامن، لين 3 ديسمبر."
-   },
-   "cal": "cal/e/aaedc2118895.ics"
-  },
-  {
    "date": "2026-11-19",
    "kids": [
     "fatima"
@@ -849,6 +944,19 @@ window.HOMEWORK = {
    "title": "رحلة فاطمة إلى Jungle Zone",
    "detail": "من 8:00 الصبح لين 12:30. الزي المدرسي، وغيارين ملابس في الشنطة.",
    "cal": "cal/e/b7641b83a3fc.ics"
+  },
+  {
+   "date": "2026-11-22",
+   "kids": [
+    "tamim",
+    "rashid"
+   ],
+   "title": "يبدأ شفهي التربية الإسلامية",
+   "detail": {
+    "tamim": "تسميع آية الكرسي وحديث فضائل الأعمال، لين الخميس 26 نوفمبر. ما فيه يوم محدد، خلّه جاهز من أول يوم.",
+    "rashid": "تسميع سورة الكافرون وحديث فضل التيامن، لين الخميس 26 نوفمبر. ما فيه يوم محدد، خلّه جاهز من أول يوم."
+   },
+   "cal": "cal/e/aaedc2118895.ics"
   },
   {
    "date": "2026-11-22",

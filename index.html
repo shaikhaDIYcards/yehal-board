@@ -609,6 +609,7 @@
       '<span class="left">' + (it.going ? 'الحين في هالفترة' : left(n)) + '</span></button>' +
       '<div class="x' + (open ? ' open' : '') + '"><div><p>' + esc(when) + '، ' + esc(e.time || '') + '</p><ul' + (en ? ' dir="ltr" class="en"' : '') + '>' + e.topics.map(t => '<li>' + esc(t) + '</li>').join('') + '</ul>' +
       '<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:10px">' + (e.topicFile ? '<a class="chip" href="' + esc(e.topicFile) + '" target="_blank" rel="noopener">' + ic('open') + 'ورقة المدرسة</a>' : '') +
+      (e.reviews || []).map(r => '<a class="chip" href="' + esc(r.file) + '" target="_blank" rel="noopener">' + ic('open') + esc(r.label) + '</a>').join('') +
       (e.cal ? '<a class="chip" href="' + esc(e.cal) + '">' + ic('cal') + 'للتقويم</a>' : '') + '</div></div></div></div></div>';
   }
 
@@ -629,6 +630,7 @@
 
     const more = [];
     if (k.topicsPrint) more.push('<button class="btn paper small" data-print="' + esc(k.topicsPrint) + '">' + ic('print') + 'مواضيع الامتحانات</button>');
+    if (k.reviewPrint) more.push('<button class="btn paper small" data-print="' + esc(k.reviewPrint) + '">' + ic('print') + 'المراجعات</button>');
     if (k.arabicBooklet) more.push('<button class="btn paper small" data-print="' + esc(k.arabicBooklet) + '">' + ic('print') + 'مراجعة العربي</button>');
     if ((k.plan || []).length) more.push('<button class="btn paper small" data-plan="' + k.id + '">' + ic('table') + 'جدول المذاكرة</button>');
     more.push('<button class="btn paper small" data-cal="' + k.id + '">' + ic('cal') + 'تقويم ' + esc(k.name) + '</button>');
