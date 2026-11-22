@@ -9,9 +9,9 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:e10ba20833e6@yehal-board
-DTSTAMP:20261119T054102Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261204
+DTSTAMP:20261121T121936Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261127
 TRANSP:TRANSPARENT
 SUMMARY:شفهي التربية الإسلامية، راشد
 DESCRIPTION:خلال الحصص\n- تسميع سورة الكافرون\n- 
@@ -25,7 +25,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:81db5b659789@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 TRANSP:TRANSPARENT
@@ -41,7 +41,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:be515da08a62@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 TRANSP:TRANSPARENT
@@ -57,7 +57,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4d4ab6708495@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 TRANSP:TRANSPARENT
@@ -75,7 +75,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:640fb18b45b2@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 TRANSP:TRANSPARENT
@@ -94,7 +94,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f44bfe2aa835@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 TRANSP:TRANSPARENT
@@ -110,7 +110,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e80ee6f68969@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 TRANSP:TRANSPARENT
@@ -130,12 +130,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9e4c99ce1fd9@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 TRANSP:TRANSPARENT
 SUMMARY:امتحان الإنجليزي English، راشد
-DESCRIPTION:8:30 إلى 9:15 الصبح\n- Unit 1 Friends and Families (LB 
+DESCRIPTION:8:30 إلى 9:30 الصبح\n- Unit 1 Friends and Families (LB 
  p10–45): prefixes and suffixes\, commas in lists\, -ed and -ing\, connec
  tives\, story writing\n- Unit 2 Badges (LB p46–78): signs\, syllables\, 
  command verbs\, flowcharts\, fiction and non-fiction\, plurals\n- Unit 3 A
@@ -149,15 +149,26 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2a7ed7993b59@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 TRANSP:TRANSPARENT
 SUMMARY:امتحان اللغة العربية، راشد
-DESCRIPTION:8:30 إلى 9:30 الصبح\n- الاستماع: نص (في م
- يناء الدوحة البحري)\n- القراءة: نص (الحمام
- ة المطوقة) الجزء الأول والثاني\n- القراءة 
- الخارجية\n- باقي كتيب المراجعة (18 صفحة)
+DESCRIPTION:8:30 إلى 9:30 الصبح\n- الاستماع: نص خارج
+ ي يشبه نص استماع الوحدة الثالثة (مطار حمد
+  الدولي)\n- القراءة: نص (الحمامة المطوقة) أ
+ سئلة ومعاني كلمات، ونص خارجي يشبهه\n- الق
+ واعد: النهي بـ لا، المفرد والمثنى والجمع
+ ، الفعل المضارع، أسماء الإشارة\n- الإملاء
+ : قطعة حوالي 10 كلمات (التنوين، التاء المر
+ بوطة والمفتوحة، الشدة، اللام الشمسية)، و
+ الخط: جملة بخط النسخ\n- الكتابة: من صفحة 64 
+ لين 116، والتعبير عن صورة بجملة مفيدة\n- با
+ قي كتيب المراجعة (18 صفحة)\n- الشفهي والتحد
+ ث يكون في الأسبوع اللي قبل الامتحانات ال
+ كتابية (اليوم ما انحدد): قراءة أول فقرة من
+  نص (سمو الأمير الوالد)، والتحدث عن (من مع
+ الم وطني)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:بكرة امتحان اللغة العربية، راشد
@@ -166,7 +177,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:57f1e217a923@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 TRANSP:TRANSPARENT
@@ -184,7 +195,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:38bbf87b8488@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 TRANSP:TRANSPARENT
@@ -201,7 +212,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1a25b9f52d8f@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 TRANSP:TRANSPARENT
@@ -219,7 +230,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e18f7733c1e6@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 TRANSP:TRANSPARENT
@@ -241,13 +252,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:aaedc2118895@yehal-board
-DTSTAMP:20261119T054102Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
+DTSTAMP:20261121T121936Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
 TRANSP:TRANSPARENT
 SUMMARY:راشد: يبدأ شفهي التربية الإسلامية
 DESCRIPTION:تسميع سورة الكافرون وحديث فضل التي
- امن، لين 3 ديسمبر.
+ امن، لين الخميس 26 نوفمبر. ما فيه يوم محدد
+ ، خلّه جاهز من أول يوم.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:بكرة: يبدأ شفهي التربية الإسلامية
@@ -261,7 +273,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:87def1ac13f9@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 TRANSP:TRANSPARENT
@@ -281,14 +293,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4603d6aa29b8@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261115T133000Z
 DTEND:20261115T143000Z
 SUMMARY:مذاكرة راشد: Maths
-DESCRIPTION:Unit 1 Numbers to 100\nأول ربع ساعة قرآن: امت
- حان القرآن من 29 نوفمبر: الطارق والبروج وا
- لانشقاق والمطففين وأحكام المد، وللشفهي 
- الكافرون وحديث التيامن
+DESCRIPTION:Unit 1 Numbers to 100\nأول ربع ساعة قرآن: هال
+ أسبوع (22 لين 26 نوفمبر) شفهي سورة الكافرون 
+ وحديث فضل التيامن، وامتحان القرآن من 29 ن
+ وفمبر: الطارق والبروج والانشقاق والمطفف
+ ين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -297,14 +310,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:75ef94d6afce@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261116T133000Z
 DTEND:20261116T143000Z
 SUMMARY:مذاكرة راشد: English
 DESCRIPTION:Unit 1 Friends and Families\nأول ربع ساعة قرآن: 
- امتحان القرآن من 29 نوفمبر: الطارق والبرو
- ج والانشقاق والمطففين وأحكام المد، وللش
- فهي الكافرون وحديث التيامن
+ هالأسبوع (22 لين 26 نوفمبر) شفهي سورة الكاف
+ رون وحديث فضل التيامن، وامتحان القرآن من
+  29 نوفمبر: الطارق والبروج والانشقاق والم
+ طففين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -313,14 +327,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:11b86a9d9066@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261117T133000Z
 DTEND:20261117T143000Z
 SUMMARY:مذاكرة راشد: Science
 DESCRIPTION:Unit 1 Environments and habitats\nأول ربع ساعة قرآ
- ن: امتحان القرآن من 29 نوفمبر: الطارق والب
- روج والانشقاق والمطففين وأحكام المد، ول
- لشفهي الكافرون وحديث التيامن
+ ن: هالأسبوع (22 لين 26 نوفمبر) شفهي سورة الك
+ افرون وحديث فضل التيامن، وامتحان القرآن 
+ من 29 نوفمبر: الطارق والبروج والانشقاق وا
+ لمطففين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -329,15 +344,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8b458a5c4fc9@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261118T133000Z
 DTEND:20261118T143000Z
 SUMMARY:مذاكرة راشد: العربي
 DESCRIPTION:الاستماع (في ميناء الدوحة البحري) و
  القراءة (الحمامة المطوقة)\nأول ربع ساعة ق
- رآن: امتحان القرآن من 29 نوفمبر: الطارق وا
- لبروج والانشقاق والمطففين وأحكام المد، 
- وللشفهي الكافرون وحديث التيامن
+ رآن: هالأسبوع (22 لين 26 نوفمبر) شفهي سورة ا
+ لكافرون وحديث فضل التيامن، وامتحان القر
+ آن من 29 نوفمبر: الطارق والبروج والانشقاق 
+ والمطففين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -346,14 +362,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c718e9aa42a9@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261119T133000Z
 DTEND:20261119T143000Z
 SUMMARY:مذاكرة راشد: SST
 DESCRIPTION:Family and culture\, groups and personal qualities\nأول رب
- ع ساعة قرآن: امتحان القرآن من 29 نوفمبر: ال
- طارق والبروج والانشقاق والمطففين وأحكام
-  المد، وللشفهي الكافرون وحديث التيامن
+ ع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شفه
+ ي سورة الكافرون وحديث فضل التيامن، وامتح
+ ان القرآن من 29 نوفمبر: الطارق والبروج وال
+ انشقاق والمطففين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -362,14 +379,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d41ea99fece6@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261120T133000Z
 DTEND:20261120T143000Z
 SUMMARY:مذاكرة راشد: ICT
 DESCRIPTION:Know your computer\, working with Windows\nأول ربع ساع
- ة قرآن: امتحان القرآن من 29 نوفمبر: الطارق 
- والبروج والانشقاق والمطففين وأحكام المد
- ، وللشفهي الكافرون وحديث التيامن
+ ة قرآن: هالأسبوع (22 لين 26 نوفمبر) شفهي سور
+ ة الكافرون وحديث فضل التيامن، وامتحان ال
+ قرآن من 29 نوفمبر: الطارق والبروج والانشق
+ اق والمطففين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -378,14 +396,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:50ec2f78f2ec@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261121T133000Z
 DTEND:20261121T143000Z
 SUMMARY:مذاكرة راشد: Maths
-DESCRIPTION:Unit 2 Geometry\nأول ربع ساعة قرآن: امتحان 
- القرآن من 29 نوفمبر: الطارق والبروج والان
- شقاق والمطففين وأحكام المد، وللشفهي الك
- افرون وحديث التيامن
+DESCRIPTION:Unit 2 Geometry\nأول ربع ساعة قرآن: هالأسب
+ وع (22 لين 26 نوفمبر) شفهي سورة الكافرون وحد
+ يث فضل التيامن، وامتحان القرآن من 29 نوفم
+ بر: الطارق والبروج والانشقاق والمطففين و
+ أحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -394,14 +413,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bfe7ec8541c2@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261122T133000Z
 DTEND:20261122T143000Z
 SUMMARY:مذاكرة راشد: English
-DESCRIPTION:Unit 2 Badges\nأول ربع ساعة قرآن: امتحان ا
- لقرآن من 29 نوفمبر: الطارق والبروج والانش
- قاق والمطففين وأحكام المد، وللشفهي الكا
- فرون وحديث التيامن
+DESCRIPTION:Unit 2 Badges\nأول ربع ساعة قرآن: هالأسبو
+ ع (22 لين 26 نوفمبر) شفهي سورة الكافرون وحدي
+ ث فضل التيامن، وامتحان القرآن من 29 نوفمب
+ ر: الطارق والبروج والانشقاق والمطففين وأ
+ حكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -410,14 +430,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:90f33521ddd9@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261123T133000Z
 DTEND:20261123T143000Z
 SUMMARY:مذاكرة راشد: Science
-DESCRIPTION:Unit 2 Forces and movement\nأول ربع ساعة قرآن: ا
- متحان القرآن من 29 نوفمبر: الطارق والبروج 
- والانشقاق والمطففين وأحكام المد، وللشفه
- ي الكافرون وحديث التيامن
+DESCRIPTION:Unit 2 Forces and movement\nأول ربع ساعة قرآن: ه
+ الأسبوع (22 لين 26 نوفمبر) شفهي سورة الكافر
+ ون وحديث فضل التيامن، وامتحان القرآن من 2
+ 9 نوفمبر: الطارق والبروج والانشقاق والمط
+ ففين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -426,15 +447,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2b72d9fba8ee@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261124T133000Z
 DTEND:20261124T143000Z
 SUMMARY:مذاكرة راشد: العربي
 DESCRIPTION:القراءة الخارجية وباقي كتيب المرا
- جعة\nأول ربع ساعة قرآن: امتحان القرآن من 29
-  نوفمبر: الطارق والبروج والانشقاق والمطف
- فين وأحكام المد، وللشفهي الكافرون وحديث 
- التيامن
+ جعة\nأول ربع ساعة قرآن: هالأسبوع (22 لين 26 ن
+ وفمبر) شفهي سورة الكافرون وحديث فضل التي
+ امن، وامتحان القرآن من 29 نوفمبر: الطارق و
+ البروج والانشقاق والمطففين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -443,14 +464,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4b146f6e6c39@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261125T133000Z
 DTEND:20261125T143000Z
 SUMMARY:مذاكرة راشد: تاريخ قطر
 DESCRIPTION:الصدق والأمانة\nأول ربع ساعة قرآن: 
- امتحان القرآن من 29 نوفمبر: الطارق والبرو
- ج والانشقاق والمطففين وأحكام المد، وللش
- فهي الكافرون وحديث التيامن
+ هالأسبوع (22 لين 26 نوفمبر) شفهي سورة الكاف
+ رون وحديث فضل التيامن، وامتحان القرآن من
+  29 نوفمبر: الطارق والبروج والانشقاق والم
+ طففين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -459,14 +481,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:531f045a73be@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261126T133000Z
 DTEND:20261126T143000Z
 SUMMARY:مذاكرة راشد: Maths
 DESCRIPTION:Units 3 and 4 Measures\, statistics\nأول ربع ساعة ق
- رآن: امتحان القرآن من 29 نوفمبر: الطارق وا
- لبروج والانشقاق والمطففين وأحكام المد، 
- وللشفهي الكافرون وحديث التيامن
+ رآن: هالأسبوع (22 لين 26 نوفمبر) شفهي سورة ا
+ لكافرون وحديث فضل التيامن، وامتحان القر
+ آن من 29 نوفمبر: الطارق والبروج والانشقاق 
+ والمطففين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -475,14 +498,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6ef0f9f414b0@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261127T133000Z
 DTEND:20261127T143000Z
 SUMMARY:مذاكرة راشد: English
-DESCRIPTION:Unit 3 All About Sounds\nأول ربع ساعة قرآن: ام
- تحان القرآن من 29 نوفمبر: الطارق والبروج و
- الانشقاق والمطففين وأحكام المد، وللشفهي
-  الكافرون وحديث التيامن
+DESCRIPTION:Unit 3 All About Sounds\nأول ربع ساعة قرآن: ها
+ لأسبوع (22 لين 26 نوفمبر) شفهي سورة الكافرو
+ ن وحديث فضل التيامن، وامتحان القرآن من 29 
+ نوفمبر: الطارق والبروج والانشقاق والمطف
+ فين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -491,14 +515,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3e39e08cdbe6@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261128T133000Z
 DTEND:20261128T143000Z
 SUMMARY:مذاكرة راشد: Science
 DESCRIPTION:Units 3 and 4 Materials\, humans and animals\nأول ربع س
- اعة قرآن: امتحان القرآن من 29 نوفمبر: الطا
- رق والبروج والانشقاق والمطففين وأحكام ا
- لمد، وللشفهي الكافرون وحديث التيامن
+ اعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شفهي س
+ ورة الكافرون وحديث فضل التيامن، وامتحان 
+ القرآن من 29 نوفمبر: الطارق والبروج والان
+ شقاق والمطففين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -507,14 +532,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:18212d9e9fe1@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261129T133000Z
 DTEND:20261129T143000Z
 SUMMARY:مذاكرة راشد: الإسلامية
 DESCRIPTION:أركان الإسلام وأحكام الوضوء\nأول ر
- بع ساعة قرآن: امتحان القرآن من 29 نوفمبر: ا
- لطارق والبروج والانشقاق والمطففين وأحكا
- م المد، وللشفهي الكافرون وحديث التيامن
+ بع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شف
+ هي سورة الكافرون وحديث فضل التيامن، وامت
+ حان القرآن من 29 نوفمبر: الطارق والبروج وا
+ لانشقاق والمطففين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -523,14 +549,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c5a659e7860f@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261130T133000Z
 DTEND:20261130T143000Z
 SUMMARY:مذاكرة راشد: ICT
 DESCRIPTION:Keyboard\, mouse\, Paint، الامتحان بكرة\nأول ر
- بع ساعة قرآن: امتحان القرآن من 29 نوفمبر: ا
- لطارق والبروج والانشقاق والمطففين وأحكا
- م المد، وللشفهي الكافرون وحديث التيامن
+ بع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شف
+ هي سورة الكافرون وحديث فضل التيامن، وامت
+ حان القرآن من 29 نوفمبر: الطارق والبروج وا
+ لانشقاق والمطففين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -539,14 +566,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f68b51d8ab7c@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261201T133000Z
 DTEND:20261201T143000Z
 SUMMARY:مذاكرة راشد: تاريخ قطر
 DESCRIPTION:مراجعة كاملة، الامتحان بكرة\nأول ر
- بع ساعة قرآن: امتحان القرآن من 29 نوفمبر: ا
- لطارق والبروج والانشقاق والمطففين وأحكا
- م المد، وللشفهي الكافرون وحديث التيامن
+ بع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شف
+ هي سورة الكافرون وحديث فضل التيامن، وامت
+ حان القرآن من 29 نوفمبر: الطارق والبروج وا
+ لانشقاق والمطففين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -555,15 +583,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f06c55535fd9@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261202T133000Z
 DTEND:20261202T143000Z
 SUMMARY:مذاكرة راشد: Maths
 DESCRIPTION:Money\, time\, patterns ومراجعة كاملة، الامت
- حان بكرة\nأول ربع ساعة قرآن: امتحان القرآ
- ن من 29 نوفمبر: الطارق والبروج والانشقاق و
- المطففين وأحكام المد، وللشفهي الكافرون 
- وحديث التيامن
+ حان بكرة\nأول ربع ساعة قرآن: هالأسبوع (22 ل
+ ين 26 نوفمبر) شفهي سورة الكافرون وحديث فضل
+  التيامن، وامتحان القرآن من 29 نوفمبر: الط
+ ارق والبروج والانشقاق والمطففين وأحكام 
+ المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -572,14 +601,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:43d9df859906@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261203T133000Z
 DTEND:20261203T143000Z
 SUMMARY:مذاكرة راشد: SST
 DESCRIPTION:Culture in different places\, family tree\nأول ربع ساع
- ة قرآن: امتحان القرآن من 29 نوفمبر: الطارق 
- والبروج والانشقاق والمطففين وأحكام المد
- ، وللشفهي الكافرون وحديث التيامن
+ ة قرآن: هالأسبوع (22 لين 26 نوفمبر) شفهي سور
+ ة الكافرون وحديث فضل التيامن، وامتحان ال
+ قرآن من 29 نوفمبر: الطارق والبروج والانشق
+ اق والمطففين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -588,14 +618,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d5cdaf978d0b@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261204T133000Z
 DTEND:20261204T143000Z
 SUMMARY:مذاكرة راشد: العربي
 DESCRIPTION:حل كتيب المراجعة\nأول ربع ساعة قرآن
- : امتحان القرآن من 29 نوفمبر: الطارق والبر
- وج والانشقاق والمطففين وأحكام المد، ولل
- شفهي الكافرون وحديث التيامن
+ : هالأسبوع (22 لين 26 نوفمبر) شفهي سورة الكا
+ فرون وحديث فضل التيامن، وامتحان القرآن م
+ ن 29 نوفمبر: الطارق والبروج والانشقاق وال
+ مطففين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -604,14 +635,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:07414c488e33@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261205T133000Z
 DTEND:20261205T143000Z
 SUMMARY:مذاكرة راشد: English
 DESCRIPTION:مراجعة كاملة، الامتحان بكرة\nأول ر
- بع ساعة قرآن: امتحان القرآن من 29 نوفمبر: ا
- لطارق والبروج والانشقاق والمطففين وأحكا
- م المد، وللشفهي الكافرون وحديث التيامن
+ بع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شف
+ هي سورة الكافرون وحديث فضل التيامن، وامت
+ حان القرآن من 29 نوفمبر: الطارق والبروج وا
+ لانشقاق والمطففين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -620,14 +652,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0c58072a82bc@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261206T133000Z
 DTEND:20261206T143000Z
 SUMMARY:مذاكرة راشد: العربي
 DESCRIPTION:مراجعة أخيرة، الامتحان بكرة\nأول ر
- بع ساعة قرآن: امتحان القرآن من 29 نوفمبر: ا
- لطارق والبروج والانشقاق والمطففين وأحكا
- م المد، وللشفهي الكافرون وحديث التيامن
+ بع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شف
+ هي سورة الكافرون وحديث فضل التيامن، وامت
+ حان القرآن من 29 نوفمبر: الطارق والبروج وا
+ لانشقاق والمطففين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -636,14 +669,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5e5db01b9710@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261207T133000Z
 DTEND:20261207T143000Z
 SUMMARY:مذاكرة راشد: Science
 DESCRIPTION:مراجعة كاملة، الامتحان بكرة\nأول ر
- بع ساعة قرآن: امتحان القرآن من 29 نوفمبر: ا
- لطارق والبروج والانشقاق والمطففين وأحكا
- م المد، وللشفهي الكافرون وحديث التيامن
+ بع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شف
+ هي سورة الكافرون وحديث فضل التيامن، وامت
+ حان القرآن من 29 نوفمبر: الطارق والبروج وا
+ لانشقاق والمطففين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -652,15 +686,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:36829608fec0@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261208T133000Z
 DTEND:20261208T143000Z
 SUMMARY:مذاكرة راشد: الإسلامية
 DESCRIPTION:سورة الكافرون والحديث ومراجعة كام
- لة، الامتحان بكرة\nأول ربع ساعة قرآن: امت
- حان القرآن من 29 نوفمبر: الطارق والبروج وا
- لانشقاق والمطففين وأحكام المد، وللشفهي 
- الكافرون وحديث التيامن
+ لة، الامتحان بكرة\nأول ربع ساعة قرآن: هال
+ أسبوع (22 لين 26 نوفمبر) شفهي سورة الكافرون 
+ وحديث فضل التيامن، وامتحان القرآن من 29 ن
+ وفمبر: الطارق والبروج والانشقاق والمطفف
+ ين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
@@ -669,14 +704,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:91ce4fcfeff1@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART:20261209T133000Z
 DTEND:20261209T143000Z
 SUMMARY:مذاكرة راشد: SST
 DESCRIPTION:مراجعة كاملة، الامتحان بكرة\nأول ر
- بع ساعة قرآن: امتحان القرآن من 29 نوفمبر: ا
- لطارق والبروج والانشقاق والمطففين وأحكا
- م المد، وللشفهي الكافرون وحديث التيامن
+ بع ساعة قرآن: هالأسبوع (22 لين 26 نوفمبر) شف
+ هي سورة الكافرون وحديث فضل التيامن، وامت
+ حان القرآن من 29 نوفمبر: الطارق والبروج وا
+ لانشقاق والمطففين وأحكام المد
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:وقت مذاكرة راشد
