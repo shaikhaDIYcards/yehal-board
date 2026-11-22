@@ -10,16 +10,16 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:53bff2f8e571@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 TRANSP:TRANSPARENT
 SUMMARY:امتحان الدراسات الاجتماعية SST، تميم
-DESCRIPTION:8:00 إلى 9:30 الصبح\n- 1.1–1.3 Who am I\, what can I 
- offer\, personal goals (p4–9)\n- 1.4–1.5 Functions and roles of the fa
- mily (p10–13)\n- 1.6–1.8 Cultural heritage\, local culture\, cultures 
- living together (p14–19)\n- 2.1–2.4 Historical evidence\, local histor
- y\, early history\, early tribes and trade (p22–29)
+DESCRIPTION:8:00 إلى 10:00 الصبح\n- 1.1–1.3 Who am I\, what can I
+  offer\, personal goals (p4–9)\n- 1.4–1.5 Functions and roles of the f
+ amily (p10–13)\n- 1.6–1.8 Cultural heritage\, local culture\, cultures
+  living together (p14–19)\n- 2.1–2.4 Historical evidence\, local histo
+ ry\, early history\, early tribes and trade (p22–29)
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:بكرة امتحان الدراسات الاجتماعية SST

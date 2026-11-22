@@ -9,12 +9,12 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:9e4c99ce1fd9@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 TRANSP:TRANSPARENT
 SUMMARY:امتحان الإنجليزي English، راشد
-DESCRIPTION:8:30 إلى 9:15 الصبح\n- Unit 1 Friends and Families (LB 
+DESCRIPTION:8:30 إلى 9:30 الصبح\n- Unit 1 Friends and Families (LB 
  p10–45): prefixes and suffixes\, commas in lists\, -ed and -ing\, connec
  tives\, story writing\n- Unit 2 Badges (LB p46–78): signs\, syllables\, 
  command verbs\, flowcharts\, fiction and non-fiction\, plurals\n- Unit 3 A

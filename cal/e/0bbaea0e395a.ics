@@ -9,13 +9,13 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:0bbaea0e395a@yehal-board
-DTSTAMP:20261119T054102Z
-DTSTART;VALUE=DATE:20261126
+DTSTAMP:20261121T121936Z
+DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 TRANSP:TRANSPARENT
 SUMMARY:امتحان الحاسوب ICT، تميم
-DESCRIPTION:يوم واحد في هالفترة، اليوم بالضبط 
- في جدول ICT\n- Theory: Know your computer (p1–9): input\, process\
+DESCRIPTION:خلال الدوام (من 7:30 لين 1:10)، نفس يوم 
+ تاريخ قطر\n- Theory: Know your computer (p1–9): input\, process\
  , output\, hardware vs software\n- Theory: Using Windows (p10–24): deskt
  op\, taskbar\, Start\, icons\, parts of a window\, shutting down\n- Practi
  cal: MS Word (p29–34): cut\, copy\, paste\, find and replace\, open and 
@@ -23,7 +23,7 @@ DESCRIPTION:يوم واحد في هالفترة، اليوم بالضبط
  hes\, select\, eraser\, text tool\, bold and italic
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:يبدأ بكرة امتحان الحاسوب ICT، تميم
+DESCRIPTION:بكرة امتحان الحاسوب ICT، تميم
 TRIGGER:-PT5H
 END:VALARM
 END:VEVENT

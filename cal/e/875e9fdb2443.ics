@@ -9,12 +9,12 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:875e9fdb2443@yehal-board
-DTSTAMP:20261119T054102Z
+DTSTAMP:20261121T121936Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 TRANSP:TRANSPARENT
 SUMMARY:امتحان التربية الإسلامية، تميم
-DESCRIPTION:8:00 إلى 9:30 الصبح\n- القرآن: سورة الإخ
+DESCRIPTION:8:00 إلى 10:00 الصبح\n- القرآن: سورة الإخ
  لاص\n- الحديث: فضائل الأعمال\n- العقيدة: أر
  كان الإيمان وأركان الإسلام\n- الفقه: الطه
  ارة من النجاسات\n- السيرة: صبر الرسول ﷺ في
