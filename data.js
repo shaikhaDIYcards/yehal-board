@@ -302,6 +302,10 @@ window.HOMEWORK = {
      "cal": "cal/e/afcaaee76a62.ics",
      "reviews": [
       {
+       "label": "المراجعة",
+       "file": "files/tamim/rev/arabic.pdf"
+      },
+      {
        "label": "حل المراجعة",
        "file": "files/tamim/rev/arabic-answers.pdf"
       }
@@ -497,7 +501,17 @@ window.HOMEWORK = {
       "Fun with Paint: starting Paint, parts of the window"
      ],
      "topicFile": "files/rashid/topics/information-and-communication-technology-1.pdf",
-     "cal": "cal/e/4d4ab6708495.ics"
+     "cal": "cal/e/4d4ab6708495.ics",
+     "reviews": [
+      {
+       "label": "المراجعة",
+       "file": "files/rashid/rev/ict.pdf"
+      },
+      {
+       "label": "حل المراجعة",
+       "file": "files/rashid/rev/ict-answers.pdf"
+      }
+     ]
     },
     {
      "date": "2026-12-01",
@@ -548,7 +562,17 @@ window.HOMEWORK = {
       "Unit 14 Pattern and probability (LB p211–221)"
      ],
      "topicFile": "files/rashid/topics/mathematics-1.pdf",
-     "cal": "cal/e/e80ee6f68969.ics"
+     "cal": "cal/e/e80ee6f68969.ics",
+     "reviews": [
+      {
+       "label": "المراجعة",
+       "file": "files/rashid/rev/maths.pdf"
+      },
+      {
+       "label": "حل المراجعة",
+       "file": "files/rashid/rev/maths-answers.pdf"
+      }
+     ]
     },
     {
      "date": "2026-12-06",
@@ -560,7 +584,17 @@ window.HOMEWORK = {
       "Unit 3 All About Sounds (LB p79–94): sound words, poems, noun phrases, vowel sounds, predictions"
      ],
      "topicFile": "files/rashid/topics/english-1.pdf",
-     "cal": "cal/e/9e4c99ce1fd9.ics"
+     "cal": "cal/e/9e4c99ce1fd9.ics",
+     "reviews": [
+      {
+       "label": "المراجعة",
+       "file": "files/rashid/rev/english.pdf"
+      },
+      {
+       "label": "حل المراجعة",
+       "file": "files/rashid/rev/english-answers.pdf"
+      }
+     ]
     },
     {
      "date": "2026-12-07",
@@ -579,6 +613,10 @@ window.HOMEWORK = {
      "cal": "cal/e/2a7ed7993b59.ics",
      "reviews": [
       {
+       "label": "المراجعة",
+       "file": "files/rashid/rev/arabic.pdf"
+      },
+      {
        "label": "حل المراجعة",
        "file": "files/rashid/rev/arabic-answers.pdf"
       }
@@ -595,7 +633,17 @@ window.HOMEWORK = {
       "Unit 4 Humans and animals grow (LB p88–93)"
      ],
      "topicFile": "files/rashid/topics/science-1.pdf",
-     "cal": "cal/e/57f1e217a923.ics"
+     "cal": "cal/e/57f1e217a923.ics",
+     "reviews": [
+      {
+       "label": "المراجعة",
+       "file": "files/rashid/rev/science.pdf"
+      },
+      {
+       "label": "حل المراجعة",
+       "file": "files/rashid/rev/science-answers.pdf"
+      }
+     ]
     },
     {
      "date": "2026-12-09",
@@ -610,6 +658,10 @@ window.HOMEWORK = {
      "topicFile": "files/rashid/topics/islamic-studies-for-arabs-1.pdf",
      "cal": "cal/e/38bbf87b8488.ics",
      "reviews": [
+      {
+       "label": "المراجعة",
+       "file": "files/rashid/rev/islamic.pdf"
+      },
       {
        "label": "حل المراجعة",
        "file": "files/rashid/rev/islamic-answers.pdf"
@@ -627,7 +679,17 @@ window.HOMEWORK = {
       "History and heritage: family tree (p28)"
      ],
      "topicFile": "files/rashid/topics/social-studies-1.pdf",
-     "cal": "cal/e/1a25b9f52d8f.ics"
+     "cal": "cal/e/1a25b9f52d8f.ics",
+     "reviews": [
+      {
+       "label": "المراجعة",
+       "file": "files/rashid/rev/sst.pdf"
+      },
+      {
+       "label": "حل المراجعة",
+       "file": "files/rashid/rev/sst-answers.pdf"
+      }
+     ]
     }
    ],
    "plan": [],
