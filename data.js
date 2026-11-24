@@ -107,34 +107,7 @@ window.HOMEWORK = {
       "تسميع حديث فضائل الأعمال"
      ],
      "topicFile": "files/tamim/topics/islamic-studies-for-arabs-1.pdf",
-     "cal": "cal/e/61d6828c5739.ics"
-    },
-    {
-     "date": "2026-12-02",
-     "subject": "الحاسوب ICT",
-     "time": "خلال الدوام (من 7:30 لين 1:10)، نفس يوم تاريخ قطر",
-     "topics": [
-      "Theory: Know your computer (p1–9): input, process, output, hardware vs software",
-      "Theory: Using Windows (p10–24): desktop, taskbar, Start, icons, parts of a window, shutting down",
-      "Practical: MS Word (p29–34): cut, copy, paste, find and replace, open and save, change case",
-      "Practical: Paint (p40–63): shapes, colours, brushes, select, eraser, text tool, bold and italic"
-     ],
-     "topicFile": "files/tamim/topics/information-and-communication-technology-1.pdf",
-     "cal": "cal/e/0bbaea0e395a.ics",
-     "reviews": [
-      {
-       "label": "المراجعة",
-       "file": "files/tamim/rev/ict.pdf"
-      },
-      {
-       "label": "حل المراجعة",
-       "file": "files/tamim/rev/ict-answers.pdf"
-      },
-      {
-       "label": "ملخص المراجعة",
-       "file": "files/tamim/rev/ict-overview.pdf"
-      }
-     ]
+     "cal": "cal/e/3d4b92831e0e.ics"
     },
     {
      "date": "2026-11-29",
@@ -167,6 +140,33 @@ window.HOMEWORK = {
      ],
      "topicFile": "files/tamim/topics/quran-exams.pdf",
      "cal": "cal/e/81cc9437f6b8.ics"
+    },
+    {
+     "date": "2026-12-02",
+     "subject": "الحاسوب ICT",
+     "time": "خلال الدوام (من 7:30 لين 1:10)، نفس يوم تاريخ قطر",
+     "topics": [
+      "Theory: Know your computer (p1–9): input, process, output, hardware vs software",
+      "Theory: Using Windows (p10–24): desktop, taskbar, Start, icons, parts of a window, shutting down",
+      "Practical: MS Word (p29–34): cut, copy, paste, find and replace, open and save, change case",
+      "Practical: Paint (p40–63): shapes, colours, brushes, select, eraser, text tool, bold and italic"
+     ],
+     "topicFile": "files/tamim/topics/information-and-communication-technology-1.pdf",
+     "cal": "cal/e/3e6dea792f9a.ics",
+     "reviews": [
+      {
+       "label": "المراجعة",
+       "file": "files/tamim/rev/ict.pdf"
+      },
+      {
+       "label": "حل المراجعة",
+       "file": "files/tamim/rev/ict-answers.pdf"
+      },
+      {
+       "label": "ملخص المراجعة",
+       "file": "files/tamim/rev/ict-overview.pdf"
+      }
+     ]
     },
     {
      "date": "2026-12-02",
@@ -461,7 +461,7 @@ window.HOMEWORK = {
       "تسميع حديث فضل التيامن"
      ],
      "topicFile": "files/rashid/topics/islamic-studies-for-arabs-1.pdf",
-     "cal": "cal/e/e10ba20833e6.ics"
+     "cal": "cal/e/366e7acf8e03.ics"
     },
     {
      "date": "2026-11-29",
@@ -704,7 +704,7 @@ window.HOMEWORK = {
     "tamim": "تسميع آية الكرسي وحديث فضائل الأعمال، لين الخميس 26 نوفمبر. ما فيه يوم محدد، خلّه جاهز من أول يوم.",
     "rashid": "تسميع سورة الكافرون وحديث فضل التيامن، لين الخميس 26 نوفمبر. ما فيه يوم محدد، خلّه جاهز من أول يوم."
    },
-   "cal": "cal/e/aaedc2118895.ics"
+   "cal": "cal/e/bba89dcada3d.ics"
   },
   {
    "date": "2026-11-22",
@@ -727,6 +727,35 @@ window.HOMEWORK = {
    "title": "اجتماع أولياء الأمور مع معلمة فاطمة",
    "detail": "الأحد من 2:00 لين 4:00 العصر في الروضة. تشوفين شغلها وتتكلمين مع المعلمة.",
    "cal": "cal/e/3c730ec9594a.ics"
+  },
+  {
+   "date": "2026-11-24",
+   "kids": [
+    "tamim",
+    "rashid"
+   ],
+   "title": "اجتماع أولياء الأمور مع معلمين الصف",
+   "detail": "اليوم من 1:45 الظهر لين 3:45 العصر، في صفوف العيال.",
+   "cal": "cal/e/7e068306daa2.ics"
+  },
+  {
+   "date": "2026-11-25",
+   "kids": [
+    "tamim",
+    "rashid"
+   ],
+   "title": "يوم معًا من أجل فلسطين",
+   "detail": "يلبسون ألوان علم فلسطين، أو الزي الفلسطيني، أو الكوفية. أو ياخذون شي من التراث الفلسطيني إذا عندكم. ولجنة الأقصى بتزور المدرسة.",
+   "cal": "cal/e/156c7b258251.ics"
+  },
+  {
+   "date": "2026-11-26",
+   "kids": [
+    "fatima"
+   ],
+   "title": "يوم معًا من أجل فلسطين في الروضة",
+   "detail": "الزي الفلسطيني أو الكوفية أو علم فلسطين، أو أي شي من التراث الفلسطيني إذا عندكم.",
+   "cal": "cal/e/e02a23d04436.ics"
   }
  ],
  "footer": "الملفات من بوابة المدرسة. الواجبات الأونلاين ما تنطبع، تنحل في البيت.",

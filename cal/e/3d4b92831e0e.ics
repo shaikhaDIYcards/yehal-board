@@ -3,23 +3,23 @@ VERSION:2.0
 PRODID:-//yehal-board//homework//AR
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:شفهي التربية الإسلامية، راشد
+X-WR-CALNAME:شفهي التربية الإسلامية، تميم
 X-WR-TIMEZONE:Asia/Qatar
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:e10ba20833e6@yehal-board
-DTSTAMP:20261121T121936Z
+UID:3d4b92831e0e@yehal-board
+DTSTAMP:20261124T082045Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261127
 TRANSP:TRANSPARENT
-SUMMARY:شفهي التربية الإسلامية، راشد
-DESCRIPTION:خلال الحصص\n- تسميع سورة الكافرون\n- 
- تسميع حديث فضل التيامن
+SUMMARY:شفهي التربية الإسلامية، تميم
+DESCRIPTION:خلال الحصص\n- تسميع آية الكرسي\n- تسم
+ يع حديث فضائل الأعمال
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:يبدأ بكرة شفهي التربية الإسلامية، 
- راشد
+ تميم
 TRIGGER:-PT5H
 END:VALARM
 END:VEVENT

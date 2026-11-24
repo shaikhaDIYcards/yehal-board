@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yehal-board//homework//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:فاطمة: يوم معًا من أجل فلسطين في ال
+ روضة
+X-WR-TIMEZONE:Asia/Qatar
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:e02a23d04436@yehal-board
+DTSTAMP:20261124T082045Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+TRANSP:TRANSPARENT
+SUMMARY:فاطمة: يوم معًا من أجل فلسطين في الرو
+ ضة
+DESCRIPTION:الزي الفلسطيني أو الكوفية أو علم ف
+ لسطين، أو أي شي من التراث الفلسطيني إذا ع
+ ندكم.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:بكرة: يوم معًا من أجل فلسطين في الر
+ وضة
+TRIGGER:-PT4H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:اليوم: يوم معًا من أجل فلسطين في ال
+ روضة
+TRIGGER:PT6H30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
