@@ -92,11 +92,12 @@
   .tab{--k:var(--tamim);position:relative;display:flex;align-items:center;justify-content:center;gap:4px;cursor:pointer;
        border:2.5px solid var(--ink);border-radius:18px 14px 20px 12px / 14px 20px 12px 18px;background:var(--paper);padding:4px 6px 4px 10px;min-height:54px;
        font-family:var(--hand);font-weight:700;font-size:19px;color:var(--k);transition:transform .3s var(--pop),background .2s,color .2s;box-shadow:var(--lift)}
-  .views{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:0 0 12px}
+  .views{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:0 0 12px}
   .view{cursor:pointer;border:2.5px solid var(--ink);border-radius:14px 10px 15px 9px / 10px 15px 9px 14px;background:var(--paper);min-height:48px;padding:4px 6px;
         font-family:var(--hand);font-weight:700;font-size:18px;line-height:1.15;color:var(--ink);box-shadow:var(--lift);transition:transform .25s var(--pop),background .2s,color .2s}
   .view[aria-pressed=true]{transform:translateY(-2px) rotate(-1.5deg)}
   .view[data-view=exams][aria-pressed=true]{background:var(--coral);color:#fff}
+  .view[data-view=quran][aria-pressed=true]{background:var(--quran);color:#fff}
   .view[data-view=hw][aria-pressed=true]{background:var(--rashid);color:#fff}
   .view[data-view=other][aria-pressed=true]{background:var(--note)}
   .view[data-view=all][aria-pressed=true]{background:var(--sun)}
@@ -241,6 +242,11 @@
   .ex-more{display:inline-flex;align-items:center;gap:6px;width:auto;margin-top:10px;font-weight:600;font-size:14.5px;color:var(--kd)}
   .exam + .exam{border-top:1.5px dashed rgba(29,43,79,.2);padding-top:14px}
   .tier-exams .tier-h h3{background:linear-gradient(176deg,transparent 46%,var(--kw) 46% 86%,transparent 86%);padding:0 6px}
+  .tier-quran{--kw:var(--quran-note);--kd:var(--quran)}
+  .tier-quran .tier-h h3{background:linear-gradient(176deg,transparent 46%,var(--quran-note) 46% 86%,transparent 86%);padding:0 6px}
+  .tier-quran .calpage i{background:var(--quran)}
+  .tier-quran .exam .left{color:var(--quran)}
+  .tier-quran .exam.hot .left{color:#fff;background:var(--quran)}
   .rest-btn{border:0;background:none;cursor:pointer;width:100%;padding:12px 42px 4px 0;text-align:inherit;font-family:var(--hand);font-weight:600;font-size:18px;color:var(--kd)}
 
   .done-box{margin-top:26px}
@@ -364,7 +370,7 @@
     .summary{font-size:17px}
     .top-actions .btn{flex:1;white-space:nowrap;font-size:20px;padding:8px 10px}
     .views{gap:6px}
-    .view{font-size:15.5px;min-height:46px;padding:4px 3px}
+    .view{font-size:14.5px;min-height:46px;padding:4px 2px}
     .long{display:none}
     .lane{padding:28px 13px 20px}
     .lane-head .av{width:84px;height:84px}
@@ -552,6 +558,7 @@
   const detailFor = (e, kid) => typeof e.detail === 'object' && e.detail ? (e.detail[kid] || '') : (e.detail || '');
   const hwId = h => 'hw:' + (D.week ? D.week.from : '') + ':' + h.file;
 
+  const isQuran = e => /^القرآن/.test(e.subject);
   function itemsFor(k){
     const out = [];
     (D.events || []).filter(e => e.kids.includes(k.id)).forEach(e => {
@@ -563,17 +570,17 @@
       const n = until(e.date), end = until(e.dateEnd || e.date);
       if (end < 0) return;
       const going = !!e.dateEnd && n <= 0;
-      out.push({kind:'exam', id:'ex:' + i, exam:e, days:Math.max(n, 0), going, tier: going ? 'week' : tierOf(n), score: going ? 70 : 80 - n * 3});
+      out.push({kind: isQuran(e) ? 'qexam' : 'exam', id:'ex:' + i, exam:e, days:Math.max(n, 0), going, tier: going ? 'week' : tierOf(n), score: going ? 70 : 80 - n * 3});
     });
     return out;
   }
 
   /* ---------- which things to show ---------- */
-  const VIEWS = [{id:'exams', name:'امتحانات'}, {id:'hw', name:'واجبات قريبة'}, {id:'other', name:'أشياء أخرى'}, {id:'all', name:'كلشي'}];
+  const VIEWS = [{id:'exams', name:'امتحانات'}, {id:'quran', name:'القرآن'}, {id:'hw', name:'واجبات قريبة'}, {id:'other', name:'أشياء أخرى'}, {id:'all', name:'كلشي'}];
   const VKEY = 'yehal-view-v1';
   let view = 'all';
   try { const v = localStorage.getItem(VKEY); if (VIEWS.some(x => x.id === v)) view = v; } catch (e) {}
-  const shows = kind => view === 'all' || (view === 'exams' && kind === 'exam') || (view === 'hw' && kind === 'hw') || (view === 'other' && kind === 'event');
+  const shows = kind => view === 'all' || (view === 'exams' && kind === 'exam') || (view === 'quran' && kind === 'qexam') || (view === 'hw' && kind === 'hw') || (view === 'other' && kind === 'event');
   function renderViews(){
     $('#views').innerHTML = VIEWS.map(v => '<button class="view" data-view="' + v.id + '" aria-pressed="' + (v.id === view) + '">' + v.name + '</button>').join('');
   }
@@ -651,6 +658,7 @@
     more.push('<button class="btn paper small" data-cal="' + k.id + '">' + ic('cal') + 'تقويم ' + esc(k.name) + '</button>');
     const mo = expanded.has(xId(k.id, 'more'));
     if (view === 'exams') { if (k.reviewPrint) h += '<div class="lane-actions"><button class="btn kid big" data-print="' + esc(k.reviewPrint) + '">' + ic('print') + 'اطبع مراجعات ' + esc(k.name) + '</button></div>'; }
+    else if (view === 'quran') {}
     else if (view === 'other') h += '<div class="lane-actions"><button class="btn kid big" data-cal="' + k.id + '">' + ic('cal') + 'فعاليات ' + esc(k.name) + ' في التقويم</button></div>';
     else if (view === 'all' || k.printFile) h += '<div class="lane-actions">' + (k.printFile
         ? '<button class="btn kid big" data-print="' + esc(k.printFile) + '">' + ic('print') + 'اطبع واجبات ' + esc(k.name) + '</button>' +
@@ -658,17 +666,20 @@
         : '<button class="btn kid big" data-cal="' + k.id + '">' + ic('cal') + 'فعاليات ' + esc(k.name) + ' في التقويم</button>') + '</div>' +
       (k.printFile ? '<div class="more' + (mo ? ' open' : '') + '"><div><div class="more-in">' + more.join('') + '</div></div></div>' : '');
 
-    const nx = (k.exams || []).filter(e => !/^شفهي/.test(e.subject) && until(e.date) >= 0).sort((a, b) => a.date.localeCompare(b.date))[0];
-    if (nx && shows('exam')) { const n = until(nx.date);
-      h += '<div class="count"><div class="circled"><b data-count="' + n + '">' + n + '</b>' + CIRCLED + '</div><div class="t">' + (n === 0 ? 'اليوم' : n === 1 ? 'بكرة' : n === 2 ? 'يومين' : n + (n <= 10 ? ' أيام' : ' يوم')) + ' على أول امتحان<strong><bdi>' + esc(nx.subject) + '</bdi></strong>' + esc(fmt(nx.date, true)) + '</div></div>';
+    const qv = view === 'quran';
+    const nx = (k.exams || []).filter(e => !/^شفهي/.test(e.subject) && isQuran(e) === qv && until(e.date) >= 0).sort((a, b) => a.date.localeCompare(b.date))[0];
+    if (nx && shows(qv ? 'qexam' : 'exam')) { const n = until(nx.date);
+      h += '<div class="count"><div class="circled"><b data-count="' + n + '">' + n + '</b>' + CIRCLED + '</div><div class="t">' + (n === 0 ? 'اليوم' : n === 1 ? 'بكرة' : n === 2 ? 'يومين' : n + (n <= 10 ? ' أيام' : ' يوم')) + ' على ' + (qv ? 'أول امتحان قرآن' : 'أول امتحان') + '<strong><bdi>' + esc(nx.subject) + '</bdi></strong>' + esc(fmt(nx.date, true)) + '</div></div>';
     }
 
     const exs = live.filter(it => it.kind === 'exam');
     const examsHtml = exs.length ? '<section class="tier tier-exams"><div class="tier-h"><h3>الامتحانات والمراجعات</h3><span>' + exs.length + (exs.length <= 10 ? ' امتحانات' : ' امتحان') + '</span></div><div class="notebook">' + exs.map((it, j) => examRow(it, k, j)).join('') + '</div></section>' : '';
+    const qs = live.filter(it => it.kind === 'qexam');
+    const quranHtml = qs.length ? '<section class="tier tier-quran"><div class="tier-h"><h3>امتحانات القرآن</h3><span>' + qs.length + (qs.length === 1 ? ' امتحان' : qs.length === 2 ? ' امتحانين' : ' امتحانات') + '</span></div><div class="notebook">' + qs.map((it, j) => examRow(it, k, j)).join('') + '</div></section>' : '';
     TIERS.forEach(t => {
-      if (t.id === 'week') { h += examsHtml; }
-      const list = live.filter(it => it.tier === t.id && it.kind !== 'exam').sort((a, b) => b.score - a.score);
-      if (!list.length && (t.id !== 'now' || exs.length || view !== 'all')) return;
+      if (t.id === 'week') { h += quranHtml + examsHtml; }
+      const list = live.filter(it => it.tier === t.id && it.kind !== 'exam' && it.kind !== 'qexam').sort((a, b) => b.score - a.score);
+      if (!list.length && (t.id !== 'now' || exs.length || qs.length || view !== 'all')) return;
       h += '<section class="tier tier-' + t.id + '"><div class="tier-h"><h3>' + t.name + '</h3><span>' + t.hint + '</span></div>';
       if (!list.length) { h += '<p class="calm"><svg class="wob" viewBox="0 0 64 48" fill="none" stroke="' + INK + '" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-cloud"/></svg>ما في شي ضروري الحين. ارتاحوا.</p></section>'; return; }
       const exams = list.filter(it => it.kind === 'exam'), rest = list.filter(it => it.kind !== 'exam');
@@ -690,7 +701,7 @@
     if (view !== 'all' && !live.length && !doneItems.length) {
       const him = 'ما عند' + (k.girl ? 'ها' : 'ه');
       h += '<p class="lane-foot"><svg class="wob" viewBox="0 0 70 52" fill="none" stroke="' + INK + '" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-balloon"/></svg>' +
-        esc(k.name) + ' ' + (view === 'exams' ? him + ' امتحانات.' : view === 'hw' ? him + ' واجبات للطباعة الحين.' : him + ' فعاليات ولا أشياء ثانية الحين.') + '</p>';
+        esc(k.name) + ' ' + (view === 'exams' ? him + ' امتحانات.' : view === 'quran' ? him + ' امتحانات قرآن.' : view === 'hw' ? him + ' واجبات للطباعة الحين.' : him + ' فعاليات ولا أشياء ثانية الحين.') + '</p>';
     }
     if (view === 'all' && !(k.homework || []).length && !(k.exams || []).length)
       h += '<p class="lane-foot"><svg class="wob" viewBox="0 0 70 52" fill="none" stroke="' + INK + '" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-balloon"/></svg>' + esc(k.name) + ' ما عند' + (k.girl ? 'ها' : 'ه') + ' واجبات ولا امتحانات، بس فعاليات ' + (k.grade.startsWith('KG') ? 'الروضة' : 'المدرسة') + '.</p>';

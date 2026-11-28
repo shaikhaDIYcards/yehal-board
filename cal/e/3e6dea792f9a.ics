@@ -9,18 +9,20 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:3e6dea792f9a@yehal-board
-DTSTAMP:20261124T082045Z
+DTSTAMP:20261128T095507Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 TRANSP:TRANSPARENT
 SUMMARY:امتحان الحاسوب ICT، تميم
-DESCRIPTION:خلال الدوام (من 7:30 لين 1:10)، نفس يوم 
- تاريخ قطر\n- Theory: Know your computer (p1–9): input\, process\
- , output\, hardware vs software\n- Theory: Using Windows (p10–24): deskt
- op\, taskbar\, Start\, icons\, parts of a window\, shutting down\n- Practi
- cal: MS Word (p29–34): cut\, copy\, paste\, find and replace\, open and 
- save\, change case\n- Practical: Paint (p40–63): shapes\, colours\, brus
- hes\, select\, eraser\, text tool\, bold and italic
+DESCRIPTION:جدول المدرسة كاتب إنه كان الخميس 26 
+ نوفمبر، اسألوا تميم إذا امتحنه. وإذا لا، 
+ فهو خلال الدوام لين 2 ديسمبر\n- Theory: Know your co
+ mputer (p1–9): input\, process\, output\, hardware vs software\n- Theory
+ : Using Windows (p10–24): desktop\, taskbar\, Start\, icons\, parts of a
+  window\, shutting down\n- Practical: MS Word (p29–34): cut\, copy\, pas
+ te\, find and replace\, open and save\, change case\n- Practical: Paint (p
+ 40–63): shapes\, colours\, brushes\, select\, eraser\, text tool\, bold 
+ and italic
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:بكرة امتحان الحاسوب ICT، تميم

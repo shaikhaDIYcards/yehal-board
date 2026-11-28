@@ -144,7 +144,7 @@ window.HOMEWORK = {
     {
      "date": "2026-12-02",
      "subject": "الحاسوب ICT",
-     "time": "خلال الدوام (من 7:30 لين 1:10)، نفس يوم تاريخ قطر",
+     "time": "جدول المدرسة كاتب إنه كان الخميس 26 نوفمبر، اسألوا تميم إذا امتحنه. وإذا لا، فهو خلال الدوام لين 2 ديسمبر",
      "topics": [
       "Theory: Know your computer (p1–9): input, process, output, hardware vs software",
       "Theory: Using Windows (p10–24): desktop, taskbar, Start, icons, parts of a window, shutting down",
@@ -165,6 +165,14 @@ window.HOMEWORK = {
       {
        "label": "ملخص المراجعة",
        "file": "files/tamim/rev/ict-overview.pdf"
+      },
+      {
+       "label": "مراجعة ثانية",
+       "file": "files/tamim/rev/ict-2.pdf"
+      },
+      {
+       "label": "حل المراجعة الثانية",
+       "file": "files/tamim/rev/ict-2-answers.pdf"
       }
      ]
     },
@@ -492,7 +500,7 @@ window.HOMEWORK = {
     {
      "date": "2026-12-01",
      "subject": "الحاسوب ICT",
-     "time": "8:30 إلى 9:15 الصبح",
+     "time": "خلال الدوام العادي (من 7:30 لين 1:10)",
      "topics": [
       "Know your computer: input, processing, output and storage devices",
       "Working with Windows: starting, desktop, Start menu, icons, shutting down",
@@ -531,7 +539,7 @@ window.HOMEWORK = {
     {
      "date": "2026-12-02",
      "subject": "تاريخ قطر",
-     "time": "8:30 إلى 9:15 الصبح",
+     "time": "خلال الدوام العادي (من 7:30 لين 1:10)",
      "topics": [
       "الدرس الثالث: الصدق، ص27 إلى 32",
       "الدرس الرابع: الأمانة، ص33 إلى 38"

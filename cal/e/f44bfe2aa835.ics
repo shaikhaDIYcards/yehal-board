@@ -9,14 +9,14 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:f44bfe2aa835@yehal-board
-DTSTAMP:20261124T082045Z
+DTSTAMP:20261128T095507Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 TRANSP:TRANSPARENT
 SUMMARY:امتحان تاريخ قطر، راشد
-DESCRIPTION:8:30 إلى 9:15 الصبح\n- الدرس الثالث: الص
- دق، ص27 إلى 32\n- الدرس الرابع: الأمانة، ص33 إ
- لى 38
+DESCRIPTION:خلال الدوام العادي (من 7:30 لين 1:10)\n- 
+ الدرس الثالث: الصدق، ص27 إلى 32\n- الدرس الر
+ ابع: الأمانة، ص33 إلى 38
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:بكرة امتحان تاريخ قطر، راشد

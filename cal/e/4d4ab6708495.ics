@@ -9,16 +9,17 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:4d4ab6708495@yehal-board
-DTSTAMP:20261124T082045Z
+DTSTAMP:20261128T095507Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 TRANSP:TRANSPARENT
 SUMMARY:امتحان الحاسوب ICT، راشد
-DESCRIPTION:8:30 إلى 9:15 الصبح\n- Know your computer: input\, proc
- essing\, output and storage devices\n- Working with Windows: starting\, de
- sktop\, Start menu\, icons\, shutting down\n- Applications of a computer: 
- humans vs computers\, types and uses\n- The keyboard and the mouse\n- Fun 
- with Paint: starting Paint\, parts of the window
+DESCRIPTION:خلال الدوام العادي (من 7:30 لين 1:10)\n- K
+ now your computer: input\, processing\, output and storage devices\n- Work
+ ing with Windows: starting\, desktop\, Start menu\, icons\, shutting down\
+ n- Applications of a computer: humans vs computers\, types and uses\n- The
+  keyboard and the mouse\n- Fun with Paint: starting Paint\, parts of the w
+ indow
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:بكرة امتحان الحاسوب ICT، راشد
